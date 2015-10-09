@@ -1,0 +1,99 @@
+
+////////////////////////////////
+		//Variables//
+////////////////////////////////
+
+// Colors
+
+$black: #000
+$white: #fff
+$blue: #4382B4
+$yellow: #FFC933
+$grey: #898989
+
+
+
+// Fonts
+
+$font-body: 'Lato', sans-serif
+
+// Breakpoints
+
+$xs: 600px
+$sm: 768px
+$md: 960px
+$lg: 1170px
+
+.uk-button
+	text-shadow: none
+
+.button-yellow
+	background-color: $yellow
+	border-color: $yellow
+	color: #333
+	text-transform: uppercase
+	&:hover
+		background-color: darken($yellow, 15%)
+		border-color: darken($yellow, 15%)
+		color: #333
+
+////////////////////////////////
+		//General//
+////////////////////////////////
+
+html
+	font: normal 16px $font-body
+	line-height: 1.4
+	font-weight: 300
+
+body
+	color: $black
+	line-height: 1.4
+	font-family: $font-body
+	font-weight: 300
+
+
+h1, h2, h3, h4, h5, h6
+	font-family: $font-body
+	line-height: 1.4
+	font-weight: 300
+
+////////////////////////////////
+		//Homepage//
+////////////////////////////////
+
+.hero
+	height: 100vh
+	background: url('../img/cover.jpg') no-repeat
+	color: $white
+	background-size: cover
+
+	h1
+		margin-top: 100px
+		font-size: 80px
+		color: $white
+
+	h3
+		color: $white
+
+
+.proposals
+	padding: 50px
+	background-color: $blue
+	color: $white
+
+	.proposals-content
+		padding: 0px 100px
+	h1
+		color: $white
+
+
+.conduct
+	padding: 50px
+	background-color: $blue
+	color: $white
+	text-align: justify
+	h1, h2
+		color: $white
+
+	.conduct-content

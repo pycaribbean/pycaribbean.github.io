@@ -1,0 +1,57 @@
+.uk-button {
+  text-shadow: none; }
+
+.button-yellow {
+  background-color: #FFC933;
+  border-color: #FFC933;
+  color: #333;
+  text-transform: uppercase; }
+  .button-yellow:hover {
+    background-color: #e6a900;
+    border-color: #e6a900;
+    color: #333; }
+
+html {
+  font: normal 16px "Lato", sans-serif;
+  line-height: 1.4;
+  font-weight: 300; }
+
+body {
+  color: #000;
+  line-height: 1.4;
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+  font-weight: 300; }
+
+.hero {
+  height: 100vh;
+  background: url("../img/cover.jpg") no-repeat;
+  color: #fff;
+  background-size: cover; }
+  .hero h1 {
+    margin-top: 100px;
+    font-size: 80px;
+    color: #fff; }
+  .hero h3 {
+    color: #fff; }
+
+.proposals {
+  padding: 50px;
+  background-color: #4382B4;
+  color: #fff; }
+  .proposals .proposals-content {
+    padding: 0px 100px; }
+  .proposals h1 {
+    color: #fff; }
+
+.conduct {
+  padding: 50px;
+  background-color: #4382B4;
+  color: #fff;
+  text-align: justify; }
+  .conduct h1, .conduct h2 {
+    color: #fff; }

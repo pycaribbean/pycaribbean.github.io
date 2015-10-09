@@ -55,3 +55,23 @@ h1, h2, h3, h4, h5, h6 {
   text-align: justify; }
   .conduct h1, .conduct h2 {
     color: #fff; }
+
+footer {
+  padding: 50px;
+  background-color: #3b536a;
+  color: #fff; }
+  footer h1 {
+    color: #fff;
+    font-weight: normal; }
+  footer ul {
+    padding: 0;
+    margin: 0; }
+    footer ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 10px; }
+      footer ul li a {
+        color: #fff;
+        font-size: 50px; }
+        footer ul li a:hover {
+          color: #FFC933; }

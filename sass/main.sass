@@ -7,15 +7,17 @@
 
 $black: #000
 $white: #fff
-$blue: #4382B4
-$yellow: #FFC933
+$blue: #2980b9
+$dark-blue: #022646
+$red: #C12127
 $grey: #898989
 
 
 
 // Fonts
 
-$font-body: 'Lato', sans-serif
+$font-body: 'Open Sans', sans-serif
+$font-header: 'Lato', sans-serif
 
 // Breakpoints
 
@@ -27,18 +29,21 @@ $lg: 1170px
 .uk-button
 	text-shadow: none
 
-.button-yellow
-	background-color: $yellow
-	border-color: $yellow
-	color: #333
-	text-transform: uppercase
+.button-red
+	background-color: $red
+	border-color: $red
+	color: $white
+	padding: 5px 20px
 	&:hover
-		background-color: darken($yellow, 15%)
-		border-color: darken($yellow, 15%)
-		color: #333
+		background-color: darken($red, 15%) !important
+		border-color: darken($red, 15%) !important
+		color: $white
+
+a
+	color: #000
 
 ////////////////////////////////
-		//General//
+		//Ge`neral//
 ////////////////////////////////
 
 html
@@ -50,13 +55,12 @@ body
 	color: $black
 	line-height: 1.4
 	font-family: $font-body
-	font-weight: 300
+	font-weight: 400
 
 
 h1, h2, h3, h4, h5, h6
-	font-family: $font-body
+	font-family: $font-header
 	line-height: 1.4
-	font-weight: 300
 
 ////////////////////////////////
 		//Homepage//
@@ -64,7 +68,7 @@ h1, h2, h3, h4, h5, h6
 
 .hero
 	height: 100vh
-	background: url('../img/cover.jpg') no-repeat
+	background: url('../img/cover2.jpg') no-repeat
 	color: $white
 	background-size: cover
 
@@ -79,18 +83,18 @@ h1, h2, h3, h4, h5, h6
 
 .proposals
 	padding: 50px
-	background-color: $blue
+	background-color: $dark-blue
 	color: $white
 
 	.proposals-content
-		padding: 0px 100px
-	h1
+		// padding: 0px 100px
+	h1, h2
 		color: $white
 
 
 .conduct
 	padding: 50px
-	background-color: $blue
+	background-color: $dark-blue
 	color: $white
 	text-align: justify
 	h1, h2
@@ -98,7 +102,7 @@ h1, h2, h3, h4, h5, h6
 
 footer
 	padding: 50px
-	background-color: #3b536a
+	background-color: #000
 	color: $white
 	h1
 		color: $white
@@ -115,4 +119,4 @@ footer
 				color: $white
 				font-size: 50px
 				&:hover
-					color: $yellow
+					color: $red

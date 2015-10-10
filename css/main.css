@@ -1,35 +1,37 @@
 .uk-button {
   text-shadow: none; }
 
-.button-yellow {
-  background-color: #FFC933;
-  border-color: #FFC933;
-  color: #333;
-  text-transform: uppercase; }
-  .button-yellow:hover {
-    background-color: #e6a900;
-    border-color: #e6a900;
-    color: #333; }
+.button-red {
+  background-color: #C12127;
+  border-color: #C12127;
+  color: #fff;
+  padding: 5px 20px; }
+  .button-red:hover {
+    background-color: #80161a !important;
+    border-color: #80161a !important;
+    color: #fff; }
+
+a {
+  color: #000; }
 
 html {
-  font: normal 16px "Lato", sans-serif;
+  font: normal 16px "Open Sans", sans-serif;
   line-height: 1.4;
   font-weight: 300; }
 
 body {
   color: #000;
   line-height: 1.4;
-  font-family: "Lato", sans-serif;
-  font-weight: 300; }
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
-  line-height: 1.4;
-  font-weight: 300; }
+  line-height: 1.4; }
 
 .hero {
   height: 100vh;
-  background: url("../img/cover.jpg") no-repeat;
+  background: url("../img/cover2.jpg") no-repeat;
   color: #fff;
   background-size: cover; }
   .hero h1 {
@@ -41,16 +43,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .proposals {
   padding: 50px;
-  background-color: #4382B4;
+  background-color: #022646;
   color: #fff; }
-  .proposals .proposals-content {
-    padding: 0px 100px; }
-  .proposals h1 {
+  .proposals h1, .proposals h2 {
     color: #fff; }
 
 .conduct {
   padding: 50px;
-  background-color: #4382B4;
+  background-color: #022646;
   color: #fff;
   text-align: justify; }
   .conduct h1, .conduct h2 {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   padding: 50px;
-  background-color: #3b536a;
+  background-color: #000;
   color: #fff; }
   footer h1 {
     color: #fff;
@@ -74,4 +74,4 @@ footer {
         color: #fff;
         font-size: 50px; }
         footer ul li a:hover {
-          color: #FFC933; }
+          color: #C12127; }

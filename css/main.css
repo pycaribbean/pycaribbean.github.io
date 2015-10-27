@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.4; }
 
 .hero {
-  height: 100vh;
+  height: 800px;
   background: url("../img/cover2.jpg") no-repeat;
   color: #fff;
   background-size: cover; }
@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 80px;
     color: #fff;
     font-weight: bold;
-    text-shadow: 0px 2px 0px #333; }
+    text-shadow: 0px 2px 0px #333;
+    margin-bottom: 0; }
     .hero h1 img {
       height: 250px; }
   .hero h3, .hero h2 {
@@ -48,7 +49,8 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0px 2px 0px #333; }
   .hero h2 {
     font-size: 50px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin: 0; }
   .hero h3 {
     font-size: 30px; }
   .hero #mc_embed_signup form {

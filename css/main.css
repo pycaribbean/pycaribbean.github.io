@@ -14,6 +14,8 @@
 a {
   color: #FFC933;
   border-bottom: 1px dashed; }
+  a:hover {
+    text-decoration: none; }
 
 html {
   font: normal 16px "Open Sans", sans-serif;

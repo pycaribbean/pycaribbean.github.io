@@ -11,6 +11,7 @@ $blue: #2980b9
 $dark-blue: #022646
 $red: #C12127
 $grey: #898989
+$yellow: #ffd040
 
 
 
@@ -41,6 +42,7 @@ $lg: 1170px
 
 a
 	color: #FFC933
+	border-bottom: 1px dashed
 
 ////////////////////////////////
 		//Ge`neral//
@@ -128,6 +130,20 @@ h1, h2, h3, h4, h5, h6
 	#mce-error-response
 		display: none !important
 
+.uk-navbar
+	background: $red
+	border-radius: 0
+	a
+		text-shadow: none
+		color: $white
+		border-bottom: 0
+		&:hover
+			color: $white
+	li
+		a
+			text-shadow: none
+			color: $white
+
 .venue
 	pointer-events: none
 	a[href="http://maps-website.com/"]
@@ -144,8 +160,7 @@ h1, h2, h3, h4, h5, h6
 		color: $white
 
 .sponsors
-	padding: 50px
-	padding-bottom: 200px
+	padding: 50px 0px
 	ul
 		padding: 0
 		margin: 0
@@ -153,6 +168,49 @@ h1, h2, h3, h4, h5, h6
 			list-style-type: none
 			display: inline-block
 			width: 200px
+			margin-right: 10px
+			a
+				border-bottom: 0
+
+.sponsor-level
+	padding: 20px 0px
+	border-bottom: 1px dotted #ddd
+
+.sponsor-level-icon
+	i
+		font-size: 80px
+		@media (max-width: 768px)
+			font-size: 50px
+	p
+		margin: 0px
+		margin-top: 10px
+		font-size: 36px
+		@media (max-width: 768px)
+			font-size: 24px
+
+.sponsor-level-diamond
+	i, p
+		color: darken(#C5CBCC, 5%)
+
+.sponsor-level-platinum
+	i, p
+		color: darken(#C5CBCC, 20%)
+
+.sponsor-level-gold
+	i, p
+		color: #C29822
+
+.sponsor-level-silver
+	i, p
+		color: darken(#D6D7D9, 20%)
+
+.sponsor-level-copper
+	i, p
+		color: darken(#B37029, 10%)
+
+.sponsor-level-media
+	i, p
+		color: $red
 
 .tickets
 	padding: 50px
@@ -184,5 +242,6 @@ footer
 			a
 				color: $white
 				font-size: 50px
+				border-bottom: 0
 				&:hover
-					color: $red
+					color: $yellow

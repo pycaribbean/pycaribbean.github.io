@@ -4,50 +4,54 @@
 .button-red {
   background-color: #C12127;
   border-color: #C12127;
-  color: #fff;
+  color: #fdfdfd;
   padding: 5px 20px; }
   .button-red:hover {
     background-color: #80161a !important;
     border-color: #80161a !important;
-    color: #fff; }
+    color: #fdfdfd; }
 
 a {
-  color: #FFC933;
+  color: #C12127;
   border-bottom: 1px dashed; }
   a:hover {
     text-decoration: none; }
 
 html {
-  font: normal 16px "Open Sans", sans-serif;
+  font: normal 16px "Pontano Sans", sans-serif;
   line-height: 1.4;
   font-weight: 300; }
 
 body {
   color: #000;
   line-height: 1.4;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400; }
+  font-family: "Pontano Sans", sans-serif;
+  font-weight: 400;
+  background: #fdfdfd; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", sans-serif;
   line-height: 1.4; }
 
+b {
+  color: #000; }
+
 .hero {
   height: 800px;
   background: url("../img/cover2.jpg") no-repeat;
-  color: #fff;
+  color: #fdfdfd;
   background-size: cover; }
   .hero h1 {
     margin-top: 50px;
     font-size: 80px;
-    color: #fff;
+    color: #fdfdfd;
     font-weight: bold;
     text-shadow: 0px 2px 0px #333;
     margin-bottom: 0; }
     .hero h1 img {
       height: 250px; }
   .hero h3, .hero h2 {
-    color: #fff;
+    color: #fdfdfd;
     font-weight: 300;
     text-shadow: 0px 2px 0px #333; }
   .hero h2 {
@@ -63,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid #e5e5e5;
     height: 40px;
     padding: 4px 6px;
-    background: #fff;
+    background: #fdfdfd;
     color: #333;
     font-size: 16px;
     width: 300px;
@@ -74,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   .hero #mc_embed_signup .mc-field-group .button-red {
     background: #C12127;
     display: inline-block;
-    color: #fff;
+    color: #fdfdfd;
     border: none;
     width: 120px;
     height: 40px;
@@ -92,25 +96,30 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0; }
   .uk-navbar a {
     text-shadow: none;
-    color: #fff;
+    color: #fdfdfd;
     border-bottom: 0; }
     .uk-navbar a:hover {
-      color: #fff; }
+      color: #fdfdfd; }
   .uk-navbar li a {
     text-shadow: none;
-    color: #fff; }
+    color: #fdfdfd; }
 
 .venue {
   pointer-events: none; }
   .venue a[href="http://maps-website.com/"] {
-    color: #fff; }
+    color: #fdfdfd; }
 
 .proposals {
   padding: 50px;
-  background-color: #022646;
-  color: #fff; }
+  background-color: #fdfdfd;
+  color: #154B67; }
+  .proposals .proposals-content {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 20px 30px; }
   .proposals h1, .proposals h2 {
-    color: #fff; }
+    color: #154B67;
+    text-transform: uppercase; }
 
 .sponsors {
   padding: 50px 0px; }
@@ -127,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sponsor-level {
   padding: 20px 0px;
-  border-bottom: 1px dotted #ddd; }
+  border-bottom: 1px solid #eee; }
 
 .sponsor-level-icon i {
   font-size: 80px; }
@@ -166,18 +175,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .conduct {
   padding: 50px;
-  background-color: #022646;
-  color: #fff;
+  background-color: #154B67;
+  color: #fdfdfd;
   text-align: justify; }
   .conduct h1, .conduct h2 {
-    color: #fff; }
+    color: #fdfdfd; }
 
 footer {
   padding: 50px;
   background-color: #000;
-  color: #fff; }
+  color: #fdfdfd; }
   footer h1 {
-    color: #fff;
+    color: #fdfdfd;
     font-weight: normal; }
   footer ul {
     padding: 0;
@@ -187,8 +196,8 @@ footer {
       display: inline-block;
       margin: 10px; }
       footer ul li a {
-        color: #fff;
+        color: #fdfdfd;
         font-size: 50px;
         border-bottom: 0; }
         footer ul li a:hover {
-          color: #ffd040; }
+          color: #EAD5B6; }

@@ -6,18 +6,18 @@
 // Colors
 
 $black: #000
-$white: #fff
-$blue: #2980b9
-$dark-blue: #022646
+$white: #fdfdfd
+$blue: #2D8D9D
+$dark-blue: #154B67
 $red: #C12127
 $grey: #898989
-$yellow: #ffd040
+$yellow: #EAD5B6
 
 
 
 // Fonts
 
-$font-body: 'Open Sans', sans-serif
+$font-body: 'Pontano Sans', sans-serif
 $font-header: 'Lato', sans-serif
 
 // Breakpoints
@@ -41,13 +41,13 @@ $lg: 1170px
 		color: $white
 
 a
-	color: #FFC933
+	color: $red
 	border-bottom: 1px dashed
 	&:hover
 		text-decoration: none
 
 ////////////////////////////////
-		//Ge`neral//
+		//General//
 ////////////////////////////////
 
 html
@@ -60,11 +60,15 @@ body
 	line-height: 1.4
 	font-family: $font-body
 	font-weight: 400
+	background: $white
 
 
 h1, h2, h3, h4, h5, h6
 	font-family: $font-header
 	line-height: 1.4
+
+b
+	color: $black
 
 ////////////////////////////////
 		//Homepage//
@@ -153,13 +157,16 @@ h1, h2, h3, h4, h5, h6
 
 .proposals
 	padding: 50px
-	background-color: $dark-blue
-	color: $white
+	background-color: $white
+	color: $dark-blue
 
 	.proposals-content
-		// padding: 0px 100px
+		border-right: 1px solid #ddd
+		border-left: 1px solid #ddd
+		padding: 20px 30px
 	h1, h2
-		color: $white
+		color: $dark-blue
+		text-transform: uppercase
 
 .sponsors
 	padding: 50px 0px
@@ -176,7 +183,7 @@ h1, h2, h3, h4, h5, h6
 
 .sponsor-level
 	padding: 20px 0px
-	border-bottom: 1px dotted #ddd
+	border-bottom: 1px solid #eee
 
 .sponsor-level-icon
 	i

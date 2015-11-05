@@ -179,11 +179,12 @@ b {
 
 .conduct {
   padding: 50px;
-  background-color: #154B67;
-  color: #fdfdfd;
+  background-color: #fdfdfd;
+  color: #000;
   text-align: justify; }
   .conduct h1, .conduct h2 {
-    color: #fdfdfd; }
+    color: #000;
+    text-transform: uppercase; }
 
 footer {
   padding: 50px;

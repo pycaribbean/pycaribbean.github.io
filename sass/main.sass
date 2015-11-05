@@ -13,8 +13,6 @@ $red: #C12127
 $grey: #898989
 $yellow: #EAD5B6
 
-
-
 // Fonts
 
 $font-body: 'Pontano Sans', sans-serif
@@ -30,18 +28,18 @@ $lg: 1170px
 .uk-button
 	text-shadow: none
 
-.button-red
-	background-color: $red
-	border-color: $red
+.button-primary
+	background-color: $blue
+	border-color: $blue
 	color: $white
 	padding: 5px 20px
 	&:hover
-		background-color: darken($red, 15%) !important
-		border-color: darken($red, 15%) !important
+		background-color: darken($blue, 15%) !important
+		border-color: darken($blue, 15%) !important
 		color: $white
 
 a
-	color: $red
+	color: $blue
 	border-bottom: 1px dashed
 	&:hover
 		text-decoration: none
@@ -120,7 +118,7 @@ b
 		border-top-right-radius: 0px
 		border-bottom-right-radius: 0px
 	#mc_embed_signup .mc-field-group .button-red
-		background: $red
+		background: $blue
 		display: inline-block
 		color: $white
 		border: none
@@ -137,7 +135,7 @@ b
 		display: none !important
 
 .uk-navbar
-	background: $red
+	background: $blue
 	border-radius: 0
 	a
 		text-shadow: none
@@ -165,11 +163,13 @@ b
 		border-left: 1px solid #ddd
 		padding: 20px 30px
 	h1, h2
-		color: $dark-blue
+		color: $black
 		text-transform: uppercase
 
 .sponsors
 	padding: 50px 0px
+	h1
+		text-transform: uppercase
 	ul
 		padding: 0
 		margin: 0
@@ -223,7 +223,8 @@ b
 
 .tickets
 	padding: 50px
-
+	h1
+		text-transform: uppercase
 
 .conduct
 	padding: 50px
@@ -235,11 +236,12 @@ b
 
 footer
 	padding: 50px
-	background-color: #000
+	background-color: $blue
 	color: $white
 	h1
 		color: $white
 		font-weight: normal
+		text-transform: uppercase
 
 	ul
 		padding: 0

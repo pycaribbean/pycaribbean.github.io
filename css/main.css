@@ -1,18 +1,18 @@
 .uk-button {
   text-shadow: none; }
 
-.button-red {
-  background-color: #C12127;
-  border-color: #C12127;
+.button-primary {
+  background-color: #2D8D9D;
+  border-color: #2D8D9D;
   color: #fdfdfd;
   padding: 5px 20px; }
-  .button-red:hover {
-    background-color: #80161a !important;
-    border-color: #80161a !important;
+  .button-primary:hover {
+    background-color: #1c5862 !important;
+    border-color: #1c5862 !important;
     color: #fdfdfd; }
 
 a {
-  color: #C12127;
+  color: #2D8D9D;
   border-bottom: 1px dashed; }
   a:hover {
     text-decoration: none; }
@@ -76,7 +76,7 @@ b {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px; }
   .hero #mc_embed_signup .mc-field-group .button-red {
-    background: #C12127;
+    background: #2D8D9D;
     display: inline-block;
     color: #fdfdfd;
     border: none;
@@ -92,7 +92,7 @@ b {
     display: none !important; }
 
 .uk-navbar {
-  background: #C12127;
+  background: #2D8D9D;
   border-radius: 0; }
   .uk-navbar a {
     text-shadow: none;
@@ -118,11 +118,13 @@ b {
     border-left: 1px solid #ddd;
     padding: 20px 30px; }
   .proposals h1, .proposals h2 {
-    color: #154B67;
+    color: #000;
     text-transform: uppercase; }
 
 .sponsors {
   padding: 50px 0px; }
+  .sponsors h1 {
+    text-transform: uppercase; }
   .sponsors ul {
     padding: 0;
     margin: 0; }
@@ -172,6 +174,8 @@ b {
 
 .tickets {
   padding: 50px; }
+  .tickets h1 {
+    text-transform: uppercase; }
 
 .conduct {
   padding: 50px;
@@ -183,11 +187,12 @@ b {
 
 footer {
   padding: 50px;
-  background-color: #000;
+  background-color: #2D8D9D;
   color: #fdfdfd; }
   footer h1 {
     color: #fdfdfd;
-    font-weight: normal; }
+    font-weight: normal;
+    text-transform: uppercase; }
   footer ul {
     padding: 0;
     margin: 0; }

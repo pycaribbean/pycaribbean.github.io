@@ -181,45 +181,72 @@ b
 			a
 				border-bottom: 0
 
-.sponsor-level
-	padding: 20px 0px
-	border-bottom: 1px solid #eee
+	.sponsor-level
+		padding: 20px 0px
+		border-bottom: 1px solid #eee
 
-.sponsor-level-icon
-	i
-		font-size: 80px
-		@media (max-width: 768px)
-			font-size: 50px
+	.sponsor-level-icon
+		i
+			font-size: 80px
+			@media (max-width: 768px)
+				font-size: 50px
+		p
+			margin: 0px
+			margin-top: 10px
+			font-size: 36px
+			@media (max-width: 768px)
+				font-size: 24px
+
+	.sponsor-level-diamond
+		i, p
+			color: darken(#C5CBCC, 5%)
+
+	.sponsor-level-platinum
+		i, p
+			color: darken(#C5CBCC, 20%)
+
+	.sponsor-level-gold
+		i, p
+			color: #C29822
+
+	.sponsor-level-silver
+		i, p
+			color: darken(#D6D7D9, 20%)
+
+	.sponsor-level-copper
+		i, p
+			color: darken(#B37029, 10%)
+
+	.sponsor-level-media
+		i, p
+			color: $red
+
+.speakers
+	background: $blue
+	color: $white
+	padding: 50px 0px
+	h1, h2
+		color: $white
+
+	h2
+		margin: 10px 0px
+
 	p
-		margin: 0px
-		margin-top: 10px
-		font-size: 36px
-		@media (max-width: 768px)
-			font-size: 24px
+		margin: 0
 
-.sponsor-level-diamond
-	i, p
-		color: darken(#C5CBCC, 5%)
-
-.sponsor-level-platinum
-	i, p
-		color: darken(#C5CBCC, 20%)
-
-.sponsor-level-gold
-	i, p
-		color: #C29822
-
-.sponsor-level-silver
-	i, p
-		color: darken(#D6D7D9, 20%)
-
-.sponsor-level-copper
-	i, p
-		color: darken(#B37029, 10%)
-
-.sponsor-level-media
-	i, p
-		color: $red
+	.speaker
+		padding: 20px
+		.speaker-links
+			margin: 0
+			padding: 0
+			li
+				list-style-type: none
+				display: inline-block
+				margin: 10px
+				a
+					color: $white
+					border-bottom: 0
+					font-size: 24px
 
 .tickets
 	padding: 50px
@@ -231,9 +258,15 @@ b
 	background-color: $white
 	color: $black
 	text-align: justify
+	.conduct-content
+		border-right: 1px solid #ddd
+		border-left: 1px solid #ddd
+		padding: 20px 30px
 	h1, h2
 		color: $black
 		text-transform: uppercase
+
+
 
 footer
 	padding: 50px

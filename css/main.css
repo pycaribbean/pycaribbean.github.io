@@ -135,42 +135,57 @@ b {
       margin-right: 10px; }
       .sponsors ul li a {
         border-bottom: 0; }
+  .sponsors .sponsor-level {
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee; }
+  .sponsors .sponsor-level-icon i {
+    font-size: 80px; }
+    @media (max-width: 768px) {
+      .sponsors .sponsor-level-icon i {
+        font-size: 50px; } }
+  .sponsors .sponsor-level-icon p {
+    margin: 0px;
+    margin-top: 10px;
+    font-size: 36px; }
+    @media (max-width: 768px) {
+      .sponsors .sponsor-level-icon p {
+        font-size: 24px; } }
+  .sponsors .sponsor-level-diamond i, .sponsors .sponsor-level-diamond p {
+    color: #b7bfc0; }
+  .sponsors .sponsor-level-platinum i, .sponsors .sponsor-level-platinum p {
+    color: #8f9a9c; }
+  .sponsors .sponsor-level-gold i, .sponsors .sponsor-level-gold p {
+    color: #C29822; }
+  .sponsors .sponsor-level-silver i, .sponsors .sponsor-level-silver p {
+    color: #a1a3a8; }
+  .sponsors .sponsor-level-copper i, .sponsors .sponsor-level-copper p {
+    color: #8a561f; }
+  .sponsors .sponsor-level-media i, .sponsors .sponsor-level-media p {
+    color: #C12127; }
 
-.sponsor-level {
-  padding: 20px 0px;
-  border-bottom: 1px solid #eee; }
-
-.sponsor-level-icon i {
-  font-size: 80px; }
-  @media (max-width: 768px) {
-    .sponsor-level-icon i {
-      font-size: 50px; } }
-
-.sponsor-level-icon p {
-  margin: 0px;
-  margin-top: 10px;
-  font-size: 36px; }
-  @media (max-width: 768px) {
-    .sponsor-level-icon p {
-      font-size: 24px; } }
-
-.sponsor-level-diamond i, .sponsor-level-diamond p {
-  color: #b7bfc0; }
-
-.sponsor-level-platinum i, .sponsor-level-platinum p {
-  color: #8f9a9c; }
-
-.sponsor-level-gold i, .sponsor-level-gold p {
-  color: #C29822; }
-
-.sponsor-level-silver i, .sponsor-level-silver p {
-  color: #a1a3a8; }
-
-.sponsor-level-copper i, .sponsor-level-copper p {
-  color: #8a561f; }
-
-.sponsor-level-media i, .sponsor-level-media p {
-  color: #C12127; }
+.speakers {
+  background: #2D8D9D;
+  color: #fdfdfd;
+  padding: 50px 0px; }
+  .speakers h1, .speakers h2 {
+    color: #fdfdfd; }
+  .speakers h2 {
+    margin: 10px 0px; }
+  .speakers p {
+    margin: 0; }
+  .speakers .speaker {
+    padding: 20px; }
+    .speakers .speaker .speaker-links {
+      margin: 0;
+      padding: 0; }
+      .speakers .speaker .speaker-links li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 10px; }
+        .speakers .speaker .speaker-links li a {
+          color: #fdfdfd;
+          border-bottom: 0;
+          font-size: 24px; }
 
 .tickets {
   padding: 50px; }
@@ -182,6 +197,10 @@ b {
   background-color: #fdfdfd;
   color: #000;
   text-align: justify; }
+  .conduct .conduct-content {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: 20px 30px; }
   .conduct h1, .conduct h2 {
     color: #000;
     text-transform: uppercase; }

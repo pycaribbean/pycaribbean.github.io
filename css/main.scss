@@ -1,0 +1,416 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+////////////////////////////////
+		//Variables//
+////////////////////////////////
+
+// Colors
+
+$black: #000;
+$white: #fdfdfd;
+$blue: #2D8D9D;
+$dark-blue: #154B67;
+$red: #C12127;
+$grey: #898989;
+$yellow: #EAD5B6;
+
+// Fonts
+
+$font-body: 'Pontano Sans', sans-serif;
+$font-header: 'Lato', sans-serif;
+
+// Breakpoints
+
+$xs: 600px;
+$sm: 768px;
+$md: 960px;
+$lg: 1170px;
+
+.uk-button {
+  text-shadow: none;
+}
+
+.button-primary {
+  background-color: $blue;
+	border-color: $blue;
+	color: $white;
+	padding: 5px 20px;
+	&:hover {
+    background-color: darken($blue, 15%) !important;
+		border-color: darken($blue, 15%) !important;
+		color: $white;
+  }
+}
+
+a {
+  color: $blue;
+	border-bottom: 1px dashed;
+	&:hover {
+    text-decoration: none;
+  }
+
+}
+
+
+////////////////////////////////
+		//General//
+////////////////////////////////
+
+html {
+	font: normal 16px $font-body;
+	line-height: 1.4;
+	font-weight: 300;
+}
+
+body {
+	color: $black;
+	line-height: 1.4;
+	font-family: $font-body;
+	font-weight: 400;
+	background: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  	font-family: $font-header;
+  	line-height: 1.4;
+}
+
+b {
+  color: $black
+}
+
+////////////////////////////////
+		//Homepage//
+////////////////////////////////
+
+.hero {
+  height: 800px;
+	background: url('../img/cover2.jpg') no-repeat;
+	color: $white;
+	background-size: cover;
+  h1 {
+    margin-top: 50px;
+		font-size: 80px;
+		color: $white;
+		font-weight: bold;
+		text-shadow: 0px 2px 0px #333;
+		margin-bottom: 0;
+		img {
+      height: 250px;
+    }
+  }
+
+	h3, h2 {
+  	color: $white;
+  	font-weight: 300;
+  	text-shadow: 0px 2px 0px #333;
+  }
+
+	h2 {
+    font-size: 50px;
+		font-weight: bold;
+		margin: 0;
+  }
+
+	h3 {
+    font-size: 30px;
+  }
+
+
+	#mc_embed_signup form {
+    	text-align: center;
+  }
+
+
+	#mc_embed_signup .mc-field-group input {
+    	border-radius: 4px;
+  		border: 1px solid #e5e5e5;
+  		height: 40px;
+  		padding: 4px 6px;
+  		background: $white;
+  		color: #333;
+  		font-size: 16px;
+  		width: 300px;
+  		display: inline-block;
+  		margin-right: -5px;
+  		border-top-right-radius: 0px;
+  		border-bottom-right-radius: 0px;
+  }
+
+	#mc_embed_signup .mc-field-group .button-red {
+    background: $blue;
+		display: inline-block;
+		color: $white;
+		border: none;
+		width: 120px;
+		height: 40px;
+		padding: 0px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+  }
+
+	#mce-success-response,
+	#mce-error-response {
+    display: none !important;
+  }
+}
+
+.uk-navbar {
+  	background: $blue;
+  	border-radius: 0;
+  	a {
+      text-shadow: none;
+  		color: $white;
+  		border-bottom: 0;
+  		&:hover {
+        color: $white;
+      }
+    }
+
+  	li {
+      a {
+        	text-shadow: none;
+    			color: $white;
+      }
+    }
+}
+
+.venue {
+  pointer-events: none;
+	a[href="http://maps-website.com/"] {
+    color: $white;
+  }
+}
+
+.proposals {
+  padding: 50px;
+	background-color: $white;
+	color: $dark-blue;
+
+	.proposals-content {
+    border-right: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		padding: 20px 30px;
+  	h1, h2 {
+      color: $black;
+  		text-transform: uppercase;
+    }
+  }
+}
+
+.sponsors {
+  padding: 50px 0px;
+	h1 {
+    text-transform: uppercase;
+  }
+
+	ul {
+    	padding: 0;
+  		margin: 0;
+  		li {
+        	list-style-type: none;
+    			display: inline-block;
+    			width: 200px;
+    			margin-right: 10px;
+    			a {
+            	border-bottom: 0;
+          }
+      }
+  }
+  	.sponsor-level {
+      padding: 20px 0px;
+  		border-bottom: 1px solid #eee;
+    }
+  	.sponsor-level-icon {
+      	i {
+          	font-size: 80px;
+      			@media (max-width: 768px) {
+              	font-size: 50px;
+            }
+        }
+
+    		p {
+          margin: 0px;
+    			margin-top: 10px;
+    			font-size: 36px;
+    			@media (max-width: 768px) {
+            	font-size: 24px;
+          }
+        }
+    }
+
+  	.sponsor-level-diamond {
+      	i, p {
+          color: darken(#C5CBCC, 5%);
+        }
+    }
+
+  	.sponsor-level-platinum {
+      i, p {
+        color: darken(#C5CBCC, 20%);
+      }
+    }
+  	.sponsor-level-gold {
+      i, p {
+        color: #C29822;
+      }
+    }
+  	.sponsor-level-silver {
+      i, p {
+        color: darken(#D6D7D9, 20%);
+      }
+    }
+  	.sponsor-level-copper {
+      	i, p {
+          color: darken(#B37029, 10%);
+        }
+
+    }
+  	.sponsor-level-media {
+      i, p {
+        color: $red;
+      }
+
+    }
+}
+
+.speakers {
+  background: $blue;
+	color: $white;
+	padding: 50px 0px;
+	h1, h2 {
+    	color: $white;
+  }
+
+	h2 {
+  	margin: 10px 0px;
+  }
+
+	p {
+    margin: 0;
+  }
+  	.speaker {
+      padding: 20px;
+      .speaker-links {
+        	margin: 0;
+    			padding: 0;
+    			li {
+            list-style-type: none;
+    				display: inline-block;
+    				margin: 10px;
+    				a {
+              	color: $white;
+      					border-bottom: 0;
+      					font-size: 24px;
+            }
+          }
+      }
+    }
+}
+
+.tickets {
+  	padding: 50px;
+  	h1 {
+      text-transform: uppercase;
+    }
+}
+
+.conduct {
+  padding: 50px;
+	background-color: $white;
+	color: $black;
+	text-align: justify;
+	.conduct-content {
+    border-right: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		padding: 20px 30px;
+  }
+	h1, h2 {
+    color: $black;
+		text-transform: uppercase;
+  }
+}
+
+footer {
+  padding: 50px;
+	background-color: $blue;
+	color: $white;
+	h1 {
+    color: $white;
+		font-weight: normal;
+		text-transform: uppercase;
+  }
+
+	ul {
+    padding: 0;
+		margin: 0;
+		li {
+      list-style-type: none;
+			display: inline-block;
+			margin: 10px;
+			a {
+        color: $white;
+				font-size: 50px;
+				border-bottom: 0;
+				&:hover {
+          	color: $yellow;
+        }
+      }
+    }
+  }
+}

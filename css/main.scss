@@ -213,6 +213,7 @@ b {
 .uk-navbar {
   	background: $blue;
   	border-radius: 0;
+    border: 0;
   	a {
       text-shadow: none;
   		color: $white;
@@ -228,6 +229,22 @@ b {
     			color: $white;
       }
     }
+
+    .uk-dropdown-navbar {
+      width: 250px;
+      li {
+        a {
+          color: $blue;
+        }
+      }
+    }
+}
+
+.uk-nav-navbar > li > a:hover,
+.uk-nav-navbar > li > a:focus {
+  background: $white !important;
+  text-shadow: 0 0 0 !important;
+  box-shadow: 0 0 0 !important;
 }
 
 .venue {
@@ -376,6 +393,22 @@ b {
 	color: $black;
 	text-align: justify;
 	.conduct-content {
+    border-right: 1px solid #ddd;
+		border-left: 1px solid #ddd;
+		padding: 20px 30px;
+  }
+	h1, h2 {
+    color: $black;
+		text-transform: uppercase;
+  }
+}
+
+.pg {
+  padding: 50px;
+	background-color: $white;
+	color: $black;
+	text-align: justify;
+	.pg-content {
     border-right: 1px solid #ddd;
 		border-left: 1px solid #ddd;
 		padding: 20px 30px;

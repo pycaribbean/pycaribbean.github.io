@@ -141,6 +141,9 @@ b {
 	background: url('../img/cover2.jpg') no-repeat;
 	color: $white;
 	background-size: cover;
+  @media (max-width: $xs) {
+    height: 500px;
+  }
   h1 {
     margin-top: 50px;
 		font-size: 80px;
@@ -148,8 +151,14 @@ b {
 		font-weight: bold;
 		text-shadow: 0px 2px 0px #333;
 		margin-bottom: 0;
+    @media (max-width: $xs) {
+      font-size: 40px;
+    }
 		img {
       height: 250px;
+      @media (max-width: $xs) {
+        height: 150px;
+      }
     }
   }
 
@@ -163,10 +172,16 @@ b {
     font-size: 50px;
 		font-weight: bold;
 		margin: 0;
+    @media (max-width: $xs) {
+      font-size: 22px;
+    }
   }
 
 	h3 {
     font-size: 30px;
+    @media (max-width: $xs) {
+      font-size: 20px;
+    }
   }
 
 
@@ -188,9 +203,12 @@ b {
   		margin-right: -5px;
   		border-top-right-radius: 0px;
   		border-bottom-right-radius: 0px;
+      @media(max-width: $xs) {
+        width: 150px;
+      }
   }
 
-	#mc_embed_signup .mc-field-group .button-red {
+	#mc_embed_signup .mc-field-group .button-hero {
     background: $blue;
 		display: inline-block;
 		color: $white;
@@ -202,6 +220,10 @@ b {
 		border-bottom-right-radius: 5px;
 		border-top-left-radius: 0px;
 		border-bottom-left-radius: 0px;
+    @media(max-width: $xs) {
+      font-size: 12px;
+      width: 75px;
+    }
   }
 
 	#mce-success-response,
@@ -247,6 +269,17 @@ b {
   box-shadow: 0 0 0 !important;
 }
 
+#off-menu {
+  a {
+    border-bottom: 0;
+    color: $white;
+    text-shadow: 0 0 0;
+  }
+  .uk-offcanvas-bar {
+    background: $blue;
+  }
+}
+
 .venue {
   pointer-events: none;
 	a[href="http://maps-website.com/"] {
@@ -255,7 +288,7 @@ b {
 }
 
 .proposals {
-  padding: 50px;
+  padding: 50px 0px;
 	background-color: $white;
 	color: $dark-blue;
 
@@ -263,6 +296,9 @@ b {
     border-right: 1px solid #ddd;
 		border-left: 1px solid #ddd;
 		padding: 20px 30px;
+    @media (max-width: $sm) {
+      padding: 20px 10px;
+    }
   	h1, h2 {
       color: $black;
   		text-transform: uppercase;
@@ -274,6 +310,10 @@ b {
   padding: 50px 0px;
 	h1 {
     text-transform: uppercase;
+    margin-bottom: 60px;
+    @media (max-width: $sm) {
+      margin-bottom: 0px;
+    }
   }
 
 	ul {
@@ -294,6 +334,9 @@ b {
   		border-bottom: 1px solid #eee;
     }
   	.sponsor-level-icon {
+      @media (max-width: $sm) {
+        margin-bottom: 20px;
+      }
       	i {
           	font-size: 80px;
       			@media (max-width: 768px) {
@@ -404,7 +447,7 @@ b {
 }
 
 .pg {
-  padding: 50px;
+  padding: 50px 0px;
 	background-color: $white;
 	color: $black;
 	text-align: justify;
@@ -425,7 +468,7 @@ b {
 }
 
 footer {
-  padding: 50px;
+  padding: 50px 0px;
 	background-color: $blue;
 	color: $white;
 	h1 {

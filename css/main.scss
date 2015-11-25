@@ -88,7 +88,8 @@ $lg: 1170px;
 	border-color: $blue;
 	color: $white !important;
 	padding: 5px 20px;
-	&:hover {
+	&:hover,
+  &:focus {
     background-color: darken($blue, 15%) !important;
 		border-color: darken($blue, 15%) !important;
 		color: $white;
@@ -474,6 +475,21 @@ b {
 	h1, h2 {
     color: $black;
 		text-transform: uppercase;
+  }
+}
+
+.hotels-page {
+  h2 {
+    margin: 0;
+    margin-top: 20px;
+    color: $blue;
+  }
+  h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .hotel {
+    margin-bottom: 50px;
   }
 }
 

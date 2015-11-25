@@ -490,6 +490,13 @@ b {
   }
   .hotel {
     margin-bottom: 50px;
+    img {
+      width: 400px;
+    }
+
+    a {
+      border-bottom: 0;
+    }
   }
 }
 

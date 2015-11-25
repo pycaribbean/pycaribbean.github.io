@@ -86,7 +86,7 @@ $lg: 1170px;
 .button-primary {
   background-color: $blue;
 	border-color: $blue;
-	color: $white;
+	color: $white !important;
 	padding: 5px 20px;
 	&:hover {
     background-color: darken($blue, 15%) !important;
@@ -229,6 +229,12 @@ b {
 	#mce-success-response,
 	#mce-error-response {
     display: none !important;
+  }
+
+  .button-primary {
+    padding: 5px 50px;
+    font-size: 20px;
+    // text-transform: uppercase;
   }
 }
 

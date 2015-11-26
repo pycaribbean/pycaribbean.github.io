@@ -500,6 +500,30 @@ b {
   }
 }
 
+.places-page {
+
+  .place {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 40px;
+    img.uk-float-right {
+      margin-left: 10px;
+    }
+    h2 {
+      margin: 0;
+      margin-bottom: 20px;
+      color: $blue;
+      text-transform: initial;
+    }
+    img {
+      width: 400px;
+    }
+
+    img.big {
+      width: 100%;
+    }
+  }
+}
+
 footer {
   padding: 50px 0px;
 	background-color: $blue;

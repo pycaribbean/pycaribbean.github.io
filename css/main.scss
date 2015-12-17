@@ -329,7 +329,7 @@ b {
   		li {
         	list-style-type: none;
     			display: inline-block;
-    			width: 200px;
+    			max-width: 200px;
     			margin-right: 10px;
     			a {
             	border-bottom: 0;

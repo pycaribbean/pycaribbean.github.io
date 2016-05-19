@@ -60,50 +60,34 @@ $on-laptop:        800px;
 // Colors
 
 $black: #000;
-$white: #fdfdfd;
-$blue: #2D8D9D;
-$dark-blue: #154B67;
-$red: #C12127;
-$grey: #898989;
-$yellow: #EAD5B6;
+$white: #fff;
+$blue: #00dbff;
+$dark-blue: #3b5864;
+
 
 // Fonts
 
-$font-body: 'Pontano Sans', sans-serif;
-$font-header: 'Lato', sans-serif;
+$font-body: 'Lato', sans-serif;
+$font-header: 'novecento_sans_widelight', sans-serif;
+
+@font-face {
+    font-family: 'novecento_sans_widelight';
+    src: url('../fonts/novecento-webfont.eot');
+    src: url('../fonts/novecento-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/novecento-webfont.woff2') format('woff2'),
+         url('../fonts/novecento-webfont.woff') format('woff'),
+         url('../fonts/novecento-webfont.ttf') format('truetype'),
+         url('../fonts/novecento-webfont.svg#novecento_sans_widelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // Breakpoints
 
 $xs: 600px;
 $sm: 768px;
 $md: 960px;
-$lg: 1170px;
-
-.uk-button {
-  text-shadow: none;
-}
-
-.button-primary {
-  background-color: $blue;
-	border-color: $blue;
-	color: $white !important;
-	padding: 5px 20px;
-	&:hover,
-  &:focus {
-    background-color: darken($blue, 15%) !important;
-		border-color: darken($blue, 15%) !important;
-		color: $white;
-  }
-}
-
-a {
-  color: $blue;
-	border-bottom: 1px dashed;
-	&:hover {
-    text-decoration: none;
-  }
-
-}
+$lg: 1220px;
 
 
 ////////////////////////////////
@@ -112,8 +96,6 @@ a {
 
 html {
 	font: normal 16px $font-body;
-	line-height: 1.4;
-	font-weight: 300;
 }
 
 body {
@@ -129,496 +111,131 @@ h1, h2, h3, h4, h5, h6 {
   	line-height: 1.4;
 }
 
-b {
-  color: $black
-}
-
-.sponsors-list .big {
-  max-width: 300px !important;
-}
-
 ////////////////////////////////
 		//Homepage//
 ////////////////////////////////
 
 .hero {
-  height: 800px;
-	background: url('../img/cover2.jpg') no-repeat;
-	color: $white;
-	background-size: cover;
-  @media (max-width: $xs) {
-    height: 500px;
+  background: url('../img/hero.png')  no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  padding: 50px 0px 0px;
+  border-bottom: 5px solid #344753;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 1;
   }
-  h1 {
-    margin-top: 50px;
-		font-size: 80px;
-		color: $white;
-		font-weight: bold;
-		text-shadow: 0px 2px 0px #333;
-		margin-bottom: 0;
-    @media (max-width: $xs) {
-      font-size: 40px;
-    }
-		img {
-      height: 250px;
-      @media (max-width: $xs) {
-        height: 150px;
-      }
-    }
+  .hero-content {
+      z-index: 2;
+      position: relative;
   }
-
-	h3, h2 {
-  	color: $white;
-  	font-weight: 300;
-  	text-shadow: 0px 2px 0px #333;
-  }
-
-	h2 {
-    font-size: 50px;
-		font-weight: bold;
-		margin: 0;
-    @media (max-width: $xs) {
-      font-size: 22px;
-    }
-  }
-
-	h3 {
-    font-size: 30px;
-    @media (max-width: $xs) {
-      font-size: 20px;
-    }
-  }
-
-
-	#mc_embed_signup form {
-    	text-align: center;
-  }
-
-
-	#mc_embed_signup .mc-field-group input {
-    	border-radius: 4px;
-  		border: 1px solid #e5e5e5;
-  		height: 40px;
-  		padding: 4px 6px;
-  		background: $white;
-  		color: #333;
-  		font-size: 16px;
-  		width: 300px;
-  		display: inline-block;
-  		margin-right: -5px;
-  		border-top-right-radius: 0px;
-  		border-bottom-right-radius: 0px;
-      @media(max-width: $xs) {
-        width: 150px;
-      }
-  }
-
-	#mc_embed_signup .mc-field-group .button-hero {
-    background: $blue;
-		display: inline-block;
-		color: $white;
-		border: none;
-		width: 120px;
-		height: 40px;
-		padding: 0px;
-		border-top-right-radius: 5px;
-		border-bottom-right-radius: 5px;
-		border-top-left-radius: 0px;
-		border-bottom-left-radius: 0px;
-    @media(max-width: $xs) {
-      font-size: 12px;
-      width: 75px;
-    }
-  }
-
-	#mce-success-response,
-	#mce-error-response {
-    display: none !important;
-  }
-
-  .button-primary {
-    padding: 5px 50px;
-    font-size: 20px;
-    // text-transform: uppercase;
-  }
-}
-
-.uk-navbar {
-  	background: $blue;
-  	border-radius: 0;
-    border: 0;
-  	a {
-      text-shadow: none;
-  		color: $white;
-  		border-bottom: 0;
-  		&:hover {
-        color: $white;
-      }
-    }
-
-  	li {
-      a {
-        	text-shadow: none;
-    			color: $white;
-          @media (max-width: 840px) {
-            font-size: 12px;
-          }
-      }
-    }
-
-    .uk-dropdown-navbar {
-      width: 250px;
+  .hero-menu {
+    text-align: center;
+    ul {
+      margin: 0;
+      padding: 0;
       li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
         a {
           color: $blue;
+          text-transform: uppercase;
         }
       }
     }
-}
-
-.uk-nav-navbar > li > a:hover,
-.uk-nav-navbar > li > a:focus {
-  background: $white !important;
-  text-shadow: 0 0 0 !important;
-  box-shadow: 0 0 0 !important;
-}
-
-#off-menu {
-  a {
-    border-bottom: 0;
-    color: $white;
-    text-shadow: 0 0 0;
   }
-  .uk-offcanvas-bar {
-    background: $blue;
-  }
-}
-
-.venue {
-  pointer-events: none;
-	a[href="http://maps-website.com/"] {
-    color: $white;
-  }
-}
-
-.proposals {
-  padding: 50px 0px;
-	background-color: $white;
-	color: $dark-blue;
-
-	.proposals-content {
-    border-right: 1px solid #ddd;
-		border-left: 1px solid #ddd;
-		padding: 20px 30px;
-    @media (max-width: $sm) {
-      padding: 20px 10px;
-    }
-  	h1, h2 {
-      color: $black;
-  		text-transform: uppercase;
-    }
-  }
-}
-
-.schedule {
-  padding: 50px 0px;
-  h1 {
-    text-transform: uppercase;
-    margin-bottom: 60px;
-  }
-  a {
-    border-bottom: 0px;
-    color: $blue;
-  }
-  table {
-    thead {
-      th {
-        text-align: center;
-        font-weight: bold;
-      }
-      th {
-        border-right: 1px solid #dddddd;
-        border-left: 1px solid #dddddd;
-        border-top: 1px solid #dddddd;
-        font-family: $font-header;
-        font-weight: bold;
-      }
-    }
-    tbody {
-      td {
-        border-right: 1px solid #dddddd;
-        border-left: 1px solid #dddddd;
-      }
-    }
-    td {
-      text-align: center;
-      vertical-align: middle;
-    }
-    .time {
-      vertical-align: middle;
-      width: 100px;
-    }
-    .speaker {
-      display: block;
-      color: $blue;
-      font-size: 14px;
-    }
-    .spanish {
-      font-size: 14px;
-      color: $red;
-    }
-  }
-}
-
-.sponsors {
-  padding: 50px 0px;
-	h1 {
-    text-transform: uppercase;
-    margin-bottom: 60px;
-    @media (max-width: $sm) {
-      margin-bottom: 0px;
-    }
-  }
-
-  .oreilly {
-    @media (max-width: $sm) {
-      margin: 20px 0px;
-    }
-  }
-
-	ul {
-    	padding: 0;
-  		margin: 0;
-  		li {
-        	list-style-type: none;
-    			display: inline-block;
-    			max-width: 200px;
-    			margin-right: 10px;
-    			a {
-            	border-bottom: 0;
-          }
-      }
-  }
-  	.sponsor-level {
-      padding: 20px 0px;
-  		border-bottom: 1px solid #eee;
-    }
-  	.sponsor-level-icon {
-      @media (max-width: $sm) {
-        margin-bottom: 20px;
-      }
-      	i {
-          	font-size: 80px;
-      			@media (max-width: 768px) {
-              	font-size: 50px;
-            }
+  .hero-social {
+    float: right;
+    position: relative;
+    top: -25px;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+        a {
+          color: $white;
+          font-size: 20px;
         }
-
-    		p {
-          margin: 0px;
-    			margin-top: 10px;
-    			font-size: 36px;
-    			@media (max-width: 768px) {
-            	font-size: 24px;
-          }
-        }
-    }
-
-  	.sponsor-level-diamond {
-      	i, p {
-          color: darken(#C5CBCC, 5%);
-        }
-    }
-
-  	.sponsor-level-platinum {
-      i, p {
-        color: darken(#C5CBCC, 20%);
       }
     }
-  	.sponsor-level-gold {
-      i, p {
-        color: #C29822;
-      }
-    }
-  	.sponsor-level-silver {
-      i, p {
-        color: darken(#D6D7D9, 20%);
-      }
-    }
-  	.sponsor-level-copper {
-      	i, p {
-          color: darken(#B37029, 10%);
-        }
-
-    }
-  	.sponsor-level-media {
-      i, p {
-        color: $red;
-      }
-
-    }
-
-    .sponsors-list li a img {
-      max-height: 150px;
-    }
-}
-
-.speakers {
-  background: $blue;
-	color: $white;
-	padding: 50px 0px;
-	h1, h2 {
-    	color: $white;
   }
-
-	h2 {
-  	margin: 10px 0px;
-  }
-
-	p {
-    margin: 0;
-  }
-  	.speaker {
-      padding: 20px;
-      .speaker-links {
-        	margin: 0;
-    			padding: 0;
-    			li {
-            list-style-type: none;
-    				display: inline-block;
-    				margin: 10px;
-    				a {
-              	color: $white;
-      					border-bottom: 0;
-      					font-size: 24px;
-            }
-          }
-      }
-    }
-}
-
-.tickets {
-  	padding: 50px 0px;
-  	h1 {
-      text-transform: uppercase;
-    }
-    a {
-      margin: 0 auto;
-    }
-}
-
-.conduct {
-  padding: 50px;
-	background-color: $white;
-	color: $black;
-	text-align: justify;
-	.conduct-content {
-    border-right: 1px solid #ddd;
-		border-left: 1px solid #ddd;
-		padding: 20px 30px;
-  }
-	h1, h2 {
-    color: $black;
-		text-transform: uppercase;
-  }
-}
-
-.pg {
-  padding: 50px 0px;
-	background-color: $white;
-	color: $black;
-	text-align: justify;
-	.pg-content {
-    border-right: 1px solid #ddd;
-		border-left: 1px solid #ddd;
-		padding: 20px 30px;
+  .hero-logo {
+    text-align: center;
+    margin: 50px 0px;
+    display: inline-block;
     img {
-      margin: 10px;
-      margin-left: 0;
-      margin-top: 0px;
+      height: 200px;
     }
   }
-	h1, h2 {
-    color: $black;
-		text-transform: uppercase;
-  }
-}
-
-.hotels-page {
   h2 {
+    font-family: $font-body;
+    color: $white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     margin: 0;
-    margin-top: 20px;
-    color: $blue;
   }
   h3 {
-    margin: 0;
-    margin-bottom: 10px;
-  }
-  .hotel {
-    margin-bottom: 50px;
-    img {
-      width: 400px;
-    }
-
-    a {
-      border-bottom: 0;
-    }
-  }
-}
-
-.places-page {
-
-  .place {
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 40px;
-    img.uk-float-right {
-      margin-left: 10px;
-    }
-    h2 {
-      margin: 0;
-      margin-bottom: 20px;
-      color: $blue;
-      text-transform: initial;
-    }
-    img {
-      width: 400px;
-    }
-
-    img.big {
-      width: 100%;
-    }
-  }
-}
-
-footer {
-  padding: 50px 0px;
-	background-color: $blue;
-	color: $white;
-	h1 {
+    font-family: $font-body;
     color: $white;
-		font-weight: normal;
-		text-transform: uppercase;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
   }
+  .btn-hero {
+    background: transparent;
+    padding: 10px 50px;
+    border: 2px solid $white;
+    border-radius: 40px/30px;
+    text-transform: uppercase;
+    color: $white;
+    margin-top: 30px;
+    display: inline-block;
+  }
+}
 
-	ul {
-    padding: 0;
-		margin: 0;
-		li {
-      list-style-type: none;
-			display: inline-block;
-			margin: 10px;
-			a {
-        color: $white;
-				font-size: 45px;
-				border-bottom: 0;
-				&:hover {
-          	color: $yellow;
+.about {
+  background: $dark-blue;
+  padding: 50px 0px 200px;
+  .about-menu {
+    text-align: center;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 20px;
+        a {
+          color: $blue;
+          text-transform: uppercase;
         }
       }
     }
   }
-}
-
-.schedule .uk-thumbnail {
-  margin: 30px 0px;
+  h2 {
+    color: $white;
+    font-size: 60px;
+    margin-top: 100px;
+  }
+  p {
+    color: $white;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 0px 100px;
+    @media (max-width: $sm) {
+      padding: 0px;
+    }
+  }
 }

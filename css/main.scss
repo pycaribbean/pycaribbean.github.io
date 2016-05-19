@@ -112,6 +112,59 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ////////////////////////////////
+		//Header//
+////////////////////////////////
+
+.uk-navbar {
+  background: $dark-blue;
+  border: 0px;
+  border-radius: 0px;
+  .uk-navbar-brand {
+    text-shadow: 0px 0px 0px;
+    color: $white;
+  }
+  .uk-navbar-flip {
+    @media (max-width: 960px) {
+      display: none;
+    }
+  }
+  .uk-navbar-nav {
+    li {
+      a {
+        text-shadow: 0px 0px 0px;
+        color: $white;
+        &:hover {
+          text-shadow: 0px 0px 0px;
+          background: lighten($dark-blue, 10%);
+        }
+      }
+    }
+  }
+  .uk-navbar-toggle {
+    text-shadow: 0px 0px 0px;
+    color: $white;
+    display: block;
+    @media (min-width: 960px) {
+      display: none;
+    }
+  }
+}
+
+#off-menu {
+  .uk-offcanvas-bar {
+    background: $dark-blue;
+    ul {
+      li {
+        a {
+          text-shadow: 0px 0px 0px;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+////////////////////////////////
 		//Homepage//
 ////////////////////////////////
 
@@ -136,8 +189,20 @@ h1, h2, h3, h4, h5, h6 {
       z-index: 2;
       position: relative;
   }
+  .uk-navbar-toggle {
+    position: relative;
+    top: -25px;
+    text-shadow: 0px 0px 0px;
+    color: $white;
+    @media (min-width: 769px) {
+      display: none;
+    }
+  }
   .hero-menu {
     text-align: center;
+    @media (max-width: $sm) {
+      display: none;
+    }
     ul {
       margin: 0;
       padding: 0;
@@ -202,14 +267,22 @@ h1, h2, h3, h4, h5, h6 {
     color: $white;
     margin-top: 30px;
     display: inline-block;
+    &:hover {
+      background: $white;
+      color: $black;
+      text-decoration: none;
+    }
   }
 }
 
 .about {
   background: $dark-blue;
-  padding: 50px 0px 200px;
+  padding: 50px 0px 300px;
   .about-menu {
     text-align: center;
+    @media (max-width: $sm) {
+      display: none;
+    }
     ul {
       margin: 0;
       padding: 0;
@@ -228,6 +301,10 @@ h1, h2, h3, h4, h5, h6 {
     color: $white;
     font-size: 60px;
     margin-top: 100px;
+    @media (max-width: $sm) {
+      font-size: 40px;
+      margin-top: 0px;
+    }
   }
   p {
     color: $white;
@@ -236,6 +313,39 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px 100px;
     @media (max-width: $sm) {
       padding: 0px;
+    }
+  }
+}
+
+.sponsors {
+  background: $white;
+  padding: 100px 0px 0px;
+  text-align: center;
+  position: relative;
+  height: 0px;
+
+  .sponsors-content {
+    position: relative;
+    top: -300px;
+    background: $white;
+    border-top: 5px solid $blue;
+    max-width: 1000px;
+  }
+
+  h2 {
+    font-size: 50px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      display: inline-block;
+      img {
+        max-width: 300px;
+      }
     }
   }
 }

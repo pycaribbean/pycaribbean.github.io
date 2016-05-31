@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
 ////////////////////////////////
 
 .hero {
-  background: url('../img/hero.png')  no-repeat;
+  background: url('../img/hero.jpg')  no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -276,6 +276,9 @@ h1, h2, h3, h4, h5, h6 {
     color: $white;
     margin-top: 30px;
     display: inline-block;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
     &:hover {
       background: $white;
       color: $black;

@@ -295,6 +295,11 @@ h1, h2, h3, h4, h5, h6 {
       color: #1DADE9;
     }
   }
+  .code-of-conduct a {
+    @media (max-width: $sm) {
+      font-size: 14px !important;
+    }
+  }
 }
 
 .about {

@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .hero-logo {
     text-align: center;
-    margin: 50px 0px;
+    margin: 50px 0px 30px;
     display: inline-block;
     img {
       height: 200px;
@@ -260,6 +260,9 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0;
+  }
+  .tagline {
+    text-transform: capitalize;
   }
   h3 {
     font-family: $font-body;

@@ -260,6 +260,10 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0;
+    @media (max-width: $xs) {
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
   }
   .tagline {
     text-transform: capitalize;
@@ -348,22 +352,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sponsors {
-  background: $white;
-  padding: 100px 0px 0px;
   text-align: center;
   position: relative;
-  height: 0px;
-
-  .sponsors-content {
-    position: relative;
-    top: -300px;
-    background: $white;
-    border-top: 5px solid $blue;
-    max-width: 1000px;
-  }
+  top: -300px;
+  background: $white;
+  border-top: 5px solid $blue;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
 
   h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 50px;
     letter-spacing: 2px;
   }
@@ -373,8 +373,13 @@ h1, h2, h3, h4, h5, h6 {
     li {
       list-style-type: none;
       display: inline-block;
+      @media (max-width: $xs) {
+        display: block;
+        margin-bottom: 20px;
+      }
       img {
-        max-width: 300px;
+        max-width: 250px;
+        max-height: 100px;
       }
     }
   }
@@ -382,6 +387,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .tickets {
   padding: 50px 0px;
+  margin-top: -250px;
   h2 {
     font-size: 30px;
   }

@@ -77,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   background: $dark-blue;
   border: 0px;
   border-radius: 0px;
+  padding: 10px;
   .uk-navbar-brand {
     text-shadow: 0px 0px 0px;
     color: $white;
@@ -250,9 +251,13 @@ h1, h2, h3, h4, h5, h6 {
       color: #1DADE9;
     }
   }
-  .code-of-conduct a {
+  .code-of-conduct a,
+  .hotels a  {
     @media (max-width: $sm) {
       font-size: 14px !important;
+    }
+    @media (max-width: $xs) {
+      display: none;
     }
   }
 }
@@ -371,15 +376,72 @@ h1, h2, h3, h4, h5, h6 {
 		//Pages//
 ////////////////////////////////
 
-.content {
-  padding: 50px 0px 100px;
-  h1, h2 {
-    color: $dark-blue;
+.inside {
+  background: $dark-blue;
+  .content {
+    padding: 50px 0px 100px;
+    h1, h2 {
+      color: $dark-blue;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 30px;
+    }
   }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 30px;
+  .page-container {
+    display: block;
+    padding: 20px 0px 50px 0px;
+    background: $white;
+    margin: 100px auto 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    h2 {
+      font-size: 3em;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      display: inline-block;
+      padding: 0px 100px;
+    }
+    h3 {
+      text-align: center;
+    }
+    .hotels-page {
+      .hotels-content {
+        padding: 20px;
+        h4 {
+          text-align: left;
+        }
+        a {
+          color: $dark-blue;
+          border-bottom: 1px dashed $dark-blue;
+        }
+        .btn-hotel {
+          color: $white;
+          border-bottom: 0px;
+          padding: 10px;
+          background: $blue;
+          display: block;
+          max-width: 200px;
+          border-radius: 5px;
+          text-align: center;
+          margin-top: 5px;
+          font-weight: bold;
+          &:hover,
+          &:focus {
+            background: $dark-blue;
+            text-decoration: none;
+          }
+        }
+        p,
+        ul {
+            text-align: left;
+            font-weight: 300;
+        }
+      }
+    }
   }
 }

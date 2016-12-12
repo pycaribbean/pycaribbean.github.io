@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Python Software Foundation",
+    "img_url": "img/psf.png",
+    "url": "https://www.python.org/psf/"
+  },
+  {
+    "name": "Engine 4",
+    "img_url": "img/engage.png",
+    "url": "http://www.engine-4.com/en"
+  },
+  {
+    "name": "Municipio de Bayamón",
+    "img_url": "img/bayamon.png",
+    "url": "http://www.municipiodebayamon.com/"
+  },
+  {
+    "name": "Codetiger",
+    "img_url": "img/codetiger.png",
+    "url": "http://www.codetiger.co/en/"
+  },
+  {
+    "name": "Puerto Rico Science and Research Trust",
+    "img_url": "img/trust.png",
+    "url": "http://prsciencetrust.org/"
+  }
+]
+
+

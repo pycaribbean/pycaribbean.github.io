@@ -317,21 +317,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
     letter-spacing: 2px;
   }
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      list-style-type: none;
-      display: inline-block;
-      @media (max-width: $xs) {
-        display: block;
-        margin-bottom: 20px;
-      }
-      img {
-        max-width: 250px;
-        max-height: 100px;
-      }
-    }
+  img {
+    max-width: 250px;
+    max-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -463,3 +453,38 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+
+.grid-wrapper {
+  margin: 20px;
+}
+.speaker {
+  padding: 15px;
+  border-radius: 5px;
+}
+.speaker:hover {
+  background-color: #3b5864;
+  h3, h4 {
+    color: white;
+  }
+}
+
+.speaker-img-wrapper {
+  margin-bottom: 10px;
+  .speaker-img, .speaker-img-large {
+    border-radius: 50%; 
+  }
+  .speaker-img {
+    width: 100px; 
+    height: 100px;
+  }
+  .speaker-img-large {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.talk_content, .speaker-bio {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+

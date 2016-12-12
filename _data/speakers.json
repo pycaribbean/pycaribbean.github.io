@@ -1,0 +1,227 @@
+[
+  {
+    "url": "speaker/allison-martinez-arocho.html",
+    "audience_level": "All",
+    "description": "This workshop is for people who would like to explore artistic expression through the use of a programming language, or people who are interested in creative forms of data visualization. By the end of this workshop you will have created data-driven, generative art using Python. In this workshop, you will learn how to: use Processing in Python mode, identify APIs that provide useful data for creating generative art, and create a unique work of art by calling a weather API and defining an original generative art algorithm. Please bring a laptop to participate in the hands-on activities.",
+    "bio": "Allison is a software engineer with the Partner Experience Team at IBM in Durham, NC, where she develops internal and external applications that help shape the experience of IBM Digital Marketplace users. She earned a B.S. in Computer Science with minors in Mathematics, Statistics, and Marketing from Meredith College in Raleigh, NC. Prior to beginning at IBM, she was a computer science education researcher at North Carolina State University, where she helped design and develop a video game to teach middle school students about computing and Big Data. She was also part of the Scratch Development team at the MIT Media Lab. In her spare time, she enjoys creative endeavors in and around textiles, wearable computing, and comic-strip writing. She is originally from Toa Baja, Puerto Rico and is a lover of coffee, musicals, and rollerskating.",
+    "name": "Allison Martinez-Arocho",
+    "title": "Data-Driven Generative Art Using Processing.py",
+    "avatar": "https://secure.gravatar.com/avatar/4f6190093874d85fa6003967216190d7?s=500"
+  },
+  {
+    "url": "speaker/mariatta-wijaya.html",
+    "audience_level": "All",
+    "description": "One of the nicest things about Python community is the availability of mentors willing to help you. Various mentors have helped me navigate the open source community and help advanced my skills. I realized finding a mentor is not as easy as it seems, and it takes a lot of courage to reach out in the first place. And then, there is impostor syndrome, where one may feel like they don\u2019t deserve the help.\r\nIn this talk, I will provide advice about working with a mentor.\r\nAsking for help is not a failure. \r\n\r\n\r\nThis talk is for members of Python and open source community who are looking for a mentor, and needing clues as to how to find a good mentor. Those who are hesitant to ask for help may get the encouragement to reach out. Current mentors will gain insight about what their mentees are going through.",
+    "bio": "Mariatta Wijaya works as a Software Engineer in Vancouver, Canada. She contributes to Python.org, CPython, and coala.io and helps organize Vancouver Pyladies. She has film credits for Hotel Transylvania 2, The Angry Birds Movie, and Storks.",
+    "name": "Mariatta Wijaya",
+    "title": "Dial M For Mentor",
+    "avatar": "https://secure.gravatar.com/avatar/6b6e72d297aa0270654a0d4575f1287e?s=500"
+  },
+  {
+    "url": "speaker/tracy-osborn.html",
+    "audience_level": "All",
+    "description": "Marketing is tough but crucial. It sucks when you build something awesome but no one uses it. How do you get the word out? How do you find users? This talk will go over marketing in general and what developers can do to make sure they market their apps without taking up too much of their time (or feeling too smarmy).\r\n\r\nOutline:\r\n\r\n* Introduction\r\n\r\n* Marketing overview\r\n\r\n  * What is marketing and why should we do it?\r\n\r\n* Marketing tactics for developers\r\n\r\n  * Keeping track of your analytics\r\n\r\n  * Being smart about what you spend your time on\r\n\r\n  * Using the right words and content \r\n\r\n  * Finding relevant communities\r\n\r\n  * Using social media\r\n\r\n  * Overview on email lists\r\n\r\n  * Marketing tactics that don't work\r\n\r\n  * Very brief overview of paid advertising\r\n\r\n* Resources\r\n\r\n* Conclusion",
+    "bio": "Tracy Osborn is a designer, developer, and entreprenerd living in Toronto, Canada. She\u2019s the author of Hello Web App and the upcoming Hello Web Design, as well as the creator of WeddingLovely. She's also an avid outdoorswoman and would love to go on a hike with you.\r\n",
+    "name": "Tracy Osborn",
+    "title": "Marketing for Developers",
+    "avatar": "https://secure.gravatar.com/avatar/55486de8dc13fc5996a34cd2d4cbfd85?s=500"
+  },
+  {
+    "url": "speaker/andrii-soldatenko.html",
+    "audience_level": "Intermediate",
+    "description": "Social phenomena is coming. We have lot\u2019s of social applications that we are using every day, let\u2019s say Facebook, twitter, instagram. Lot\u2019s of such kind apps based on social graph and graph theory. I would like to share my knowledge and expertise about how to work with graphs and build large social graph as engine for Social network using python and Graph databases. We\u2019ll compare SQL and NoSQL approaches for friends relationships.",
+    "bio": "My name is Andrii Soldatenko and I like testing and programming. I\u2019m CTO in Ethoos. Also I\u2019m working as Senior Python Backend Developer via toptal under social network.\r\nI boast expertise as a Python and Golang developer with strong hard and soft skills. I have deep knowledge of automated-testing and really understands how to assess and improve project quality. I like to solve difficult tasks, algorithms and take part in sport programming contests. I\u2019m also interested in databases and unix based operating systems and has fallen in love with natural language processing and text mining.",
+    "name": "Andrii Soldatenko",
+    "title": "Building social network with Neo4j and Python",
+    "avatar": "https://secure.gravatar.com/avatar/ef0c06e2a6d8c2da5dd07ebbdf20f451?s=500"
+  },
+  {
+    "url": "speaker/george-koodarappally.html",
+    "audience_level": "All",
+    "description": "The purpose of this talk is to introduce the audience to a sampling of the various components that go into an **Inernet-of-Things (IoT)** solution. We delve into an example that uses an embedded microprossor board containing the **ESP8266 WiFi** chipset running **MicroPython**, which is interfaced to a few sensors. We also introduce the audience to the use of the **MQTT** protocol and the use of a **MQTT Message Broker**.\r\n\r\nThe example demonstrates the connection of a **remote embedded processor to a local WiFi access point**, connection to an **MQTT Message Broker** through an **MQTT client** library, **capture of data from connected sensors** and the subsequent **upload of the measured data** to a server using the MQTT messaging protocol.\r\n",
+    "bio": "I am a hobbyist dabbling in the world of IoT. Over the past 6 months I have become fascinated with the Espressif ESP8266 and ESP32 family of WiFi chipsets. In my day job I provide corporations with enterprise solutions while in my spare time I indulge in minor hacking with microprocessor boards such as the Arduino, Raspberry Pi, Adafruit Feather, Sparkfun Thing, etc. Python has made working with these devices much more easier than having to learn the deep intricasies of the C/C++ tool chains otherwise needed.\r\n\r\nThe Internet-of-Things (IoT) has piqued my interest and I have been diving deep into the various components of such solutions.\r\n",
+    "name": "George Koodarappally",
+    "title": "A Beginners Guide to IoT Using ESP8266 and MicroPython",
+    "avatar": "https://secure.gravatar.com/avatar/9229b6a6632c605ec776db97a48d64d1?s=500"
+  },
+  {
+    "url": "speaker/trey-hunner.html",
+    "audience_level": "All",
+    "description": "If you've ever found unreadable PEP8-compliant code and wondered how to fix it, this talk is for you.\r\n\r\nLong-lived code must be maintainable and readability is a prerequisite of maintainability.  It's easier to identify unreadable code than it is to create readable code.\r\n\r\nLet's talk about how to create readable code.\r\n\r\nDuring this talk we'll discuss:\r\n\r\n- whitespace\r\n- self-documenting code\r\n- modularity\r\n- expectation management\r\n\r\nWe'll conclude this talk with a checklist of questions you can use to make your own code more readable.",
+    "bio": "",
+    "name": "Trey Hunner",
+    "title": "Readability Counts",
+    "avatar": "https://secure.gravatar.com/avatar/93a988bd85040f58f8417dc4be78c7de?s=500"
+  },
+  {
+    "url": "speaker/kim-crayton.html",
+    "audience_level": "All",
+    "description": "\u200bThere is an ongoing mantra within the developer community: that there are far more jobs available then programmers to fill them. Which should be an indication as to the wonderful potential for both business and those learning to code. Yet what often follows such statements are not words of joy but rather a list of frustrations related to the difficulty in finding and retaining enough skilled developers to fill these positions. \r\nThe challenge is not in the number of newbies entering the field but the number who leave because they are not able to bridge the divide between bootcamps, online tutorials, books, videos, etc. to an employable developer who is able to contribute to the team. \r\nKim has years of experience working with learners of various ages in helping them develop the skills they needed to be successful at whatever their chosen goal. She understands that for businesses to be successful, they must develop more effective and efficient ways of recruiting and retaining developers in order to meet organizational benchmarks. \r\nThe developer community is a overwhelmingly generous one and a well designed mentoring or apprenticeship program could be one answer that business leaders and newbies are looking for.\r\n\r\n- The business costs associated with corporate hiring managers inability to recruit and retain skilled workers to fill current and future entry-level positions are increasing (Queen, 2014). \r\n- 89 percent of organizational leaders stated that they are having difficulties filling open positions, which is causing them to either turn down orders, miss key deliverable deadlines or hire individuals from outside of the United States (Aho, 2015). \r\n\r\nAho, K. (2015). The robotics industry: creating jobs, closing the skills gap. Techniques, (7), 22. Retrieved from https://www.acteonline.org/techniques/#.VpMcQq6rR0s\r\n\r\nQueen, J. (2014). Hire power: to close the skills gap, states are teaming up with industries that need, but can't find, qualified workers. State Legislatures, (8), 16. Retrieved from http://www.ncsl.org/bookstore/state-legislatures-magazine.aspx",
+    "bio": "\u200bKim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the \"Tech Talk For Non-Techies\" blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. Kim is working on her passion project JrDevMentoring.com and has been consulting with various bootcamps since speaking at ScotlandJS 2016. \r\n",
+    "name": "Kim Crayton",
+    "title": "\u200b Overcoming the Challenges of Mentoring",
+    "avatar": "https://secure.gravatar.com/avatar/757dbff2728d60d50976c772e7e689f4?s=500"
+  },
+  {
+    "url": "speaker/andrii-soldatenko.html",
+    "audience_level": "Intermediate",
+    "description": "The world is swimming in articles and books about Django and Django ORM itself. All this sources cover only basic use cases of Django ORM comparing to real world examples.\r\nThis talk is dedicated to the proposition to crash test Django ORM 80% of functionalities in 20% of the time.  Also I\u2019m going to show the important features and capabilities of Django ORM compare to most of SQL features. Traditionally, ORM is presented in a \u201cbottom-up\u201d fashion, but I would like to propose approach, on the other hand, is \u201ctop-down\u201d. We begin by identifying a rather short list of standard questions, or precisely types of questions, that are often asked of relations databases. We then show how these standard questions are posted in Django ORM, introducing and motivating the use of its capabilities and features as they become relevant. ",
+    "bio": "My name is Andrii Soldatenko and I like testing and programming. I\u2019m CTO in Ethoos. Also I\u2019m working as Senior Python Backend Developer via toptal under social network.\r\nI boast expertise as a Python and Golang developer with strong hard and soft skills. I have deep knowledge of automated-testing and really understands how to assess and improve project quality. I like to solve difficult tasks, algorithms and take part in sport programming contests. I\u2019m also interested in databases and unix based operating systems and has fallen in love with natural language processing and text mining.",
+    "name": "Andrii Soldatenko",
+    "title": "Crash test of Django ORM",
+    "avatar": "https://secure.gravatar.com/avatar/ef0c06e2a6d8c2da5dd07ebbdf20f451?s=500"
+  },
+  {
+    "url": "speaker/chris-truncer.html",
+    "audience_level": "All",
+    "description": "Development began in late 2012, but the problem really has been a thorn in our side for quite some time.  Penetration testers, red teamers, and offensive security professionals have been frustrated with antivirus for as long as we can remember.  Professional malware and exploit kit developers can bypass antivirus solutions with ease, so why can\u2019t the white hat industry?  Well, it turns out we can, but there\u2019s never been an open source option.  This is where Veil-Evasion steps in.\r\n\r\nI, along with others, began researching different methods to evade antivirus, and found a python solution!  One thing that we noticed, is that no matter how malicious we made our tool, antivirus continued to ensure us that we were safe :).  After nearly one year of having open sourced our solution Veil-Evasion, our python-based malware had its first signature.  Close to thirty minutes later, this \u201cmalware signature\u201d was trivially bypassed by Veil-Evasion for the continued generation of \u201csafe\u201d executables.\r\n\r\nI plan on elaborating on how a single python script has transformed into a framework for generating antivirus evading executables. This is the story all about how individuals have been playing the cat and mouse game with the multi-million dollar antivirus industry, and haven\u2019t been batted around yet.  One day the antivirus industry will utilize better detection methods for malware, but today is not that day.",
+    "bio": "Christopher Truncer (@ChrisTruncer) is a sys admin turned red teamer with Mandiant, and a previous Blackhat Instructor. He is a co-founder and current developer of the Veil-Framework, a project aimed to bridge the gap between advanced red team and penetration testing toolsets. Chris also works on a variety of other open-source projects such as EyeWitness, Just-Metadata, and more. Chris began developing toolsets that are not only designed for the offensive community, but can enhance the defensive community's ability to defend their network as well.",
+    "name": "Chris Truncer",
+    "title": "Bringing Down The House - How One Python Script Ruled Over Antivirus",
+    "avatar": "https://secure.gravatar.com/avatar/4f6063397641b8450dc2847bbb1409a1?s=500"
+  },
+  {
+    "url": "speaker/nick-doiron.html",
+    "audience_level": "Beginner",
+    "description": "This talk covers two tools for securing your users' data while developing a public API.\r\n(1) getting a free HTTPS cert with LetsEncrypt's Python CLI\r\n(2) the Paillier cryptosystem - develop APIs which can work on users' encrypted data, without accessing the unencrypted numbers. As an example, you could develop an exchange-rate API without sharing transaction details.",
+    "bio": "Nick is a traveling web developer and mapmaker. In the past he has worked with Code for America, One Laptop per Child, the City of Ulaanbaatar, and the Museum of Modern Art (NYC).  His next project is post-quantum encryption for your e-mail.",
+    "name": "Nick Doiron",
+    "title": "The Encrypted API: securing data with HTTPS and Paillier cryptosystem",
+    "avatar": "https://secure.gravatar.com/avatar/93703e565323afcd226a76cf6baeb0f7?s=500"
+  },
+  {
+    "url": "speaker/pj-hagerty.html",
+    "audience_level": "All",
+    "description": "If you were a carpenter, would your skills at building be more important than the tools you use to build? Skills, right?  Tools are just a means to an end.  So why do developers think the language they use defines the problems they solve?\r\n\r\nThis talk will take a look at misconceptions across the board, some experiences, both positive and negative, people have had crossing barriers to new languages, and show some of the benefits thinking of one's self as a coder and not a \"Ruby coder\" or a \"PHP dev\" can have on being a better problem solver.",
+    "bio": "Developer, writer, speaker, musician, and Technical Advocate at IBM Bluemix, PJ is known to travel the world speaking about programming and the way people think and interact.  He is also known for wearing hats.",
+    "name": "PJ Hagerty",
+    "title": "Urban Legends: What You Code Makes You Who You Are",
+    "avatar": "https://secure.gravatar.com/avatar/632f4d3e6f9533628387e49bf3c282e9?s=500"
+  },
+  {
+    "url": "speaker/sarah-griffis.html",
+    "audience_level": "All",
+    "description": "As our small team grew into a medium sized engineering team, we found a number of challenges in our dev process.  In particular keeping track of what Trello tickets had been deployed (and when) became cumbersome for both developers and product managers.  Using Python scripts integrated with our Ansible integration, we were able to streamline our dev and product process through a few simple steps:\r\n1.  tag cards that had been deployed\r\n2.  create clearly labeled columns in Trello\r\n3. post deploy notes in Slack\r\n4. make a few other helpful improvements to our dev process. \r\n\r\nIn this talk, I will go through our Python scripts and various API resources needed to create tooling around dev process. I will walk through using Python in Jupyter notebooks, locally, and on production devOps boxes hosted on AWS.",
+    "bio": "Sarah Griffis is a Lead Engineer at Slice in NYC.  She's worked in data science, iOS, API engineering, and dabbled in devOps.  Outside of tech, Sarah loves coffee, Thai food, and running on the west side highway in NYC.  ",
+    "name": "Sarah Griffis",
+    "title": "Xavier: Python and Ansible CI/CD Tooling",
+    "avatar": "https://secure.gravatar.com/avatar/5b3c670cec487f87598b6e65465a6770?s=500"
+  },
+  {
+    "url": "speaker/sam-clarke.html",
+    "audience_level": "All",
+    "description": "Celery is an asynchronous task queue for Python. This talk will start with a brief introduction to Celery, how and when to use it in your project and a discussion of common scenarios and pitfalls of using celery in Production.\r\n\r\nWe will explore typical configurations of Celery in a production environment, how to keep Celery running happily and how to quickly diagnose failures.\r\n\r\nThe talk will consist of:\r\n* Quick introduction to distributed task queues\r\n* Configuring Celery for Production - general principals\r\n* Adding asynchronous tasks to your code\r\n* Storing and Retrieving Task results\r\n* Monitoring & Testing\r\n* Scaling Celery",
+    "bio": "I'm a former Biologists (Degrees in Microbiology and Toxicology) who evolved into a programmer. An evolution which was cemented when I encountered Python.\r\n\r\nI spent several years working with the Charles Darwin Foundation in the Galapagos Islands, Ecuador where I built a number of apps showcasing data from Taxonomy to Meteorology. Some of these are even still online. I gave a lightning talk at Pycon US 2012 describing how we were using Python at the Foundation.\r\n\r\nFor the last 4 years I have worked with Rival Schools in Vancouver, helping transition the company from an agency model to developing their own applications  primarily for the entertainment industry. One of these applications is Script Speaker, which converts movie scripts to audio files with full part casting.\r\n\r\nI currently live on the Sunshine Coast of British Columbia, Canada, with my wife and our crazy sheep dog. \r\n\r\nMy full CV can be found here: https://github.com/samgclarke/curriculum-vitae/blob/master/curriculum-vitae.rst",
+    "name": "Sam Clarke",
+    "title": "Using Celery in Production",
+    "avatar": "https://secure.gravatar.com/avatar/66b20450242a77b01d4ec24925a18674?s=500"
+  },
+  {
+    "url": "speaker/gene-chorba.html",
+    "audience_level": "All",
+    "description": "Python Development has featured commercial and government-grade encryption libraries from its earliest forms. Encryption libraries make it possible for organizations to protect data with the highest level of security.\r\nThese days encrypted applications should be the rule not the exception.\r\nThrough this speech I will walk you through the various encryption libraries available, the direction that encryption is going, how to implement them and best practices when using them.\r\nExample:\r\nHow to integrate PiCrypto into your project, it's strengths and it's weaknesses.",
+    "bio": "While working as a Senior Developer Evangelist at Atlanta-based startup Ionic Security, Gene spends most weekends either speaking about security, or at a Hackathon. He has been written about in the NPR, AJC, NYT, Sports Illustrated, Huffington Post, Federal Times, and many other publications.",
+    "name": "Gene Chorba",
+    "title": "Implementing Encryption and Best Practices",
+    "avatar": "https://secure.gravatar.com/avatar/d2200648743ea589b86d5f302639c584?s=500"
+  },
+  {
+    "url": "speaker/tracy-osborn.html",
+    "audience_level": "All",
+    "description": "You\u2019re smart, educated, and you\u2019ve been working in this industry for years. You\u2019ve created amazing open-source packages and great documentation. But all that flies out the window if what you write about your project isn\u2019t being read.\r\n\r\n\u201cBut it\u2019s comprehensive! It has all the info that I would need!\u201d you may reply.\r\n\r\nThe problem is not writing for people like you; it\u2019s writing and creating documentation that anyone can read, understand, and get excited about. This is true for projects aimed at beginners, but it goes double for projects and writing aimed at intermediate/expert programmers. Your projects will benefit when you write something that everyone can understand and would want to read. More readers = more users = perhaps more contributors!\r\n\r\nOutline:\r\n\r\n\r\n* Introduction\r\n\r\n   * About me and my experience.\r\n\r\n   * With Hello Web App, my book series.\r\n\r\n   * Running workshops and working with beginners.\r\n\r\n   * Being a relative newcomer myself.\r\n\r\n* The basics of friendly and welcoming writing\r\n\r\n   * Why make the effort to be friendly and welcoming?\r\n\r\n   * Better installation and usage instructions.\r\n\r\n   * \u201cDumbing things down\u201d without making them dumb.\r\n\r\n   * Formality vs. informality.\r\n\r\n* The basics of writing clearly\r\n\r\n   * Cutting down your content.\r\n\r\n   * Better headlines.\r\n\r\n   * Making your content readable.\r\n\r\n* Conclusion\r\n\r\n* Questions\r\n\r\n",
+    "bio": "Tracy Osborn is a designer, developer, and entreprenerd living in Toronto, Canada. She\u2019s the author of Hello Web App and the upcoming Hello Web Design, as well as the creator of WeddingLovely. She's also an avid outdoorswoman and would love to go on a hike with you.",
+    "name": "Tracy Osborn",
+    "title": "Writing Clear and Interesting Technical Content and Documentation",
+    "avatar": "https://secure.gravatar.com/avatar/55486de8dc13fc5996a34cd2d4cbfd85?s=500"
+  },
+  {
+    "url": "speaker/david-litvak-bruno.html",
+    "audience_level": "All",
+    "description": "Let me explain to you the day-to-day of the often misunderstood Software Evangelist.\r\nWhat does our daily routine look like, what are our main tasks and roles within a company.\r\nHow we try to foster communities and make a sensible impact within our audiences and try to give them inspiration.",
+    "bio": "Ruby Evangelist, Agile devotee, frustrated sports legend and currently a developer evangelist at Contentful.\r\n\r\nDavid spends most of his days coding Ruby and slaying orcs and beasts in his favourite RPGs.",
+    "name": "David Litvak Bruno",
+    "title": "Software Evangelism, wat?",
+    "avatar": "https://secure.gravatar.com/avatar/58f5652bb5e072d755d62ae229965472?s=500"
+  },
+  {
+    "url": "speaker/tom-gamble.html",
+    "audience_level": "Beginner",
+    "description": "### Take your python to the cloud!\r\n\r\nWondering how you can get started with the latest web frameworks and python?  Concerned about how to continuously integrate all the things, and have repeatable deployments?   All of these are solved problems, and can leverage tools and frameworks to allow you to focus on writing code you care about, not managing configuration details.",
+    "bio": "Thomas Gamble is a technical principal at ThoughtWorks. Tom has worked in a variety of development and management roles. He\u2019s currently enjoying contributing to open source and helping teams to deliver quality software more efficiently (while having fun).",
+    "name": "Tom Gamble",
+    "title": "Step 1 - Python on PCF, Step 2 - ???, Step 3 - Profit!!!",
+    "avatar": "https://secure.gravatar.com/avatar/2143a3a75b6c419249c0331ce5c2c551?s=500"
+  },
+  {
+    "url": "speaker/flavio-percoco.html",
+    "audience_level": "All",
+    "description": "New open source communities are born everyday. Some of them are meant to last long and some others aren't. There's a moment in every community when it needs to outgrow itself, expand its limits and aim way higher than ever. This is no necessarily related to its goals but the ecosystem it needs to stay alive.\r\n\r\nOnce a community has gone beyond its limits, the community members, consumers and leaders will have to keep up with its pace. How do we help it to remain sane? How do we keep our goals on track while allowing for further growth? How do we allow it to keep expanding without further damaging the community?\r\n\r\nThese are all questions we ask ourselves everyday in the OpenStack community and that we've managed to work on without killing ourselves on the way.",
+    "bio": "\r\n\r\nPrior to Red Hat, Flavio worked on Big Data oriented applications, search engines and message systems. He was also an active member of Gnome's a11y team where he contributed to Orca and created MouseTrap, a head-tracker application. Outside Red Hat Flavio likes to take run, travel, hang around with family and friends and whatever seems interesting.\r\n\r\nFlavio spends most of his time hacking on containers and messaging technologies in the OpenStack community where he's been part of several technical communities, served as a PTL and also as a Technical Committee member (where he still seats and contributes to).\r\n",
+    "name": "Flavio Percoco",
+    "title": "Keeping up with the pace of a fast growing community without dying",
+    "avatar": "https://secure.gravatar.com/avatar/3d4433e1428f01376f97cc6194e0f071?s=500"
+  },
+  {
+    "url": "speaker/jennifer-konikowski.html",
+    "audience_level": "All",
+    "description": "Are you having trouble getting beginners to stick around in your user group? What's the best way to help people who are just getting started with Python? Since I started PyLadies Boston in 2013, I've learned a few lessons about the best way to help out beginners and cultivate a welcoming community. In this talk, I will cover:\r\n* Starting a group with the intention to be beginner-friendly\r\n* Creating a welcoming environment\r\n* Beginner friendly meeting topics\r\n* Running workshops and ensuring continued engagement\r\n* Finding the best way to teach people to code",
+    "bio": "I'm the founder and organizer of PyLadies Boston, an organization dedicated to bringing more women into the open-source community in Boston.  I currently work as a software developer at Akamai, but my passion is teaching women how to code.",
+    "name": "Jennifer Konikowski",
+    "title": "Building a Community For Beginners",
+    "avatar": "https://secure.gravatar.com/avatar/2e94353b845f7f1b5248e936abaf8a3b?s=500"
+  },
+  {
+    "url": "speaker/david-litvak-bruno.html",
+    "audience_level": "Intermediate",
+    "description": "Prototyping and testing application ideas is very useful nowadays.\r\nWe'll discover a few approaches to create apps across different platforms using the same content to test assumptions and deliver value to everyone.\r\n\r\nBy using a 'headless' API-First CMS to consume our structured data, we're able to deliver quality content throughout a myriad of devices.\r\n\r\nWe'll explore usage patterns that optimise our productivity and allow us to rapidly develop and test our ideas.",
+    "bio": "Ruby and Python Evangelist, Agile devotee, frustrated sports legend and currently a developer evangelist at Contentful.\r\n\r\nDavid spends most of his days coding Ruby and slaying orcs and beasts in his favourite RPGs.",
+    "name": "David Litvak Bruno",
+    "title": "Fast Multi-Platform Prototyping: Quickly Create Apps and Content",
+    "avatar": "https://secure.gravatar.com/avatar/58f5652bb5e072d755d62ae229965472?s=500"
+  },
+  {
+    "url": "speaker/miguel-palhas.html",
+    "audience_level": "All",
+    "description": "I'm all about efficiency. Not just code execution efficiency, but also regarding my work tools, and my usage of them.\r\n\r\nHaving been an avid programmer and Linux user for several years now, and being obsessed with my workflow efficiency, I've amassed a pretty good understanding of how to improve productivity when it comes to writing code.\r\nFrom small but powerful configurations for my text editor that took me weeks to find to some not-so-well-known tools, I'm always thinking about how I can tweak my environment and workflow to perfection.\r\nHave you ever considered how many keys you hit during the day? And how can you go about minimizing that and train your muscle memory to make you more efficient?\r\nAnd what about that thing you're not even noticing you're spending so much time on, and that you could improve on?\r\n\r\nThis talk will feature some practical advice using my tools of choice (mostly Linux, tmux & Vim), and where applicable, all examples will be adapted to Python development.\r\nThe goal is not to try to tell you what to use, though. Instead, I want to show you a different perspective, and hopefully make you more aware of your efficiency, and of how you can improve it.",
+    "bio": "I\u2019ve made a jump from High-Performance Computing researcher to Web Developer, where I\u2019ve been happily hacking for the past few years now, mostly writing Ruby and some awesome web animations.\r\n\r\nI have a passion for Open-source, and for giving back to the community. That\u2019s why I\u2019ve taught programming to hundreds of people (between meetups, university courses, 1-1 mentoring, and even our coding school), and have helped organize several local Meetups.\r\n\r\nMy company, Subvisual, is the sole organizer of RubyConf Portugal and MirrorConf.\r\n\r\nWhen I\u2019m not busy building web products or bothering others with my teachings, I might be trying to become a real game developer. Being an astronaut is no longer an option, so that\u2019s the one childhood dream I still have going on.",
+    "name": "Miguel Palhas",
+    "title": "Mastering your Tools",
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/145/14859599_1189040064509252_2017695031_o.jpg"
+  },
+  {
+    "url": "speaker/yamil-asusta.html",
+    "audience_level": "Advanced",
+    "description": "Companies often spend many engineering cycles trying to get their operations (CI, deployments, infrastructure, etc) right from the first time. On the other hand, there are those who acquire this technical debt since day one. There are those who get a dedicated DevOps individual to tackle this. Via this talk I'll cover the different trade offs and compromises an organization should take into account before investing (or not) into these aspects of their organization. ",
+    "bio": "Sometimes in engineering, sometimes in marketing (yes, really!) sometimes in devops. Always with a beer at hand. ",
+    "name": "Yamil Asusta",
+    "title": "Do I need a DevOps?",
+    "avatar": "https://secure.gravatar.com/avatar/3f45152a4c7623d5c23cad3bc528d6ea?s=500"
+  },
+  {
+    "url": "speaker/john-gill.html",
+    "audience_level": "All",
+    "description": "This talk will describe how the python community is supporting research everywhere that is helping our understanding of our world.\r\n\r\nOpen sharing of knowledge, making research papers freely available, along with the data described in the papers.\r\n\r\nExtracting the signal from the noise.",
+    "bio": "I am living in Bermuda and have been working on catastrophe modelling for 20 years. using free software throughout this time.\r\n\r\nI attended PyCaribbean in Santo Domningo last year and spoke about climate.\r\n\r\nI am also involved in raising awareness of free software, open data and the power of collaborative research here in Bermuda.",
+    "name": "John Gill",
+    "title": "Climate, karma, pi and jupyter",
+    "avatar": "https://secure.gravatar.com/avatar/57e508584091ccc68f6be42d37e995e4?s=500"
+  },
+  {
+    "url": "speaker/cristian-medina.html",
+    "audience_level": "All",
+    "description": "Staring at my coworkers, already knowing the inevitability of the situation, my eyes roll as the argument ensues yet again: \u201cI told you I can write that code twice as fast, in half as many lines and they\u2019ll be cleaner and more readable than yours will ever be! Python is awesome!\u201d\u200a\u2014\u200asaid the one guy.\r\n\u201cWhatever you say, you\u2019ll never be able to make a UI that\u2019s half as good as this. It won\u2019t look pretty and no one will want to use it!\u201d\u200a\u2014\u200areplied the other\u200a\u2014\u200a\u201cProbably can\u2019t even make it run on Windows\u201d\u200a\u2014\u200ahe mumbled to himself while walking away.\r\n\r\nSome years ago this was a regular exchange between coworkers, and while they were mostly messing around, there was still an element of truth to it. Regardless of its capabilities, Python was mostly known as a \u201cscripting\u201d language\u200a\u2014\u200anot really for graphical interfaces\u200a\u2014\u200aand the world was still looking for a native OS feel in their GUI applications, which was not really accessible from Python without a lot of work.\r\n\r\nWhere are we now with user interfaces? How does this picture look like for Python? Where do we want to be? How can we best leverage the technologies of today? Where should we improve? What can we do so that Python is ready for the future of user interfaces? These are some of the questions that I'd like to start answering.\r\n",
+    "bio": "Born in the Dominican Republic, I went to college at UPR Mayag\u00fcez for Computer Engineering and spent the next 14 years in some sort of test engineering role, where I've developed hardware and software tooling to help enable cross-geographical organizations to plan, execute, manage and monitor their operations as needed. I've worked with many programming languages developing all sorts of applications from low-level software that interacts directly with firmware, to infrastructure services applications, all the way up to higher level business apps. Throughout my journeys, Python has been - and continues to be - my language of choice. ",
+    "name": "Cristian Medina",
+    "title": "A Python Ate My GUI",
+    "avatar": "https://secure.gravatar.com/avatar/24b5c0376a8cd683a4c47b98be5fb343?s=500"
+  },
+  {
+    "url": "speaker/kevin-najimi.html",
+    "audience_level": "Beginner",
+    "description": "It\u2019s never been easier or more exciting to get started writing Python to manage investments and automate trading. This talk will walk through how to get started the right way and avoid some of the dangerous pitfalls.\r\n\r\nThe talk consists of background for us to understand what we need to build, a number of demos using Quantopian, and a tour of alternative Pythonic approaches.\r\n\r\nThe goal of the talk is to get you up-and-running exploring your own investment ideas with Python by the end of the hour.",
+    "bio": "Kevin Najimi is a Solution Architect in the investment management space.  He has 15 years of experience building quant research and algorithmic trading systems.  He is an active member of the Chicago and New York algorithmic trading community.  He studied at the University of Wisconsin-Milwaukee and the University of Chicago.  He is also a CFA candidate.\r\n",
+    "name": "Kevin Najimi",
+    "title": "Algorithmic Trading with Python",
+    "avatar": "https://secure.gravatar.com/avatar/a08fa57c4233407cf9cbc81d14250e5c?s=500"
+  }
+]

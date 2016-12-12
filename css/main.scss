@@ -1,57 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
-
-
-
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
-
 
 ////////////////////////////////
 		//Variables//
@@ -61,7 +9,7 @@ $on-laptop:        800px;
 
 $black: #000;
 $white: #fff;
-$blue: #00dbff;
+$blue: #1DADE9;
 $dark-blue: #3b5864;
 
 
@@ -120,6 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 40px/30px;
   }
 
+
 ////////////////////////////////
 		//Header//
 ////////////////////////////////
@@ -128,9 +77,13 @@ h1, h2, h3, h4, h5, h6 {
   background: $dark-blue;
   border: 0px;
   border-radius: 0px;
+  padding: 10px;
   .uk-navbar-brand {
     text-shadow: 0px 0px 0px;
     color: $white;
+    font-family: $font-body;
+    text-transform: uppercase;
+    font-size: 20px;
   }
   .uk-navbar-flip {
     @media (max-width: 960px) {
@@ -142,6 +95,8 @@ h1, h2, h3, h4, h5, h6 {
       a {
         text-shadow: 0px 0px 0px;
         color: $white;
+        font-family: $font-body;
+        font-size: 20px;
         &:hover {
           text-shadow: 0px 0px 0px;
           background: lighten($dark-blue, 10%);
@@ -178,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 ////////////////////////////////
 
 .hero {
-  background: url('../img/hero.png')  no-repeat;
+  background: url('../img/hero.jpg')  no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -246,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .hero-logo {
     text-align: center;
-    margin: 50px 0px;
+    margin: 50px 0px 30px;
     display: inline-block;
     img {
       height: 200px;
@@ -259,6 +214,13 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0;
+    @media (max-width: $xs) {
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+  }
+  .tagline {
+    text-transform: capitalize;
   }
   h3 {
     font-family: $font-body;
@@ -276,17 +238,38 @@ h1, h2, h3, h4, h5, h6 {
     color: $white;
     margin-top: 30px;
     display: inline-block;
+    width: 200px;
+    display: block;
+    margin: 10px auto;
     &:hover {
       background: $white;
       color: $black;
       text-decoration: none;
     }
   }
+  .btn-ticket {
+    background: #1DADE9;
+    border: 2px solid transparent;
+    &:hover {
+      border: 2px solid #1DADE9;
+      background: transparent;
+      color: #1DADE9;
+    }
+  }
+  .code-of-conduct a,
+  .hotels a  {
+    @media (max-width: $sm) {
+      font-size: 14px !important;
+    }
+    @media (max-width: $xs) {
+      display: none;
+    }
+  }
 }
 
 .about {
   background: $dark-blue;
-  padding: 50px 0px 300px;
+  padding: 100px 0px;
   .about-menu {
     text-align: center;
     @media (max-width: $sm) {
@@ -309,10 +292,8 @@ h1, h2, h3, h4, h5, h6 {
   h2 {
     color: $white;
     font-size: 60px;
-    margin-top: 100px;
     @media (max-width: $sm) {
       font-size: 40px;
-      margin-top: 0px;
     }
   }
   p {
@@ -327,34 +308,61 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sponsors {
-  background: $white;
-  padding: 100px 0px 0px;
   text-align: center;
-  position: relative;
-  height: 0px;
-
-  .sponsors-content {
-    position: relative;
-    top: -300px;
-    background: $white;
-    border-top: 5px solid $blue;
-    max-width: 1000px;
-  }
+  background: $white;
+  padding: 50px 0px 100px;
 
   h2 {
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 50px;
     letter-spacing: 2px;
   }
-  ul {
-    margin: 0;
-    padding: 0;
-    li {
-      list-style-type: none;
-      display: inline-block;
-      img {
-        max-width: 300px;
-      }
+  img {
+    max-width: 250px;
+    max-height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.tickets {
+  padding: 50px 0px;
+  h2 {
+    font-size: 30px;
+  }
+}
+
+.cta {
+  padding: 80px 20px;
+  background: $dark-blue;
+  color: $white;
+  h2 {
+    color: $white;
+    font-size: 30px;
+    font-family: $font-body;
+    font-weight: 100;
+    strong {
+      font-weight: 400;
+    }
+  }
+  a {
+    background: $blue;
+    padding: 15px 20px;
+    border-radius: 100px;
+    color: $white;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid $blue;
+    &:hover,
+    &:focus {
+      background: transparent;
+      color: $blue;
+      text-decoration: none;
+    }
+    @media (max-width: $sm) {
+      margin-top: 20px;
     }
   }
 }
@@ -363,15 +371,120 @@ h1, h2, h3, h4, h5, h6 {
 		//Pages//
 ////////////////////////////////
 
-.content {
-  padding: 50px 0px 100px;
-  h1, h2 {
-    color: $dark-blue;
+.inside {
+  background: $dark-blue;
+  .content {
+    padding: 50px 0px 100px;
+    h1, h2 {
+      color: $dark-blue;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 30px;
+    }
   }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 30px;
+  .page-container {
+    display: block;
+    padding: 20px 0px 50px 0px;
+    background: $white;
+    margin: 100px auto 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    @media (max-width: $sm) {
+      margin: 100px 12px 0px;
+    }
+    h2 {
+      font-size: 2.5em;
+      font-weight: bold;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      display: inline-block;
+      padding: 0px 100px;
+      @media (max-width: $xs) {
+        border-bottom: 0;
+        padding: 0;
+      }
+    }
+    h3 {
+      text-align: center;
+    }
+    p {
+      text-align: left;
+    }
+    .hotels-page {
+      .hotels-content {
+        padding: 20px;
+        h4 {
+          text-align: left;
+        }
+        a {
+          color: $dark-blue;
+          border-bottom: 1px dashed $dark-blue;
+        }
+        .btn-hotel {
+          color: $white;
+          border-bottom: 0px;
+          padding: 10px;
+          background: $blue;
+          display: block;
+          max-width: 200px;
+          border-radius: 5px;
+          text-align: center;
+          margin-top: 5px;
+          font-weight: bold;
+          &:hover,
+          &:focus {
+            background: $dark-blue;
+            text-decoration: none;
+          }
+        }
+        p,
+        ul {
+            text-align: left;
+            font-weight: 300;
+        }
+      }
+    }
+    .conduct-content {
+      padding: 20px;
+    }
   }
 }
+
+.grid-wrapper {
+  margin: 20px;
+}
+.speaker {
+  padding: 15px;
+  border-radius: 5px;
+}
+.speaker:hover {
+  background-color: #3b5864;
+  h3, h4 {
+    color: white;
+  }
+}
+
+.speaker-img-wrapper {
+  margin-bottom: 10px;
+  .speaker-img, .speaker-img-large {
+    border-radius: 50%; 
+  }
+  .speaker-img {
+    width: 100px; 
+    height: 100px;
+  }
+  .speaker-img-large {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.talk_content, .speaker-bio {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+

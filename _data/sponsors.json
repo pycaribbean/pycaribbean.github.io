@@ -28,7 +28,10 @@
     "name": "Caktus Group",
     "img_url": "img/caktus.png",
     "url": "https://www.caktusgroup.com/"
+  },
+  {
+    "name": "No Starch Press",
+    "img_url": "img/nostarch.jpg",
+    "url": "https://www.nostarch.com/"
   }
 ]
-
-

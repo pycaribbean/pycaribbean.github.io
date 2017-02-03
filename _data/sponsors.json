@@ -33,5 +33,10 @@
     "name": "No Starch Press",
     "img_url": "img/nostarch.jpg",
     "url": "https://www.nostarch.com/"
+  },
+  {
+    "name": "Genius Link",
+    "img_url": "img/genius-link.png",
+    "url": "https://www.geni.us/"
   }
 ]

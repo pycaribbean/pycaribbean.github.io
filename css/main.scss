@@ -457,8 +457,19 @@ h1, h2, h3, h4, h5, h6 {
 .grid-wrapper {
   margin: 20px;
 }
-.speaker {
+
+
+.title {
+  border-radius: 5px;
+}
+
+.audience-level {
   padding: 15px;
+  border-radius: 5px;
+}
+
+.speaker {
+  padding: 30px;
   border-radius: 5px;
 }
 .speaker:hover {

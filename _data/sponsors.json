@@ -38,5 +38,11 @@
     "name": "Genius Link",
     "img_url": "img/genius-link.png",
     "url": "https://www.geni.us/"
+  },
+  {
+    "name": "Pythonizame",
+    "img_url": "img/pythonizame.png",
+    "url": "https://pythoniza.me/"
   }
+
 ]

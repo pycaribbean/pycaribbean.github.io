@@ -11,7 +11,8 @@ $black: #000;
 $white: #fff;
 $blue: #1DADE9;
 $dark-blue: #3b5864;
-
+$yellow-background: #f9d05d;
+$blue-background: #30608a;
 
 // Fonts
 
@@ -457,20 +458,17 @@ h1, h2, h3, h4, h5, h6 {
 .grid-wrapper {
   margin: 20px;
 }
-.speakerg {
+.speaker {
   padding: 15px;
-  }
-  border-radius: 5px;
-
 }
 
 .speaker-img-wrapper {
   margin-bottom: 10px;
   .speaker-img, .speaker-img-large {
-    border-radius: 50%; 
+    border-radius: 50%;
   }
   .speaker-img {
-    width: 100px; 
+    width: 100px;
     height: 100px;
   }
   .speaker-img-large {
@@ -499,6 +497,8 @@ h1, h2, h3, h4, h5, h6 {
       th {
         text-align: center;
         font-weight: bold;
+        background-color: #30608a;
+        color: $white;
       }
       th {
         border-right: 1px solid #dddddd;
@@ -514,12 +514,24 @@ h1, h2, h3, h4, h5, h6 {
         border-left: 1px solid #dddddd;
       }
     }
+    tr {
+      background-color: #f1f1f1;
+    }
+
+    tr:nth-child(even) {
+      background-color: $white;
+    }
+
     td {
       text-align: center;
       vertical-align: middle;
     }
+
+    tr.break {
+      background-color: #FCE49A;
+    }
     .subtitle {
-      color: $blue;
+      color: $yellow-background;
       font-weight: bold;
     }
     .time {
@@ -534,6 +546,10 @@ h1, h2, h3, h4, h5, h6 {
     .spanish {
       font-size: 14px;
       color: $dark-blue;
+    }
+
+    .break {
+      background-color: #FCE49A;
     }
   }
 }

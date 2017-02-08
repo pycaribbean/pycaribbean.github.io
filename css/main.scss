@@ -488,3 +488,53 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 45px;
 }
 
+.schedule {
+  padding: 50px 0px;
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+  a {
+    border-bottom: 0px;
+    color: $blue;
+  }
+  table {
+    thead {
+      th {
+        text-align: center;
+        font-weight: bold;
+      }
+      th {
+        border-right: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
+        border-top: 1px solid #dddddd;
+        font-family: $font-header;
+        font-weight: bold;
+      }
+    }
+    tbody {
+      td {
+        border-right: 1px solid #dddddd;
+        border-left: 1px solid #dddddd;
+      }
+    }
+    td {
+      text-align: center;
+      vertical-align: middle;
+    }
+    .time {
+      vertical-align: middle;
+      width: 100px;
+    }
+    .speaker {
+      display: block;
+      color: $blue;
+      font-size: 14px;
+    }
+    .spanish {
+      font-size: 14px;
+      color: $red;
+    }
+  }
+}
+

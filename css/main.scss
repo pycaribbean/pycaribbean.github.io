@@ -457,26 +457,11 @@ h1, h2, h3, h4, h5, h6 {
 .grid-wrapper {
   margin: 20px;
 }
-
-
-.title {
-  border-radius: 5px;
-}
-
-.audience-level {
+.speakerg {
   padding: 15px;
-  border-radius: 5px;
-}
-
-.speaker {
-  padding: 30px;
-  border-radius: 5px;
-}
-.speaker:hover {
-  background-color: #3b5864;
-  h3, h4 {
-    color: white;
   }
+  border-radius: 5px;
+
 }
 
 .speaker-img-wrapper {
@@ -532,6 +517,10 @@ h1, h2, h3, h4, h5, h6 {
     td {
       text-align: center;
       vertical-align: middle;
+    }
+    .subtitle {
+      color: $blue;
+      font-weight: bold;
     }
     .time {
       vertical-align: middle;

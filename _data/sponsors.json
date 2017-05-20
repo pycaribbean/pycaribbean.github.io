@@ -23,7 +23,31 @@
     "name": "Puerto Rico Science and Research Trust",
     "img_url": "img/trust.png",
     "url": "http://prsciencetrust.org/"
+  },
+  {
+    "name": "Caktus Group",
+    "img_url": "img/caktus.png",
+    "url": "https://www.caktusgroup.com/"
+  },
+  {
+    "name": "No Starch Press",
+    "img_url": "img/nostarch.jpg",
+    "url": "https://www.nostarch.com/"
+  },
+  {
+    "name": "Genius Link",
+    "img_url": "img/genius-link.png",
+    "url": "https://www.geni.us/"
+  },
+  {
+    "name": "Pythonizame",
+    "img_url": "img/pythonizame.png",
+    "url": "https://pythoniza.me/"
+  },
+  {
+    "name": "Truenorth Corporation",
+    "img_url": "img/truenorth-corporation.png",
+    "url": "http://www2.truenorthcorporation.com/"
   }
+
 ]
-
-

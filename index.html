@@ -2,98 +2,33 @@
 layout: homepage
 ---
 
-<div class="hero">
-  <div class="uk-container uk-container-center hero-content">
-    <div class="uk-grid">
-      <div class="uk-width-small-1-1">
-        <div class="hero-menu">
-          <ul>
-            <!-- <li><a href="">About</a></li>
-            <li><a href="">App Guide</a></li> --> 
-            <!-- <li><a href="/code-of-conduct">Code of Conduct</a></li> -->
-          </ul>
-        </div>
-        <a href="#off-menu" class="uk-navbar-toggle" class="uk-float-left" data-uk-offcanvas></a>
-        <div class="hero-social">
-          <ul>
-            <li class="hotels"><a href="/hotels">Hotels</a></li>
-            <!--<li class="speakers"><a href="/speakers">Speakers</a></li>-->
-            <li><a href="/schedule">Schedule</a></li>
-            <li class="code-of-conduct"><a href="/code-of-conduct">Code of Conduct</a></li>
-            <li><a href="https://www.facebook.com/pycaribbean"><i class="uk-icon-facebook"></i></a></li>
-            <li><a href="https://twitter.com/pycaribbean"><i class="uk-icon-twitter"></i></a></li>
-            <li><a href="https://instagram.com/pycaribbeanconf/"><i class="uk-icon-instagram"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="uk-width-small-1-1 uk-text-center">
-        <h1><a href="/" class="hero-logo"><img src="img/logo.png" alt=""></a></h1>
-        <h2 class="tagline">The premier Python event in the Caribbean</h2>
-        <h2>February 18-19, 2017</h2>
-        <h3>Bayamón, Puerto Rico</h3>
-        <a href="http://pycaribbean2017.eventbrite.com/" class="btn-hero btn-ticket">Buy your ticket</a>
-        <!--<a href="http://bit.ly/PyCaribbeanCallToPapers" class="btn-hero">Apply as a speaker</a>-->
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="about">
-  <div class="uk-container uk-container-center">
-    <div class="uk-grid">
-      <div class="uk-width-small-1-1 uk-text-center">
-        <div class="about-menu">
-          <ul>
-            <!-- <li><a href="#sponsors">Sponsors</a></li> -->
-            <!-- <li><a href="">Venue</a></li> -->
-            <!-- <li><a href="#tickets">Tickets</a></li> -->
-            <!-- <li><a href="">Other Events</a></li> -->
-          </ul>
-        </div>
-        <h2>WHAT IS PYCARIBBEAN?</h2>
-        <p>PyCaribbean is the first Python Conference of its kind on the region of the Caribbean. Our goal is to connect the North American and European Developer Community with the Hispanic and Caribbean community.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="tickets" id="tickets">
-  <div class="uk-container uk-container-center">
-    <div class="uk-grid">
-      <div class="uk-width-small-1-1 uk-text-center">
-        <h2>Tickets</h2>
-        <div style="width:100%; text-align:left;">
-        <iframe src="//eventbrite.com/tickets-external?eid=25625212701&ref=etckt" frameborder="0" height="306" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
-        <div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/etckt">Powered by Eventbrite</a></div>
-    </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="cta">
-  <div class="uk-container uk-container-center">
-    <div class="uk-grid">
-      <div class="uk-width-small-1-1 uk-width-medium-2-3 uk-text-center">
-        <h2>WANT TO CONTRIBUTE? <strong>APPLY TO BE A SPEAKER</strong></h2>
-      </div>
-      <div class="uk-width-small-1-1 uk-width-medium-1-3">
-        <a href="http://bit.ly/PyCaribbeanCallToPapers">Apply now</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="sponsors" id="sponsors">
-  <div class="uk-container uk-container-center sponsors-content">
-    <h2>SPONSORS</h2>
-    <div class="uk-grid">
-      {% for sponsor in site.data.sponsors %}
+<section id="home-section">
+  <div class="hero">
+    <div class="uk-container uk-container-center hero-content">
+      <div class="uk-grid">
         <div class="uk-width-small-1-3">
-          <a href="{{sponsor.url}}"><img src="{{sponsor.img_url}}" alt="{{sponsor.name}}"></a>
+          <h1 class="logo">Logo</h1>
         </div>
-      {% endfor %}
+        <div class="uk-width-small-2-3">
+          <nav class="main-menu">
+            <ul class="uk-navbar-nav">
+              <li><a href="">tickets</a></li>
+              <li><a href="">schedule</a></li>
+              <li><a href="">hotels</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">speak</a></li>
+              <li><a href="">sponsor</a></li>
+            </ul>
+          </nav>
+
+          <figure class="schedule-copy">
+            <legend>
+              <h2>Schedule</h2>
+              <p>Prepare for two full packed days of conference</p>
+            </legend>
+          </figure>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+</section>

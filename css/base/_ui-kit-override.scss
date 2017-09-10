@@ -9,9 +9,21 @@
   background: white;
 }
 
+.uk-button:hover {
+  background: $primary-color;
+  border-color: $primary-color;
+  color: $white;
+}
+
 .uk-button-primary {
   color: $white;
   background: $primary-color;
+}
+
+.uk-button-primary:hover {
+    background: $white;
+    border-color: $primary-color;
+    color: $primary-color;
 }
 
 .uk-container {

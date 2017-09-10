@@ -1,0 +1,15 @@
+.call-to-action {
+  width: 100%;
+  min-width: 140px;
+  max-width: 262px;
+  line-height: 0;
+
+  .uk-button {
+    display: block;
+    margin-top: 1em;
+  }
+
+  @media (max-width: $sm) {
+    max-width: 180px;
+  }
+}

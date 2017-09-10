@@ -1,0 +1,50 @@
+#home-page {
+  .hero-container {
+    position: relative;
+    margin-bottom: 80px;
+
+    .uk-grid {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-cover {
+      position: absolute;
+      left: calc(36% + 10px);
+      bottom: 0;
+      width: 100%;
+      min-height: 528px;
+      background: url('../../img/home/hero-cover.png') 0 0 no-repeat;
+      background-size: auto;
+    }
+  }
+
+  .location-and-date-copy {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .about-pycaribbean {
+    margin-bottom: 130px;
+
+    h3:after { background-color: $primary-color; }
+    p { color: $grey; }
+  }
+
+  @media (max-width: $sm) {
+    .hero-container {
+      overflow: hidden;
+      padding-bottom: 12px;
+
+      .hero-cover {
+        bottom: -40px;
+        left: 28%;
+        background-position-x: left;
+      }
+    }
+
+    .location-and-date-copy {
+      margin: 65px 0 40px -20px;
+    }
+  }
+}

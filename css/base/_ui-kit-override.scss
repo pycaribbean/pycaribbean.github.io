@@ -1,0 +1,20 @@
+.uk-button {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: $primary-color;
+  border-radius: 0;
+  border: 2px solid $primary-color;
+  background: white;
+}
+
+.uk-button-primary {
+  color: $white;
+  background: $primary-color;
+}
+
+.uk-container {
+  max-width: $max-container-width;
+  min-width: $xxs;
+}

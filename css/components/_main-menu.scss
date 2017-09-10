@@ -1,0 +1,20 @@
+.main-menu {
+  display: none; // @TODO remove when main menu should be shown.
+  margin: 0 auto 60px auto;
+
+  ul li a {
+    padding: 0 10px;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 0 !important;
+
+    &:hover {
+      background: none;
+      border-bottom: 2px solid #44ad5e;
+    }
+  }
+
+  @media (max-width: $sm) {
+    margin-bottom: 100px;
+  }
+}

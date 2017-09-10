@@ -1,0 +1,40 @@
+html {
+  font: normal 16px $font-body;
+}
+
+body {
+  margin-top: 35px;
+  color: $black;
+  line-height: 1.4;
+  font-family: $font-body;
+  font-weight: 400;
+  background: $white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-body;
+  font-weight: 600;
+  line-height: 0.8em;
+}
+
+h2 {
+  margin: 0 0 24px 0;
+  font-size: 72px;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 1em;
+
+  &:after {
+    content: '';
+    display: block;
+    margin-top: 0.2em;
+    width: 62px;
+    height: 3px;
+    background: $black;
+  }
+}
+
+
+p { margin: 0 0 1em 0; }

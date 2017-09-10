@@ -1,0 +1,48 @@
+.location-and-date-copy {
+  padding-left: 120px;
+  min-width: $max-container-width - 120px;
+  font-size: 3.5vw;
+
+  h2 {
+    margin: 0;
+    font-size: 100%;
+  }
+
+  p { font-size: 40%; }
+
+  h2 + h2 { margin: 0.3em 0; }
+
+  p.dashed {
+    position: relative;
+    padding-left: calc(78px + 16px);
+
+    &:before {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      top: 0.5em;
+      left: 0;
+      width: 78px;
+      height: 3px;
+      background: #979797;
+    }
+  }
+
+  p.date {
+    text-transform: uppercase;
+  }
+
+  @media (max-width: $sm) {
+    padding-left: 0;
+    min-width: 100%;
+    font-size: 38px;
+
+    p.dashed {
+      padding-left: calc(58px + 16px);
+
+      &:before {
+        width: 58px;
+      }
+    }
+  }
+}

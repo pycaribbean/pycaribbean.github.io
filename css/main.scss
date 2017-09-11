@@ -4,7 +4,9 @@
 @import './base/variables';
 @import './base/base-styles';
 @import './base/ui-kit-override';
+@import './base/helpers';
 
+@import './components/activity-slider';
 @import './components/call-to-action';
 @import './components/location-and-date-copy';
 @import './components/logo';

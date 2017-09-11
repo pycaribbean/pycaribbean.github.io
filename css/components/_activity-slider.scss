@@ -1,0 +1,28 @@
+.activity-slider {
+  .uk-cover-background {
+    height: 100%;
+  }
+
+  h3 {
+    position: relative;
+    left: -2.5em;
+    margin-top: 1em;
+    color: black;
+    text-shadow: 2px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  .uk-button {
+    width: 100%;
+    max-width: 246px;
+  }
+
+  @media (max-width: $sm) {
+    .uk-cover-background {
+      min-height: 300px;
+    }
+
+    h3 {
+      left: 0;
+    }
+  }
+}

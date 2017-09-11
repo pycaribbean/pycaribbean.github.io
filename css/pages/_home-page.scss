@@ -31,9 +31,17 @@
     p { color: $grey; }
   }
 
+  .other-activities {
+    margin-bottom: 56px;
+
+    h3:after {
+      margin-top: 0.5em;
+      background-color: #d97928;
+    }
+  }
+
   @media (max-width: $sm) {
     .hero-container {
-      overflow: hidden;
       padding-bottom: 12px;
 
       .hero-cover {

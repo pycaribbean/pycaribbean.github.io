@@ -38,11 +38,20 @@
     min-width: 100%;
     font-size: 38px;
 
+    h2, p.date {
+      padding-left: 20px;  
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+    
     p.dashed {
       padding-left: calc(58px + 16px);
 
       &:before {
-        width: 58px;
+        width: 48px;
+        margin-left: 26px;
       }
     }
   }

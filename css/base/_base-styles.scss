@@ -4,7 +4,6 @@ html {
 
 body {
   margin-top: 35px;
-  margin-bottom: 35px;
   color: $black;
   line-height: 1.4;
   font-family: $font-body;
@@ -24,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1em;
 
   &:after {

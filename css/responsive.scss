@@ -1,0 +1,85 @@
+
+/*------------- PROPERTY LIST -------------------------------------*/
+@media only screen and (min-width: 250px) and (max-width: 457px){
+    h1.logo{
+        border: solid 3px rgb(157, 255, 0) !important;
+    }
+    
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    h1.logo{
+        border: solid 3px red !important;
+    }
+}
+
+@media screen and (max-width: 767px) { 
+    h1.logo{
+       border: solid 5px purple;
+    }
+ }
+@media screen and (min-width: 768px) { 
+    h1.logo{
+        border: solid 9px rgb(80, 235, 144)
+    }
+    h3 {
+        font-size: 24px;
+    }
+    /*----------- FOOTER ------------*/
+    footer{
+        .footer-top{
+            padding-top: 45px;
+            padding-bottom: 45px;
+        }
+        .footer-botton{
+            background: #fff;
+            .footer-nav {
+                border-bottom: none;
+                overflow: hidden;
+                padding: 25px 0 0 0;
+                margin-bottom:0;
+                width: auto;
+                margin: 0;
+                li {
+                    width: auto;
+                    float: left;
+                    padding: 0 18px 0 0;
+                }
+            }
+            .social-icon {
+                text-align: left;
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+            .fa{
+                font-size: 21px !important;
+            }
+        }
+        .uk-text-center.developed-by{
+            text-align: left !important;
+            margin-top: 0 !important;
+        }
+        .developed-by {
+            margin-left: 0 !important;
+        }
+        .footer-logo {
+            width: 180px;
+            padding-bottom: 37px;
+            float: right;
+            margin-top: -199px;
+        }
+    }
+  }
+  
+
+@media screen and (min-width: 992px) { 
+    h1.logo{
+        border: solid 3px rgb(158, 144, 238);
+    }
+}    
+
+@media screen and (min-width: 1200px) { 
+    h1.logo{
+        border: solid 3px rgb(229, 238, 144);
+    }
+}

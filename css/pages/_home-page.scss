@@ -2,22 +2,20 @@
   .hero-container {
     position: relative;
     margin-bottom: 80px;
-
     .uk-grid {
       position: relative;
       z-index: 1;
     }
-
     .hero-cover {
       position: absolute;
       left: calc(36% + 10px);
       bottom: 0;
       width: 100%;
-      min-height: 528px;
+      min-height: 378px;
       background: url('../../img/home/hero-cover-min.png') 0 0 no-repeat;
       background-size: auto;
     }
-  }
+  }  
 
   .location-and-date-copy {
     margin-top: 35px;
@@ -25,18 +23,118 @@
   }
 
   .about-pycaribbean {
-    margin-bottom: 130px;
+    margin-bottom: 50px;
+
+    h3:after { background-color: $primary-color; }
+    p { color: $grey; }
+  }
+  
+  .about-pycaribbean {
+    margin-bottom: 50px;
 
     h3:after { background-color: $primary-color; }
     p { color: $grey; }
   }
 
-  .other-activities {
+  h3:after { background-color: $primary-color; }
+  
+  /* ------------------- Keynote Speakers ------------------- */
+
+  .keynote-speakers {
     margin-bottom: 56px;
 
     h3:after {
       margin-top: 0.5em;
-      background-color: #d97928;
+      background-color: #D97928;
+    }
+    .lecturer-description{
+      opacity: 0;
+      top: 150px;
+      padding: 7px;
+      position: absolute;
+      font-size: 12px;
+      transition: all 0.35s ease !important;
+    }
+    .lecturer{
+      width: 194px;
+      height: 310px;
+      border: solid 1px #D8D8D8; 
+      position: relative;
+      overflow: hidden;
+      margin-top: 20px;
+
+      &:hover .lecturer-description{
+        opacity: 1;
+        position: absolute;
+        top: 0;
+      }
+
+      .lecturer-picture{
+        margin-bottom: 10px;
+      }
+
+      .lecturer-name{
+        background: #fff;
+        height: 35px;
+        width: 170px;
+        position: absolute;
+        bottom: 0;
+        padding: 11px 7px 7px 7px;
+      }
+
+      .lecturer-description{
+        background:#fff;
+        padding: 18px;
+        height: 274px;
+        p{
+          font-size: 13px;
+        }
+      }
+
+      h4{
+        margin: 0;
+        margin-bottom: 7px;
+      }
+      h6{
+        margin: 0;
+        color: $grey;
+      }
+      .social-icons{
+        position: absolute;
+        bottom: 13px;
+        right: 13px;
+
+        .web-icon, .tw-icon{
+          display: inline-block;
+          color: #9B9B9B;
+          width: 25px;
+          height: 25px;
+          float: right;
+          margin-left: 7px;
+          font-size: 23px;
+          opacity: 1;
+          transition: all 0.31s ease !important;
+          &:hover{
+            opacity: 0.5;
+          }
+        }
+      }
+  
+    }
+    
+  }
+
+  .gray-wrapper{
+    background-attachment: #ccc;
+  }
+  .speak-low{
+    font-size: 10px;
+  }
+  .other-activities{
+    margin-bottom: 56px;
+    h3:after {
+      margin-top: 0.5em;
+      background-color: #D97928;
     }
   }
 
@@ -52,7 +150,120 @@
     }
 
     .location-and-date-copy {
-      margin: 65px 0 40px -20px;
     }
   }
 }
+
+.activity-slider{
+  margin-bottom: 50px;
+}
+
+
+.d1{
+  background: pink;
+  min-height: 33px;
+}
+.d2{
+  background: yellow;
+  min-height: 33px;
+}
+.d3{
+  background: rgb(21, 255, 0);
+  min-height: 33px;
+}
+.d4{
+  background:orange;
+  min-height: 33px;
+}
+
+
+/*--------------------------- OUR SPONSOR -----------------------------*/
+
+.sponsors{
+  li{
+    width: 150px;
+    height: 150px;
+    float: left;
+    img{
+      width: 100%;
+    }
+  }
+}
+
+/*--------------------------- FOOTER ---------------------------------*/
+
+footer{
+  margin-top: 40px;
+
+
+  .footer-top{
+    background: #F5F5F5;
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
+  .footer-botton{
+    background: #fff;
+  }
+
+  h3:after {
+    margin-top: 0.5em;
+    background-color: #D97928;
+  }
+
+  .sponsors{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li{
+      /* border-left: solid 1px #ccc; */
+    }
+  }
+  ul{
+    list-style: none;
+    pad: 0;
+    margin: 0;
+  }
+  .uk-icon-heart{
+    margin: 0 7px;
+    color: $orange;
+  }
+  .footer-logo{
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 35px;
+  }
+  .social-icon{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    a{
+      color: #9B9B9B;
+      margin: 0 5px;
+    }
+  }
+  .developed-by{
+    margin: 5px;
+  }
+}
+
+.footer-nav{
+  border-bottom: solid 6px #F7F7F7;
+  overflow: hidden;
+  padding: 25px 0;
+  margin-bottom: 34px;
+  width: 250px;
+  margin: 0 auto 30px auto;
+
+  li {
+    width: 50%;
+    float: left;
+    text-align: center;
+    a{
+      color: #4A4A4A;
+      margin-bottom: 7px;
+      display: block;
+    }
+  }
+}
+   

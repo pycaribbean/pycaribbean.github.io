@@ -1,5 +1,60 @@
 /*------------- PROPERTY LIST -------------------------------------*/
 
+@media only screen and (min-width: 250px) and (max-width: 457px) {
+    h1.logo {
+        -border: solid 3px rgb(157, 255, 0) !important;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    h1.logo {
+        -border: solid 5px red !important;
+    }
+    h1.logo {
+        width: 180px;
+        height: 180px;
+        background: url(../img/logo.png) 50% 50% no-repeat;
+        background-size: 180px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 658px) {
+    h3 {
+        font-size: 20px;
+        line-height: 1em;
+    }
+    .keynote-speakers{
+        .uk-width-8-10 {
+            width: 100%;
+        }
+        .uk-width-small-1-3{
+            width: 100%;
+        }
+    }
+ }
+
+ @media only screen and (min-width: 659px) and (max-width: 767px) {
+    h3 {
+        font-size: 20px;
+        line-height: 1em;
+    }
+    .keynote-speakers{
+        .uk-width-small-1-3{
+            width: 33.333%;
+        }
+        .uk-width-8-10 {
+            width: 100%;
+        }
+    }
+ }
+
+
+@media screen and (max-width: 767px) {
+    h1.logo {
+       -border: solid 5px purple;
+    }
+ }
 
 @media screen and (min-width: 768px) {
     h3 {
@@ -48,5 +103,62 @@
             float: right;
             margin-top: -199px;
         }
+    }
+
+    .location-and-date-copy h2 {
+        font-size: 100%;
+    }
+    h1.logo {
+        width: 230px;
+        height: 230px;
+        background-size: 230px;
+    }
+    #home-page .hero-container .hero-cover {
+        min-height: 528px;
+    }
+
+    body #slider-with-blocks-1 .rsMinW .rsOverflow{
+        width: 310px;
+        height: 418px !important;
+    }
+    body #slider-with-blocks-1 .rsOverflow[style], 
+    body .royalSlider {
+        height: 390px !important;
+    }
+    .rsMinW .rsBullets {
+        bottom: 0px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h1.logo {
+       -border: solid 3px rgb(158, 144, 238);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1.logo{
+        -border: solid 3px rgb(229, 238, 144);
+        border: none;
+    }
+    h1.logo {
+        position: relative;
+        text-indent: -9999px;
+        width: 230px;
+        height: 230px;
+        background: url(../img/logo.png) 50% 50% no-repeat;
+        z-index: 1;
+    }
+    .location-and-date-copy h2 {
+        margin: 0;
+        font-size: 100%;
+        font-weight: 800;
+    }
+    #home-page .location-and-date-copy {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    #home-page .hero-container .hero-cover {
+        min-height: 528px;
     }
 }

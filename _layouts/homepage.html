@@ -11,8 +11,54 @@
     {% include footer.html %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-	  <script type="text/javascript" src="js/uikit.min.js"></script>
+	<script type="text/javascript" src="js/uikit.min.js"></script>
 
+
+
+
+
+    <!-- slider JS files -->
+    
+    <script class="rs-file" src="js/royal-slider/templates/assets/royalslider/jquery-1.8.3.min.js"></script>
+    <script class="rs-file" src="js/royal-slider/templates/assets/royalslider/jquery.royalslider.min.js"></script>
+    <link class="rs-file" href="js/royal-slider/templates/assets/royalslider/royalslider.css" rel="stylesheet">
+    
+    <!-- syntax highlighter -->
+    <script src="js/royal-slider/templates/assets/preview-assets/js/highlight.pack.js"></script>
+    <script> hljs.initHighlightingOnLoad();</script>
+
+    <!-- preview-related stylesheets -->
+    <link href="js/royal-slider/templates/assets/preview-assets/css/smoothness/jquery-ui-1.8.22.custom.css" rel="stylesheet">
+    <link href="js/royal-slider/templates/assets/preview-assets/css/github.css" rel="stylesheet">
+
+    <!-- slider stylesheets -->
+    <link class="rs-file" href="js/royal-slider/templates/assets/royalslider/skins/minimal-white/rs-minimal-white.css" rel="stylesheet">
+     
+
+
+    <script id="addJS">jQuery(document).ready(function($) {
+	  jQuery.rsCSS3Easing.easeOutBack = 'cubic-bezier(0.175, 0.885, 0.320, 1.275)';
+	  $('#slider-with-blocks-1').royalSlider({
+		arrowsNav: false,
+		arrowsNavAutoHide: false,
+		fadeinLoadedSlide: false,
+		controlNavigationSpacing: 0,
+		controlNavigation: 'bullets',
+		imageScaleMode: 'none',
+		imageAlignCenter:false,
+		blockLoop: true,
+		loop: true,
+		numImagesToPreload: 6,
+		transitionType: 'slide',
+		keyboardNavEnabled: true,
+		block: {
+		  delay: 400
+		}
+	  });
+	});
+	</script>
+    
+    
   </body>
 
 </html>

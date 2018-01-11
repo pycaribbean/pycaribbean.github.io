@@ -1,27 +1,7 @@
 /*------------- PROPERTY LIST -------------------------------------*/
-@media only screen and (min-width: 250px) and (max-width: 457px) {
-    h1.logo {
-        border: solid 3px rgb(157, 255, 0) !important;
-    }
 
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    h1.logo {
-        border: solid 3px red !important;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    h1.logo {
-       border: solid 5px purple;
-    }
- }
 
 @media screen and (min-width: 768px) {
-    h1.logoi {
-        border: solid 9px rgb(80, 235, 144);
-    }
     h3 {
         font-size: 24px;
     }
@@ -70,15 +50,3 @@
         }
     }
 }
-
-/**@media screen and (min-width: 992px) {
-    h1.logo {
-       border: solid 3px rgb(158, 144, 238);
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    h1.logo{
-        border: solid 3px rgb(229, 238, 144);
-    }
-}**/

@@ -38,7 +38,9 @@
 
   h3:after { background-color: $primary-color; }
   
-  /* ------------------- Keynote Speakers ------------------- */
+
+
+/* ------------------- Keynote Speakers ------------------- */
 
   .keynote-speakers {
 
@@ -184,12 +186,12 @@
 
 /*--------------------------- OUR SPONSOR -----------------------------*/
 
-.sponsors{
-  li{
+.sponsors {
+  li {
     width: 150px;
     height: 150px;
     float: left;
-    img{
+    img {
       width: 100%;
     }
   }
@@ -201,12 +203,12 @@ footer{
   margin-top: 40px;
 
 
-  .footer-top{
+  .footer-top {
     background: #F5F5F5;
     padding-bottom: 45px;
     padding-top: 45px;
   }
-  .footer-botton{
+  .footer-botton {
     background: #fff;
   }
 
@@ -215,7 +217,7 @@ footer{
     background-color: #D97928;
   }
 
-  .sponsors{
+  .sponsors {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -223,36 +225,36 @@ footer{
       /* border-left: solid 1px #ccc; */
     }
   }
-  ul{
+  ul {
     list-style: none;
     pad: 0;
     margin: 0;
   }
-  .uk-icon-heart{
+  .uk-icon-heart {
     margin: 0 7px;
     color: $orange;
   }
-  .footer-logo{
+  .footer-logo {
     width: 120px;
     display: block;
     margin: 0 auto;
     padding-bottom: 35px;
   }
-  .social-icon{
+  .social-icon {
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
-    a{
+    a {
       color: #9B9B9B;
       margin: 0 5px;
     }
   }
-  .developed-by{
+  .developed-by {
     margin: 5px;
   }
 }
 
-.footer-nav{
+.footer-nav {
   border-bottom: solid 6px #F7F7F7;
   overflow: hidden;
   padding: 25px 0;
@@ -264,7 +266,7 @@ footer{
     width: 50%;
     float: left;
     text-align: center;
-    a{
+    a {
       color: #4A4A4A;
       margin-bottom: 7px;
       display: block;
@@ -324,142 +326,6 @@ html body #slider-with-blocks-1  .royalSlider {
   height: 670px !important;
 }
 
-
-
-/*--------------------- SLider Testing Styles ------------------------------
-
-#slider-with-blocks-1 {
-  width: 100%;
-}
-
-.rsContent {
-  color: #FFF;
-  font-size: 24px;
-  line-height: 32px;
-  float: left;
-}
-.bContainer {
-  position: relative;
-}
-.rsABlock {
-  position: relative;
-  display: block;
-  left: auto;
-  top: auto;
-}
-.blockHeadline {
-  font-size: 42px;
-  line-height: 50px;
-}
-.blockSubHeadline {
-  font-size: 32px;
-  line-height: 40px
-}
-.txtCent {
-  text-align: center; 
-  width: 100%; 
-}
-
-.slide1 {
-  background: #f06b50;
-}
-.slide1 .bContainer {
-  top: 36%;
-}
-.slide2 {
-    background: #ffbc11;
-    color:#000;
-}
-.slide2 .bContainer {
-  top: 24px;
-}
-.slide2 .txtCent {
-  line-height: 44px;
-}
-.slide2 .blockHeadline {
-   line-height: 66px;
-}
-.slide3 {
-    background: #45aab8;
-    color:#FFF;
-}
-.slide3 .bContainer {
-   top: 24px;
-}
-.slide3 span {
-  line-height: 44px;
-}
-.slide4 .bContainer {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: auto;
-  top: 24px;
-}
-
-.photoCopy {
-  position: absolute;
-  line-height: 24px;
-  font-size: 12px;
-  background: black;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.75);
-  padding: 0px 10px;
-  position: absolute;
-  left: 12px;
-  bottom: 12px;
-  top: auto;
-  border-radius: 2px;
-  z-index: 25;
-}
-.photoCopy a {
-  color: #FFF;
-}
-.palmImg {
-  left: 0;
-  top: auto;
-  bottom: -60px;
-  position: absolute;
-}
-
-
-@media screen and (min-width: 0px) and (max-width: 960px) { 
-  .rsContent {
-    font-size: 22px;
-    line-height: 28px;
-  }
-  .blockHeadline {
-    font-size: 32px;
-    line-height: 32px;
-  }
-  .blockSubHeadline {
-    font-size: 26px;
-    line-height: 32px
-  }
-}
-@media screen and (min-width: 0px) and (max-width: 500px) { 
-  .royalSlider,
-  .rsOverflow {
-    height: 330px !important;
-  }
-  .rsContent {
-    font-size: 18px;
-    line-height: 26px;
-  }
-  .blockHeadline {
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .blockSubHeadline {
-    font-size: 22px;
-    line-height: 32px
-  }
-}
-
-    
-      #page-navigation { display: none; }
-
-      */
 
 .bContainer p{
   color: #4a4a4a;

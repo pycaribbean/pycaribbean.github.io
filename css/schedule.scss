@@ -1,0 +1,194 @@
+#schedule-page .uk-container {
+    max-width: 1000px !important;
+}
+
+#schedule-page .logo a {
+    display: block;
+    height: 230px;
+}
+
+h2.schedule-day {
+    margin: 38px 0 24px 0;
+    font-size: 32px !important;
+}
+
+.download-app-wrapper{
+    margin-bottom: 30px;
+}
+
+.download-app{
+    margin-right: 15px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.responsive-schedule {
+    h4 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    
+    .time {
+        font-weight: bold;
+        margin: 30px 0 0 0;
+    }
+
+    .orange {
+        border-left: solid 6px #F7941E;
+        p {
+            color: #F7941E;
+        }
+        &::before { 
+            content: "Track 1 (Auditorium)";
+        }
+        padding-left: 15px;
+    }
+    .blue {
+        border-left: solid 6px #158FC3;
+        p {
+            color: #158FC3;
+        }
+        &::before { 
+            content: "Track 2 (Room A)";
+        }
+        padding-left: 15px;
+    }
+    .purple {
+        border-left: solid 6px #653789;
+        p {
+            color: #653789;
+        }
+        &::before { 
+            content: "Track 3 (Room B)";
+        }
+        padding-left: 15px;
+    }
+    .green {
+        border-left: solid 6px #2BB673;
+        p {
+            color: #2BB673;
+        }
+        &::before { 
+            content: "Track 4 (Room C)";
+        }
+        padding-left: 15px;
+    }
+    .yellow {
+        border-left: solid 6px #E2B700;
+        p {
+            color: #E2B700;
+        }
+        &::before { 
+            content: "Track 5 (Room D)";
+        }
+        padding-left: 15px;
+    }
+}
+
+
+/*------------------------------ RESPONSIVE --------------------------------*/
+
+@media only screen and (min-width:480px) and (max-width: 767px) {
+	h1.logo {
+        -border: solid 5px red !important;
+    }
+}
+@media only screen and (min-width:768px) {
+	h1.logo {
+        -border: solid 5px green !important;
+    }
+
+    .responsive-schedule {
+        display:grid;
+        grid-template-columns:10% 18% 18% 18% 18% 18%;
+        grid-auto-rows:minmax(65px, auto);
+
+        .double-rows {
+            grid-row-end: span 2;
+        }
+        .break {
+            grid-column-end: span 5;
+            background: #DFDFDF;
+            -webkit-border-radius: 5px; 
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            padding: 20px 16px;
+            margin: 3px;
+            font-size: 12px;
+            p{
+                margin: 0.6em 0 0 0;
+            }
+        }
+
+        .time {
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+        .lecture {
+            padding-left: 15px !important;
+            border-left: none;
+            margin: 3px;
+            padding: 20px 16px;
+            -webkit-border-radius: 5px; 
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            h4 {
+                color: #fff;
+                line-height: 20px;
+            }
+            &::before{
+                display: none;
+            }
+    
+            p {
+                color: #fff;
+                font-size: 12px;
+            }
+            h4{
+                color: #fff;
+            }
+
+            &.orange {
+                background: #F7941E;
+            }
+            &.blue {
+                background: #158FC3;
+            }
+            &.purple {
+                background: #653789;
+            }
+            &.green {
+                background: #2BB673;
+            }
+            &.yellow {
+                background: #E2B700;
+            }
+        }   
+    }
+}
+
+#schedule-page .hero-container .hero-cover {
+    min-height: 528px;
+}
+
+#schedule-page .hero-container .uk-grid {
+    position: relative;
+    z-index: 1;
+}
+
+#schedule-page .hero-container .hero-cover {
+    position: absolute;
+    left: calc(36% + 10px);
+    bottom: -4px;
+    right: 0;
+    width: 67%;
+    min-height: 345px;
+    background: url(../img/home/hero-cover-min.png) 0 0 no-repeat;
+    background-size: auto;
+}
+
+#schedule-page .hero-container {
+    position: relative;
+    margin-bottom: 80px;
+}

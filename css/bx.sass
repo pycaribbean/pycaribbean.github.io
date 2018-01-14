@@ -1,0 +1,400 @@
+#schedule-page .uk-container{
+    max-width: 1200px !important;
+}
+
+.schedule{
+    list-style:none;
+    padding:0;
+}
+.schedule .timeslot.one-hour .time,
+.schedule .timeslot.four-hours .time {
+    text-align: left;
+    padding: 16px 0 0 0;
+    font-weight: bold;
+}
+
+dl.schedule-header{
+    display: none !important;
+}
+
+.schedule .timeslot.one-hour dl {
+    display: block;
+}
+.schedule .break {
+    background: transparent;
+    border-left: solid 6px #DFDFDF;
+    border-radius: 0px;
+}
+.schedule .timeslot.four-hours dl {
+    display: block;
+}
+.schedule .timeslot.four-hours dd.lecture {
+    padding: 20px 16px;
+    border-left: solid 6px #DFDFDF;
+    border-radius: 0px;
+    margin: 0 0 10px 0;
+}
+
+
+
+.schedule .timeslot.one-hour .time, 
+.schedule .timeslot.four-hours .time {
+    margin-bottom: 15px;
+}
+
+.schedule .break {
+    padding: 13px 16px 1px 16px;
+    color: #9B9B9B;
+}
+
+.schedule{
+    .timeslot.four-hours{
+        dd.lecture{
+            h4{
+                font-size: 18px;
+                margin-bottom: 4px;
+            }
+            &.orange{
+                border-left: solid 6px #F7941E;
+                p{
+                    color: #F7941E;
+                }
+                &::before { 
+                    content: "Track 1 (Auditorium)";
+                }
+            }
+            &.blue{
+                border-left: solid 6px #158FC3;
+                p{
+                    color: #158FC3;
+                }
+                &::before { 
+                    content: "Track 2 (Room A)";
+                }
+            }
+            &.purple{
+                border-left: solid 6px #653789;
+                p{
+                    color: #653789;
+                }
+                &::before { 
+                    content: "Track 3 (Room B)";
+                }
+            }
+            &.green{
+                border-left: solid 6px #2BB673;
+                p{
+                    color: #2BB673;
+                }
+                &::before { 
+                    content: "Track 4 (Room C)";
+                }
+            }
+            &.yellow{
+                border-left: solid 6px #E2B700;
+                p{
+                    color: #E2B700;
+                }
+                &::before { 
+                    content: "Track 5 (Room D)";
+                }
+            }
+        }
+    }
+}
+
+
+h2.schedule-day{
+    margin: 38px 0 24px 0;
+    font-size: 32px !important;
+}
+
+
+.responsive-schedule {
+    h4 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    
+    .time{
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    .orange {
+        border-left: solid 6px #F7941E;
+        p{
+            color: #F7941E;
+        }
+        &::before { 
+            content: "Track 1 (Auditorium)";
+        }
+        padding-left: 15px;
+    }
+    .blue {
+        border-left: solid 6px #158FC3;
+        p{
+            color: #158FC3;
+        }
+        &::before { 
+            content: "Track 2 (Room A)";
+        }
+        padding-left: 15px;
+    }
+    .purple {
+        border-left: solid 6px #653789;
+        p{
+            color: #653789;
+        }
+        &::before { 
+            content: "Track 3 (Room B)";
+        }
+        padding-left: 15px;
+    }
+    .green {
+        border-left: solid 6px #2BB673;
+        p{
+            color: #2BB673;
+        }
+        &::before { 
+            content: "Track 4 (Room C)";
+        }
+        padding-left: 15px;
+    }
+    .yellow {
+        border-left: solid 6px #E2B700;
+        p{
+            color: #E2B700;
+        }
+        &::before { 
+            content: "Track 5 (Room D)";
+        }
+        padding-left: 15px;
+    }
+
+}
+
+/*--------------------------------------------------------------*/
+/*----------------------- RESPONSIVE ---------------------------*/
+
+@media only screen and (min-width:480px) and (max-width: 767px) {
+	h1.logo {
+        border: solid 5px red !important;
+    }
+}
+@media only screen and (min-width:768px) {
+	h1.logo {
+        border: solid 5px green !important;
+    }
+    
+    h2.schedule-day {
+        margin: 34px 0 34px 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .schedule{
+        list-style:none;
+        padding:0;
+        
+        dd{
+            margin:0
+        }
+        dl{
+            list-style:none;
+            padding:0;
+        }
+        p{
+            padding:0;
+            margin:0;
+        }
+        h4{
+            padding:0;
+            margin:0;
+            margin-bottom: 7px;
+            color: #fff;
+            line-height: 18px;
+        }
+        a{
+            text-decoration:none;
+            color:#000;
+        }
+        p{
+            font-size: 12px;
+        }
+    
+        dl.schedule-header{
+            display: grid !important;
+        }
+        
+        .timeslot{
+            .schedule-header{
+                font-weight:bold;
+                text-align:left;
+            }
+        }
+        .timeslot.one-hour .time, 
+        .timeslot.four-hours .time{
+            font-weight: normal;
+        }
+
+    
+        .break{
+            background:#DFDFDF;
+            border-left: none;
+            color: #000;
+        }
+    
+        dd{
+            padding:20px 16px 0 16px;
+            -webkit-border-radius: 5px !important;
+            -moz-border-radius: 5px !important;
+            border-radius: 5px !important;
+        }
+
+        .timeslot.one-hour .time, 
+        .timeslot.four-hours .time {
+            margin-bottom: 0;
+        }
+
+        
+
+        .hide-on-mobile{}
+    
+        /*--------------- One Hour -------------------*/
+        .timeslot.one-hour{
+            dl{
+                display:grid;
+                grid-template-columns:10% 90%;
+                margin-bottom: 0;
+            }
+            .time{
+                text-align:right;
+                padding: 16px 0 0 0;
+            }
+            dd{
+                padding:20px 16px;
+                margin:5px;
+            }    
+        }
+        
+        /*--------------- Four Hours -------------------*/
+        .timeslot.four-hours{
+            dl{
+                display:grid;
+                grid-template-columns:10% 18% 18% 18% 18% 18%;
+                grid-auto-rows:minmax(65px, auto);
+                margin-bottom: 0;
+            }
+            dd{
+                margin:5px;
+                padding:20px 16px;
+                &.lecture{
+                    border-left: none;
+                }
+            }
+            .time{
+                text-align:right;
+                padding: 16px 0 0 0;
+            }
+            &.lecture{
+                background:#ccc;
+                color:#fff;
+                
+            }
+
+            /*--------------- Color Blocks -------------------*/
+    
+            dd.lecture{
+                margin: 5px;
+                
+                h4 {
+                    font-size: 15px;
+                    margin-bottom: 4px;
+                }
+                
+                p{
+                    color: #fff;
+                }
+                
+                &.orange{
+                    background:#F7941E;
+                    p{ 
+                        color:#fff !important;
+                    }
+                    &::before { 
+                        display: none;
+                    }
+                }
+                &.blue{
+                    background:#158FC3;
+                    p{ 
+                        color:#fff !important;
+                    }
+                    &::before { 
+                        display: none;
+                    }
+                }
+                &.purple{
+                    background:#653789;
+                    p{ 
+                        color:#fff !important;
+                    }
+                    &::before { 
+                        display: none;
+                    }
+                }
+                &.green{
+                    background:#2BB673;
+                    p{ 
+                        color:#fff !important;
+                    }
+                    &::before { 
+                        display: none;
+                    }
+                }
+                &.yellow{
+
+                    &.special{
+                        grid-column:6;
+                        grid-row:1/2;
+                        border: solid 2px red;
+                    }
+
+                    background:#E2B700;
+                    p{ 
+                        color:#fff !important;
+                    }
+                    &::before { 
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .responsive-schedule {
+        display:grid;
+        grid-template-columns:10% 18% 18% 18% 18% 18%;
+        grid-auto-rows:minmax(65px, auto);
+
+        .double-rows {
+            grid-row-end: span 2;
+        }
+        .single-track{
+            grid-column-end: span 5;
+        }
+
+        .lecture{
+            padding-left: 15px !important;
+        }
+    }
+
+
+
+}
+
+
+

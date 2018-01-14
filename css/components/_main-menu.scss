@@ -18,3 +18,23 @@
     margin-bottom: 100px;
   }
 }
+
+
+/* ------------------- Main Navigation ---------------------- */
+
+.uk-navbar {
+  background: transparent;
+  color: #444444;
+  border: none;
+  border-radius: 0;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+  background-color: transparent;
+  border: none;
+}
+
+.uk-navbar-nav > li:hover > a{
+  background-color: transparent;
+  border: none;
+}

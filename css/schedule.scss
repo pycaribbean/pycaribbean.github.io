@@ -134,6 +134,11 @@ h2.schedule-day {
             -webkit-border-radius: 5px; 
             -moz-border-radius: 5px;
             border-radius: 5px;
+
+            &.header{
+                font-size: 13px;
+            }
+
             h4 {
                 color: #fff;
                 line-height: 20px;

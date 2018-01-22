@@ -107,6 +107,10 @@ h2.schedule-day {
             grid-row-end: span 2;
         }
 
+        .triple-rows {
+            grid-row-end: span 3;
+        }
+
         .break {
             grid-column-end: span 5;
             background: #DFDFDF;

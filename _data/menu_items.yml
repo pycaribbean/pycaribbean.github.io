@@ -1,0 +1,20 @@
+list_title: Navbar items
+list:
+
+- title: Home
+  url: /
+
+#- title: Schedule
+#  url: /schedule/
+
+- title: Activities
+  url: /#activities
+
+- title: Hotels
+  url: /hotels/
+
+- title: Tickets
+  url: /#tickets
+
+- title: About
+  url: /#about

@@ -1,46 +1,28 @@
+{% assign url = page.url | remove:'/index.html' %}
+
 <nav class="uk-navbar" >
-<div class="uk-container uk-container-center">
-    <ul class="uk-navbar-nav uk-hidden-small uk-navbar-attached">
-        <li class="uk-active"><a href="/">Home</a></li>
-        <!--<li><a href="#">Schedule</a></li>-->
-        <li><a href="/#activities">Activities</a></li>
-        <li><a href="/hotels">Hotels</a></li>
-        <li><a href="/#tickets">Get Tickets</a></li>
-        <li><a href="/#about">About</a></li>
-        <!--<li><a href="#">Speak</a></li>-->
-        <!--<li><a href="#">Sponsor</a></li>-->
-    </ul>
-    <div class="uk-navbar-flip">
-    <a href="#my-id" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{target:'#my-id'}"></a>
+    <div class="uk-container uk-container-center">
+        <ul class="uk-navbar-nav uk-hidden-small uk-navbar-attached">
+            {% for link in site.data.menu_items.list %}
+                <li {% if url == link.url %}class="uk-active"{% endif %}>
+                    <a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+        <div class="uk-navbar-flip">
+            <a href="#my-id" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas="{target:'#my-id'}"></a>
+        </div>
     </div>
-</div>
 </nav>
 
 <div id="my-id" class="uk-offcanvas">
-<div class="uk-offcanvas-bar">
-    <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
-        <li class="uk-active"><a href="/">Home</a></li>
-        <!--<li><a href="#">Schedule</a></li>-->
-        <li><a href="/#activities">Activities</a></li>
-        <li><a href="/hotels">Hotels</a></li>
-        <li><a href="/#tickets">Get Tickets</a></li>
-        <li><a href="/#about">About</a></li>
-        <!--<li><a href="#">Speak</a></li>-->
-        <!--<li><a href="#">Sponsor</a></li>-->
-    </ul>
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+            {% for link in site.data.menu_items.list %}
+                <li {% if url == link.url %}class="uk-active"{% endif %}>
+                    <a href="{{ link.url }}" title="{{ link.title }}">{{ link.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-    <script type="text/javascript" src="/js/uikit.min.js"></script>
-
-</div>
-
-
-<!--<nav class="uk-navbar-container" uk-navbar>-->
-    <!--<div class="uk-navbar-left">-->
-        <!--<ul class="uk-navbar-nav">-->
-            <!--<li class="uk-active"><a href=""></a></li>-->
-            <!--<li class="uk-parent"><a href=""></a></li>-->
-            <!--<li><a href=""></a></li>-->
-        <!--</ul>-->
-    <!--</div>-->
-<!--</nav>-->

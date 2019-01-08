@@ -16,7 +16,7 @@
 </nav>
 
 <div id="my-id" class="uk-offcanvas">
-    <div class="uk-offcanvas-bar">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
             {% for link in site.data.menu_items.list %}
                 <li {% if url == link.url %}class="uk-active"{% endif %}>

@@ -4,17 +4,11 @@ list:
 - title: Home
   url: /
 
-#- title: Schedule
-#  url: /schedule/
-
-- title: Activities
-  url: /#activities
+- title: Schedule
+  url: /schedule/
 
 - title: Hotels
   url: /hotels/
 
 - title: Tickets
   url: /#tickets
-
-- title: About
-  url: /#about

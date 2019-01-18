@@ -1,0 +1,39 @@
+---
+layout: page
+permalink: /talks/
+---
+<div class="speaker-page">
+  <h2>Talks</h2>
+  <div class="grid-wrapper">
+    <div class="uk-grid">
+      {% for talk in site.data.talks %}
+        <div class="uk-width-1-3">
+          <div class="speaker">
+            <a href="{{ talk.speaker_url}}">
+              <div class="speaker-img-wrapper">
+                <img class="speaker-img" src="{{talk.avatar}}" alt="">
+              </div>
+
+
+            </a>
+            <div>
+                <h3><a href="{{talk.talk_title_url}}">{{talk.title}}</a></h3>
+              </div>
+            <br>
+
+              <div>
+                <h4>By: <a href="{{talk.speaker_url}}">{{talk.name}}</a></h4>
+
+                <h4>Audience: {{talk.audience_level}}</h4>
+                  <h4>{{talk.talk_format}}</h4>
+              </div>
+            <hr>
+              <div>
+                <p>{{talk.abstract}}</p>
+              </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

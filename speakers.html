@@ -1,24 +1,30 @@
 ---
 layout: page
+permalink: /speakers/
 ---
 <div class="speaker-page">
   <h2>Speakers</h2>
   <div class="grid-wrapper">
     <div class="uk-grid">
-      {% for speaker in site.data.speakers %}
+      {% assign speakers = site.data.speakers | sort: 'name' %}
+      {% for speaker in speakers %}
         <div class="uk-width-1-3">
           <div class="speaker">
             <a href="{{ speaker.url}}">
-              <!--<div class="speaker-img-wrapper">
+              <div class="speaker-img-wrapper">
                 <img class="speaker-img" src="{{speaker.avatar}}" alt="">
-              </div>-->
-              <div>
-                <h3>{{speaker.title}}</h3>
               </div>
               <div>
-                <h4>{{ speaker.name }}</h4>
+                <h3>{{speaker.name}}</h3>
               </div>
             </a>
+               <div>
+                <h4>{{speaker.organization}}</h4>
+              </div>
+              <!--<div>-->
+                <!--<h4>Talk title:</h4>-->
+                <!--<p> <a href="{{ speaker.bio}}">{{speaker.title}}</a></p>-->
+              <!--</div>-->
           </div>
         </div>
       {% endfor %}

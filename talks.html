@@ -6,7 +6,8 @@ permalink: /talks/
   <h2>Talks</h2>
   <div class="grid-wrapper">
     <div class="uk-grid">
-      {% for talk in site.data.talks %}
+      {% assign talks = site.data.talks | sort: 'title' %}
+      {% for talk in talks %}
         <div class="uk-width-1-3">
           <div class="speaker">
             <a href="{{ talk.speaker_url}}">
@@ -17,7 +18,7 @@ permalink: /talks/
 
             </a>
             <div>
-                <h3><a href="{{talk.talk_title_url}}">{{talk.title}}</a></h3>
+                <h3><a href="{{talk.url}}">{{talk.title}}</a></h3>
               </div>
             <br>
 

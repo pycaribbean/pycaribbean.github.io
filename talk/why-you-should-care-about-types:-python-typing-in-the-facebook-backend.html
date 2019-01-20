@@ -1,0 +1,37 @@
+---
+layout: page
+---
+
+<div class="speaker-wrapper">
+<a href="/speaker/luka-sterbic.html">
+  <div class="speaker-img-wrapper">
+    <img class="speaker-img-large" src="https://secure.gravatar.com/avatar/5df702cfb54b2c2acd6a2e9e1a67aac5?s=500" />
+      <h3>Luka Sterbic</h3>
+  </div>
+    </a>
+  <div class="uk-grid">
+    <div class="uk-width-4-1">
+      <h1>Why you should care about types: Python Typing in the Facebook Backend</h1>
+    </div>
+  </div>
+</div>
+<br/>
+<div>
+    <h3>Audience: All</h3>
+</div>
+<br/>
+<div class="talk_content">
+
+    <h3>Description:</h3>
+    <p>By now you have probably all heard about Python static typing. But why should you care? Are types in Python even Pythonic? Is Python turning into Java? Type annotations are Pythonic, trust Guido's word for it, and Python is definitely not turning into Java.
+
+I joined the Facebook London office in early 2016 after finishing university. At that time my team was running Python 2.7 and we had just 2 engineers. These days we are running 100% typed Python 3.6, have 8 engineers and 3 interns. In 2017 we flipped the switch from 2 to 3 and started aggressively typing the codebase, at that time we had only 3 engs.
+
+In the first year of the team we managed to hire only 1 eng, the second year 6. So what made the difference? At Facebook, people go through Bootcamp and complete tasks from teams they are interested in before taking a decision on which to join. Having a codebase that's easy to navigate and understand is key to attract talent! Type annotations achieve just that, even without using a type checker.
+
+The greatest benefit of types in large Python codebases is the fact that the input and output structures of a function are obvious from just looking at the signature. In the untyped world the definition for the class you are looking for may be N jumps away, hidden somewhere deep in the codebase, and you don't have a direct reference to it. In the best possible case grepping for it will yield just a few results and you will be able to spot what you are looking for. In the worst case though, you will have hundreds of hits and you will have to run your application and inspect the type at runtime to figure out what is going on, which make the development cycle slow and tedious.
+
+Come to this talk if you want to know more about the typing system in Python, how to gradually add it to your codebase and what benefits will your team get in the long run! I will also cover FB specific technologies like our runtime type collection system, MonkeyType, and the just open sourced type checker, Pyre!</p>
+    
+</div>
+

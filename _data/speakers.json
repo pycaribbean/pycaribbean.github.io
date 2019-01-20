@@ -1,327 +1,218 @@
 [
-    {
-        "speaker_url": "/speaker/alvaro-leiva-geisse/",
-        "name": "Alvaro Leiva Geisse",
-        "email": "aleivag@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/e84bcf837bc03baed9f7e8c3ecd8a368?s=500",
-        "bio": "I love Python, I grew up in a small town in Chile and one weekend, 16 years ago, I had the flu and could not go out. I decided to learn how to code in Python and that was the beginning of the road that would moved us all to the Northern California so that I could join the Production Engineering team at Instagram. Also like eating and cooking (in that order).",
-        "talk_title_url": "/talk/systemd-and-why-should-you-care-as-a-python-developer/",
-        "title": "systemd and why should you care as a python developer"
-    },
-    {
-        "speaker_url": "/speaker/andrew-knight/",
-        "name": "Andrew Knight",
-        "email": "andylpk247@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/122c151438d371097daee11f072951f3?s=500",
-        "bio": "Andy Knight is the \"Automation Panda\". He is a software engineer whose specialty is building test automation systems from the ground up, which involves both software development for test code as well as the infrastructure to run it in continuous integration. Currently, he is a Software Engineer in Test at PrecisionLender in Cary, NC. He also does independent consulting and training, and he is an avid Pythoneer. Check out his software blog at www.automationpanda.com.",
-        "talk_title_url": ["/talk/behavior-driven-python-with-pytest-bdd/", "/talk/egad!-how-do-we-start-writing-(better)-tests?/"],
-        "title": ["Behavior-Driven Python with pytest-bdd", "Egad! How Do We Start Writing (Better) Tests?"]
-    },
-    {
-        "speaker_url": "/speaker/christian-weber/",
-        "name": "Christian Weber",
-        "email": "webdog@github.com",
-        "avatar": "https://secure.gravatar.com/avatar/98053f3dd5808cff6f062eac2a708875?s=500",
-        "bio": "Christian Weber is a Remote-First, Solutions Engineer at GitHub. After spending the first chapters of his career in Financial Technology, Christian now focuses on assisting both cultural and digital transformation in large and small software organizations. In his spare time, Christian enjoys playing guitar, listening to loud music, and zoom-zooming in his Miata!",
-        "talk_title_url": "/talk/engineering-pop-songs-with-python/",
-        "title": "Engineering Pop Songs with Python"
-    },
-    {
-        "speaker_url": "/speaker/dane-hillard/",
-        "name": "Dane Hillard",
-        "email": "github@danehillard.com",
-        "avatar": "https://secure.gravatar.com/avatar/9da94e6b6107563a68d185a02137a32e?s=500",
-        "bio": "I like leveraging software development skills for good. During my short career I've had a chance to work in the fields of counterterrorism, cancer research, and education. I'm an unrepentant foodie\u2014read more about the upcoming [Piquant](https://piquantmag.com/about) if you like. [I made a music album](https://www.littleleviathan.com) once and [I make fashion and portraiture photography](https://www.danehillard.com) here and there.",
-        "talk_title_url": "/talk/multiple-inheritance-and-mixins/",
-        "title": "Multiple Inheritance and Mixins"
-    },
-    {
-        "speaker_url": "/speaker/dave-poortvliet/",
-        "name": "Dave Poortvliet",
-        "email": "poortvld@gvsu.edu",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/23254/Dave.jpg",
-        "bio": "Dave has been providing technical direction and oversight of university web operations at Grand Valley State University for over 15 years. He ensures design and development of custom web applications align with the strategic goals of the organization. Dave leads, manages, and mentors a talented team of web developers, designers, and student workers to deliver custom web applications that provide value to the faculty, staff, and students of the university.",
-        "talk_title_url": "/talk/twitter-data-mining-for-political-sentiment/",
-        "title": "Twitter Data Mining for Political Sentiment"
-    },
-    {
-        "speaker_url": "/speaker/dave-stoker/",
-        "name": "Dave Stoker",
-        "email": "david.stokes@oracle.com",
-        "avatar": "https://secure.gravatar.com/avatar/c0fe36ac77bf9a0ebe01f0b7844c8e7f?s=500",
-        "bio": "Dave Stokes is a MySQL Community Manager for Oracle",
-        "talk_title_url": ["/talk/mysql-8----a-new-beginning/", "/talk/python-and-the-mysql-x-devapi/"],
-        "title": ["MySQL 8 -- A New Beginning", "Python and the MySQl X DevAPI"]
-    },
-    {
-        "speaker_url": "/speaker/david-hemmat/",
-        "name": "David Hemmat",
-        "email": "dhemmat@bluecoding.com",
-        "avatar": "https://secure.gravatar.com/avatar/5f90606aa0bd6ba329997f37fb35ecc4?s=500",
-        "bio": "",
-        "talk_title_url": "/talk/hiring-top-talent-for-your-team/",
-        "title": "Hiring top talent for your team"
-    },
-    {
-        "speaker_url": "/speaker/david-tavarez/",
-        "name": "David Tavarez",
-        "email": "davidftavarez@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/aa1c0068b4e6289adee5fd3fdf1f9cc9?s=500",
-        "bio": "I'm David Tavarez, an Open Source advocate, Software engineer, Security and privacy freak and Pentester enthusiast. I\u2019ve been coding since I was 12 years old, I like to learn (as much as I can) how things are done and how much I can improve them. I help business to achieve their goals through Software. I\u2019m really passionate about Community and Technology. I\u2019m not really tight to a programming language, since I can code in Python, C#, PHP, Java, Javascript and C, and mre. When I\u2019m not writing code, you can find me playing basketball, traveling with friends and family or doing political activism.",
-        "talk_title_url": "/talk/how-to-scan-a-whole-country-for-fun-and...-yes,-just-for-fun!/",
-        "title": "How to scan a whole country for fun and... yes, just for fun!"
-    },
-    {
-        "speaker_url": "/speaker/dustin-ingram/",
-        "name": "Dustin Ingram",
-        "email": "di@python.org",
-        "avatar": "https://secure.gravatar.com/avatar/e5cc71215389f7c74b1f459e1ee52c42?s=500",
-        "bio": "I\u2019m Dustin (aka [@di](<https://github.com/di>)), a Developer Advocate at Google, focused on supporting the Python community on the Google Cloud Platform. I\u2019m also a member of the [Python Packaging Authority](https://github.com/orgs/pypa/people), maintainer of the [Python Package Index](https://pypi.org/), and organizer for the [PyTexas](https://www.pytexas.org) conference.",
-        "talk_title_url": "/talk/what's-new-in-python-3.7/",
-        "title": "What's new in Python 3.7"
-    },
-    {
-        "speaker_url": "/speaker/elise-micheals/",
-        "name": "Elise Micheals",
-        "email": "365dayloveproject@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/95d227e40f043a240e6a30eed251337a?s=500",
-        "bio": "Elise Micheals is a Sales Engineer for a tech company, working entirely remote and living her life as a digital nomad. Through her travels, she's been able to speak with teams from all walks of life, become the first Global leader for her company, volunteer her skills to help others obtain jobs and still be able to build her own business on the side. \n\nA former actress with a passion for learning, I strive to empower myself and others each and every day. I truly believe anything is possible and will continue to play my part in helping people achieve their dreams.",
-        "talk_title_url": "/talk/essential-communication-skills-for-business/",
-        "title": "Essential Communication Skills for Business"
-    },
-    {
-        "speaker_url": "/speaker/eneldo-serrata/",
-        "name": "Eneldo Serrata",
-        "email": "eneldoserrata@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/c2815c53f0c79f572d7d44042481b865?s=500",
-        "bio": "",
-        "talk_title_url": "/talk/odoo-iot/",
-        "title": "Odoo IoT"
-    },
-    {
-        "speaker_url": "/speaker/grishma-jena/",
-        "name": "Grishma Jena",
-        "email": "grishma.jena@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/4f25eff0c4817bd23f912356192509af?s=500",
-        "bio": "Grishma is a Cognitive Software Engineer with the Data Science for Marketing team at IBM Watson in San Francisco. She earned her Masters in Computer Science at University of Pennsylvania. Her research interests are in Machine Learning and Natural Language Processing. She was recently a mentor for AI4ALL's AI Project Fellowship Spring 2018 where she guided a group of high school students to use AI for prioritizing 911 EMS calls. In her free time, she writes, cooks and likes conducting workshops and delivering talks. She likes explaining things in an easy-to-understand format, drawing analogies from real-life (eg. using Uncle Scrooge to explain Greedy Algorithms https://medium.com/the-graph/uncle-scrooge-meets-greedy-algorithms-dfc80c33d7ac). https://www.linkedin.com/in/grishmajena/",
-        "talk_title_url": "/talk/a-hands-on-introduction-to-natural-language-processing-in-python/",
-        "title": "A hands-on introduction to Natural Language Processing in Python"
-    },
-    {
-        "speaker_url": "/speaker/heidi-waterhouse/",
-        "name": "Heidi Waterhouse",
-        "email": "h.waterhouse@gmail.com",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1497/KCDCportrait0279.JPG",
-        "bio": "Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favorite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she's sure there is a pocket for the mic.\n",
-        "talk_title_url": ["/talk/tinkertoys,-microservices,-and-feature-management:-how-to-build-for-the-future/", "/talk/every-scar-a-story:-the-links-between-development-practice,-source-control,-testing,-and-deployment/"],
-        "title": ["Tinkertoys, microservices, and feature management: How to build for the future", "Every Scar A Story: The links between development practice, source control, testing, and deployment"]
-    },
-    {
-        "speaker_url": "/speaker/ivan-torroledo/",
-        "name": "Ivan Torroledo",
-        "email": "ivan.torroledo@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/a822b10a51513d8b8f39a252b5124062?s=500",
-        "bio": "Ivan Torroledo is a data scientist in the Cyxtera Research organization. In this role, he develops and implements machine and deep learning algorithms to enhance phishing detection, network security, fraud detection, and malware mitigation. Ivan is also highly interested in research on the application of machine and deep learning in high energy physics and astrophysics. Before joining Cyxtera, he worked at the Central Bank of Colombia, applying high performance computing tools to monetary policy analysis. He is passionate about applying the most advanced scientific knowledge to cyber security industry. Ivan holds degrees in Economics and Physics.",
-        "talk_title_url": "/talk/building-next-generation-writers-using-ai/",
-        "title": "Building next generation writers using AI"
-    },
-    {
-        "speaker_url": "/speaker/jeannette-washington/",
-        "name": "Jeannette Washington",
-        "email": "bearlyarticulating@gmail.com",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/35287/jeannette-1__1_.jpg",
-        "bio": "I am Jeannette Washington, M.Ed. a former Speech Language Pathologist with nearly a decade of experience working with students that exhibit special abilities. My expertise in the field of dyslexia has been solicited in The Washington Post alongside the cofounder of the Yale Center for Dyslexia & Creativity. Learning to code has ignited my passion for special populations in the tech industry. I have spoken at the Mississippi Dyslexia Symposium, A11y Camp Chicago and participated on a Diversity in WordPress Panel, to name a few. I can always be found tinkering or boasting the importance of accessibility, inclusivity, cognitive diversity and equity in the tech industry.",
-        "talk_title_url": "/talk/your-special-abilities-and-python/",
-        "title": "Your Special Abilities and Python"
-    },
-    {
-        "speaker_url": "/speaker/jeremy-meiss/",
-        "name": "Jeremy Meiss",
-        "email": "Jeremy.Meiss@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/89ab857b2d58015b13ca239c3a277fb1?s=500",
-        "bio": "Jeremy is the Head of Community at Auth0 and former Director of DevRel/Community at XDA-Developers. He is a lover of all things coffee, community, open source, and tech. He has a wife, 3 kids, and a beagle who all profess undying love.",
-        "talk_title_url": "/talk/introduction-to-identity-and-its-uses-in-modern-apps/",
-        "title": "Introduction to Identity and Its Uses in Modern Apps"
-    },
-    {
-        "speaker_url": "/speaker/jessica-garson/",
-        "name": "Jessica Garson",
-        "email": "jessica.garson@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/fb81bde5fa81672ea73df7624e82dc0c?s=500",
-        "bio": "Jessica Garson is a Adjunct Professor at NYU. She\u2019s also the organizer of the Tech Lady Hackathon, Crack the Code, and previously the organizer of Hack && Tell DC. She is a frequent teacher at DC's Hear Me Code, beginner friendly classes for women by women and has run programming classes at DC area public libraries. Jessica also runs a self-published programming magazine called What's my Function. In 2015, she was named by DC FemTech as one of the most powerful Women in Tech. In 2017, one of her projects nominateher.org got named best web/mobile product of the year by technical.ly magazine. Previously she\u2019s worked at ISL, Burson-Marstellar, The National Education Association, ISSI Data, and Salsa Labs. Before working in technology, Jessica worked on numerous campaigns throughout the country and got her degree in Political Science at the University of Hartford.",
-        "talk_title_url": "/talk/how-to-make-music-with-python-and-foxdot/",
-        "title": "How to Make Music With Python and FoxDot"
-    },
-    {
-        "speaker_url": "/speaker/jessie-hedges/",
-        "name": "Jessie Hedges",
-        "email": "jessicalhedges@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/0e53ebf321475bcfe33a428baa476a3d?s=500",
-        "bio": "Jessie Hedges is a software developer at the Software Engineering Institute of Carnegie Mellon University and has 9 years of professional experience. Jessie has Bachelor\u2019s degrees in both Psychology and Computer Science from the University of Pittsburgh, and a Masters degree in Information Technology with a focus in Software Design and Management from Carnegie Mellon University. An avid believer in \u201cbaking empathy in,\u201d Jessie tries to find ways to integrate this into software design, leading projects, onboarding and mentoring and process improvement. Jessie also serves on staff council for the university, using advocacy and community involvement to improve the staff experience for all people. Most recently, she has worked with other staff on drafting an inclusive parental leave policy proposal for all staff. When she\u2019s not working, she enjoys spending time with her dog, relaxing with a sheet mask, knitting, and practicing hygge in Pittsburgh\u2019s cold winter months.\n",
-        "talk_title_url": ["/talk/mental-health-and-tech-shops/", "/talk/find-your-culture-fit/", "/talk/show-your-work/"],
-        "title": ["Mental Health and Tech Shops", "Find Your Culture Fit", "Show Your Work"]
-    },
-
-    {
-        "speaker_url": "/speaker/karen-miller/",
-        "name": "Karen Miller",
-        "email": "karenmil@andrew.cmu.edu",
-        "avatar": "https://secure.gravatar.com/avatar/43039f0cb6447f44a40cf24defc2b922?s=500",
-        "bio": "Karen D. Miller is a recent Carnegie Mellon University graduate from the Information Security, M.S. program and currently works full-time as an Associate Cyber Security Engineer at the Software Engineering Institute. Karen received a Bachelor of Science degree in Computer Science from Southern Utah University where she frequently participated in cyber defense and capture the flag competitions which fully sparked her interest in penetration testing as a career. Because of her interest in security and government work, Karen chose to pursue her Master's degree through the Scholarship for Service program at CMU instead of moving into a full-time job after graduating from SUU. Although still early in her career, Karen wishes to help others identify paths which align with their goals and how to effectively achieve those goals, which can be exciting, intimidating, and life-changing all at once.",
-        "talk_title_url": "/talk/how-to-hack-(legally):-python-edition/",
-        "title": "How to Hack (Legally): Python Edition"
-    },
-    {
-        "speaker_url": "/speaker/kojo-idrissa/",
-        "name": "Kojo Idrissa",
-        "email": "kojo.idrissa@gmail.com",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12002/IMG_7131.JPG",
-        "bio": "Kojo Idrissa *was* an accountant who got an MBA and taught at university in two different countries. He's *now* a software engineer, international tech conference speaker and the [DEFNA](https://www.defna.org/) North American Ambassador ([#NorAmGT](https://twitter.com/search?q=%23NorAmGT&src=tyah)). He's spoken at tech conferences about spreadsheets, contributing to tech communities, Dungeons & Dragons, inclusion and privilege. You can find him online at http://kojoidrissa.com/ or as [@transition](https://twitter.com/Transition) on Twitter.\n",
-        "talk_title_url": "/talk/a-tale-of-two-pythons:-growing-contribution-through-coding-inclusion/",
-        "title": "A Tale of Two Pythons: Growing Contribution Through Coding Inclusion"
-    },
-    {
-        "speaker_url": "/speaker/lisibonny-beato/",
-        "name": "Lisibonny Beato",
-        "email": "le.beato@ce.pucmm.edu.do",
-        "avatar": "https://secure.gravatar.com/avatar/10b4f510ae515d1c48b8d3592bd88cde?s=500",
-        "bio": "Graduada de la carrera de Ingenier\u00eda de Sistemas y Computaci\u00f3n con un M\u00e1ster en Tecnolog\u00edas de la Informaci\u00f3n en la Universidad Polit\u00e9cnica de Madrid. Actualmente cursando un Doctorado en Tecnolog\u00edas para el Desarrollo de Sistemas Software Complejos enfocada en NLP y Opinion Mining sobre textos de Microblogs. Profesora-Investigadora de la PUCMM.\n\nAmante de la tecnolog\u00eda, la cocina y de conocer el mundo.",
-        "talk_title_url": "/talk/procesamiento-de-lenguaje-natural-con-python:-un-vistazo-a-las-librer\u00edas-nltk-y-pattern/",
-        "title": "Procesamiento de Lenguaje Natural con Python: un vistazo a las librer\u00edas NLTK y Pattern"
-    },
-    {
-        "speaker_url": "/speaker/luka-sterbic/",
-        "name": "Luka Sterbic",
-        "email": "luka.sterbic@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/5df702cfb54b2c2acd6a2e9e1a67aac5?s=500",
-        "bio": "## Bio\nLuka Steric is a Software Engineer at Facebook. He joined the London office in 2016 after receiving his Master\u2019s Degree in Computer Science from the University of Zagreb, Croatia. During his time in university his focus was mainly on bioinformatics, especially next-gen DNA sequence assemblers. Before joining Facebook he interned at the Genome Institute of Singapore and at the International Monetary Fund in Washington DC. He is now part of the Dumont team and works on automated x-repo testing, scenario verification and product monitoring. He is also an Open Source contributor to various Python projects like Typeshed and Black.\n\n",
-        "talk_title_url": "/talk/why-you-should-care-about-types:-python-typing-in-the-facebook-backend/",
-        "title": "Why you should care about types: Python Typing in the Facebook Backend"
-    },
-    {
-        "speaker_url": "/speaker/matheus-monte/",
-        "name": "Matheus Monte",
-        "email": "mcmonte@outlook.com",
-        "avatar": "https://secure.gravatar.com/avatar/3fa32270df4baa02297ab5177255d77d?s=500",
-        "bio": "I\u2019m matheus monte, Brazilian software developer. Now I\u2019m working on Samsung Institute of Technology, placed on Manaus-AM . I have almost 10 years working on bleed edge technology. Already work to big companies as Nokia, Microsoft, Claro and IBM working with top technologies as JavaScript, C#, C++ and innovate projects . Love to share knowledging with the community and companies though talks and trainnings.",
-        "talk_title_url": "/talk/pydtn-:-a-framework-to-build-dtn-apps-using-python/",
-        "title": "PyDTN : A framework to build DTN apps using Python"
-    },
-    {
-        "speaker_url": "/speaker/matilda/",
-        "name": "matilda",
-        "email": "vihavira@protonmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/9d70138638f5871a104f8b1c1674b120?s=500",
-        "bio": "Matilda is a trans disabled artist, community organizer, and programmer studying, imagining, and leveraging mathematical, ecological, and social systems for a more just, equitable, and inclusive world. They have organized around racial, disability, climate, and housing justice and are currently a Data Science fellow at The Knowledge House in New York.\n\nThey are interested in p2p networks as a way of allowing communities to protect themselves in the face of hostile forces, be they social, economic, or ecological",
-        "talk_title_url": "/talk/p2p,-python,-and-you!/",
-        "title": "P2P, Python, and You!"
-    },
-    {
-        "speaker_url": "/speaker/michelle-brenner/",
-        "name": "Michelle Brenner",
-        "email": "mbrenner24@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/d07a9b0681dbf14ec2744ed12bb6cd17?s=500",
-        "bio": "Michelle is a Senior Backend Engineer at ChowNow, helping restaurants to improve their business so they can keep making great food. She has previously served as both an engineer and a manager for the last 7+ years in entertainment technology. She has worked tirelessly to help movies and television get made faster and cheaper, saving productions millions of dollars. A Philadelphia native, she has a background in Media Arts and is a self-taught Python developer. Michelle is now working to give back to her community through mentorship and career training. \n",
-        "talk_title_url": "/talk/how-to-use-data-to-get-a-raise-and-make-your-first-serverless-app/",
-        "title": "How to use data to get a raise and make your first serverless app"
-    },
-    {
-        "speaker_url": "/speaker/norah-klintberg-sakal/",
-        "name": "Norah Klintberg Sakal",
-        "email": "norah.klintberg.sakal@gmail.com",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/24469/Norah_Klintberg_Sakal.jpg",
-        "bio": "I'm a 30-year-old self-taught data scientist and entrepreneur from Sweden living in San Francisco. Besides from the own startup, I'm working with a research team where we are applying artificial intelligence and machine learning capabilities on biomedical science to solve big health problems. My passion and mission is to use my engineering background in biotechnology to accelerate the development of new technologies that will help doctors to cure, prevent and manage diseases. \n\nI\u2019m eager to show just a how few lines of code can get you a whole application, end-to-end, and I'm passionate about encouraging and inspiring people to come up with new ideas on implementing data science on their own day-to-day problems by sharing my journey.\n",
-        "talk_title_url": "/talk/guide-to-your-own-artificial-intelligence-application-in-3-easy-steps/",
-        "title": "Guide to your own artificial intelligence application in 3 easy steps"
-    },
-    {
-        "speaker_url": "/speaker/ordanis-sanchez/",
-        "name": "Ordanis Sanchez",
-        "email": "ordanisanchez@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/c1b563391a5d0d10f07e570a5cc2869f?s=500",
-        "bio": "I came from another field, didn't had enough money to go to college for a CS Bachelor so I started learning to programme on my own, been python my first programing language, it was a great decision and keep being great. I had worked on many projects (QA automatization, Web development, Scraping, DL, etc ...) learning a lot throw out my journey. Nowadays I work as Air Traffic Controller on Punta Cana Airport, Web developer for the Instituto Dominicano de Aviacion Civil and Consultant for another company.",
-        "talk_title_url": "/talk/lets-build-an-async-web-framework!/",
-        "title": "Lets build an async web framework!"
-    },
-    {
-        "speaker_url": "/speaker/oscar-cortez/",
-        "name": "Oscar Cortez",
-        "email": "om.cortez.2010@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/a5dc32eefba4ac91ac3bf4745def9559?s=500",
-        "bio": "Hi, I'm Oscar! a full-stack web developer based in Nicaragua who's love building blazingly fast and elegant sites using Python, Django, and the \"cool kids\" frontend libraries. During my short career I had the chance to do extensive work in the fields of journalism, open data, machine learning, and education. When I\u2019m not coding, I\u2019m helping other people make unbelievably cool stuff via local meetups or mentorship.",
-        "talk_title_url": "/talk/modern-python-packaging-without-pain/",
-        "title": "Modern Python packaging without pain"
-    },
-    {
-        "speaker_url": "/speaker/ra\u00fal-roa/",
-        "name": "Ra\u00fal Roa",
-        "email": "raul.roa@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/c2b39f1fbce780ad5aced7066ef0cf67?s=500",
-        "bio": "I'm a Magic Engineer at TagShelf. I work designing Machine Learning models and applications for the real world, allowing regular people to do super hero things.",
-        "talk_title_url": "/talk/person-of-interest-(wip)/",
-        "title": "Person of Interest (WIP)"
-    },
-    {
-        "speaker_url": "/speaker/rivo-laks/",
-        "name": "Rivo Laks",
-        "email": "code@rivolaks.com",
-        "avatar": "https://secure.gravatar.com/avatar/895ac7b84a280f686b70e2a70a8f5cd9?s=500",
-        "bio": "Rivo is an experienced software developer and systems architect.\n\nHe has mainly worked with Python and Django since 2011 and is also interested in Docker, React and many other technologies surrounding web development.\n\nCurrently on sabbatical, Rivo was last employed as lead engineer at Thorgate, working on a variety of projects involving forestry, smart streetlights, and more.\n",
-        "talk_title_url": "/talk/why-machine-learning-isn't-scary/",
-        "title": "Why Machine Learning isn't Scary"
-    },
-    {
-        "speaker_url": "/speaker/sai-srirampur/",
-        "name": "Sai Srirampur",
-        "email": "sai@citusdata.com",
-        "avatar": "https://secure.gravatar.com/avatar/9720c99c880394d49a5a5b7380217380?s=500",
-        "bio": "Sai Srirampur a.k.a Sai\n->Lead Solutions Engineer and Early Engineer at Citus Data: Helped in architectures for many customer deployments. That is where all the django/python/postgres experience comes from.\n-> Have been playing ping-pong since more than I have been doing Software! ;)\n",
-        "talk_title_url": "/talk/scaling-multi-tenant-apps-using-the-django-orm-and-postgres/",
-        "title": "Scaling multi-tenant apps using the Django ORM and Postgres"
-    },
-    {
-        "speaker_url": "/speaker/sai-vennam/",
-        "name": "Sai Vennam",
-        "email": "svennam92@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/9e8c852fc8884c3c6fa3445653f7632b?s=500",
-        "bio": "Sai Vennam is a Developer Advocate at IBM with expertise on Node.js, Go, APIs and various platforms like IBM Cloud, Heroku and Azure. He enjoys creating developer-friendly content and samples to showcase the latest and greatest cloud technology. As a hobby, he works on his home automation using Raspberry Pis and serverless technology. His other interests include cooking Indian food, playing guitar, and going to music festivals.",
-        "talk_title_url": "/talk/building-serverless-apis-for-modern-application-architectures/",
-        "title": "Building Serverless APIs for Modern Application Architectures"
-    },
-    {
-        "speaker_url": "/speaker/timothy-allen/",
-        "name": "Timothy Allen",
-        "email": "tim@pyphilly.org",
-        "avatar": "https://secure.gravatar.com/avatar/658ae7ed330d8fc70df1c173960d27ad?s=500",
-        "bio": "Tim joined Wharton Research Data Services in 2008, after working for local companies and starting a few of his own. Having started programming at age six, he is currently an organizer of the Philadelphia Python Users Group, DjangoCon US, and a member of the Python Software Foundation and Django Software Foundation. Tim is an avid hockey fan, was the first person to sell real world items for virtual microcurrency long before Bitcoin, and enjoys beating his head against brick walls (as demonstrated by his passion for coding, cycling in Philadelphia, and never-ending quest to get his cat to behave). A life-long Philadelphia resident, he graduated from the University of Pennsylvania in 1996 with an individualized major, \u201cComputer Aided Information Acquisition\u201d.",
-        "talk_title_url": "/talk/absolutely-awesome-automated-apis/",
-        "title": "Absolutely Awesome Automated APIs"
-    },
-    {
-        "speaker_url": "/speaker/veronica-hanus/",
-        "name": "Veronica Hanus",
-        "email": "vzh@mit.edu",
-        "avatar": "https://secure.gravatar.com/avatar/be94abb970184975a723a169646d7557?s=500",
-        "bio": "Before Veronica was a programmer, she was a researcher (she helped pick the Mars Curiosity Rover\u2019s landing site!) with an eye for process improvement. As she\u2019s taught herself web development, she\u2019s brought her research approach from her time at NASA-JPL & MIT into whatever she was learning. She loves exploring the web and teaching, and recently co-taught a PyCon tutorial on using web-scraping and modeling to predict Oscar winners. When she isn\u2019t learning how the web can be better for developers, she enjoys blogging, nerding out about documentation, and snuggling as many cats as possible.\n\nPast speaking experience:\n\n**Technical presentations**\n\n* \u201cImagining Colors is Hard: Representing Visual Changes in Version Control\u201d, Hacktoberfest NYC 2018 | [slides](https://bit.ly/2C7uNFI) \n* Assisted in teaching \u201cLights Camera Action! Scrape, explore, and model to predict Oscar winners & box office hits\u201d tutorial at PyCon 2018 | [description](https://us.pycon.org/2018/schedule/presentation/48/) | [bio](https://us.pycon.org/2018/speaker/profile/337/) | [video](https://www.youtube.com/watch?v=XMtygcrqHqo) | [materials](https://github.com/dhanus/oscars-tutorial/blob/master/Part1-Scraping-Box-Office-Hits.ipynb) |\n* \u201cUsing Unix to make your time in the terminal better\u201d at NYC Women\u2019s Work Jelly 2017 | [project page](https://github.com/vzhz/friendly_terminal) |\n* Assisted in teaching \u201cPython for Data Science\u201d tutorial at Boston Code Camp 27 (2016) | [description](https://www.bostoncodecamp.com/CC26/sessions/details/16421) | [materials](https://github.com/swzCuroverse/BostonCodeCamp26) |\n* \u201cGiving Imposter Syndrome the Kick in the Pants It Deserves\u201d at NYC Women\u2019s Work Jelly 2016 | [slides](https://docs.google.com/presentation/d/18IB_3lKaUcEqShqjqRn62Jc5XGqhevQnfncPPD7cA18/edit) |\n* Workshop \u201cLaTeX: Academic Typesetting for Industry\u201d at Recurse Center 2015 | [materials](https://github.com/vzhz/LaTeXresources) |\n\n**Teaching experience**\n\n* SAT Writing Instructor for MIT Academic Teaching Initiative 2011-2012\nDeveloped & taught 12-week SAT Writing course \u2022 Median 50% showed a 200 point increase during the course \u2022 A few students even contacted me as they were writing college entrance essays\n\n* Programming Coach for Bootstrap Afterschool Program 2011-2012\nProvided 1-on-1 and group instruction for 14 middle-school students in creating their own games \u2022 Used functional programming (Scheme) and pair programming to teach algebraic concepts (Pythagorean theorem & writing appropriate algebraic functions) and programming concepts (problem solving using the Design Recipe, data types, Boolean logic, conditional branching, functions & variables)\n\n**Research-related presentations/communication**\n\n* Presented findings of safety tests of malfunctioning equipment to lab at MIT Paleomagnetism Laboratory 2012 \n* Presented findings to internal committee / communicated intern project needs to software developer at NASA JPL 2009\n\u2022 Led student effort to find rock distributions of landing sites for Curiosity rover \u2022 Introduced three students to in-house software for QA element of our project, including reporting procedures, and software process and limitations",
-        "talk_title_url": "/talk/\"git-hook[ed]\u201d-on-images-&-up-your-documentation-game/",
-        "title": "\"Git hook[ed]\u201d on images & up your documentation game"
-    },
-    {
-        "speaker_url": "/speaker/wildin-mota/",
-        "name": "Wildin Mota",
-        "email": "wildinmota@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/ffa6cad924d8c8a10ef9337500db6667?s=500",
-        "bio": "Hola, Soy Wildin Mota. Tengo 18 a\u00f1os de edad y actualmente trabajo como Python Developer en PibiCloud, aunque para cuando llegue la conferencia seguro sere FullStack, incluso hasta haciendo Machine Learning pero eso no es seguro aun.\n\nSoy un apasionado del software desde los 14 estoy en esete mundo estudiando por mi cuenta mi primera intereaccion programando era usando bat en windows el cual aprendi en un libro de HackXRank, desde que inicie nunca lo he dejado y siempre me e mantenido curioso ya el resto es historia de estudio y consistencia.\n\nA mis 17 vendi mi primer proyecto de software el cual era un sistema de ventas para la Ferreteria Chelo, este lo hice en C# y SQL Server estaba muy emociado y motivado que hasta amanecia programando, lo mas duro que hice fueron 14 horas seguidas bebi un monton de cafe ese dia para poder aguantar tal trabajo.\n\nA los 18 al graduarme de bachiller en mi pueblo que es la Vega me senti arrinconado y con un futuro escrito en la vega solo una universidad da Software y no hay empresas en esta area interesantes, ademas estaba ansioso de un cambio drastico, a los pocos dias me inscribi en el ITLA sin consentimiento de mis padres yo trabajaba como tecnico asi que pude pagar yo mismo el derecho a admision y los viajes a santo domingo para los examenes, yo desde hace tiempo queria trabajar mientras estaba en la universidad era algo que queria bastante pero al inscribirme en el ITLA se convirtio en necesidad porque mis padres no podian pagarlo y yo tampoco queria que lo hicieran porque era algo que yo queria y yo debia proveermelo por mi mismo, es importante notar que yo enviaba CV's a solo una emprea a la vez y esperaba hasta que em dieran respuesta porque me parecia mal el hecho de ser aceptado por mas de una y despues tener que rechazar a alguien que me dio una oprtunidad pero despues de ver que eso no funcionaba y viendo la necesidad de tener ingresos entre a emplea.do y mande CV a diestra y siniestra en todas que yo tuviera las requisitos incluso Instacarro me devolvio el mensaje pero pospuse la entrevista sin saber que era algo que no se viea muy bien y no volvi a tener respuesta :'( al final una empresa me escribio a las pocas horas de mandar la soclitud y otra me llamo al siguiente dia, me enfoque en esas dos. Para no alargr la historia me quede con la primera empresa que es Castillo Software Solutions estaba para un puesto que solo era HTML y CSS algo que no me ponia muy feliz pero yo se que lo convertiria en algo mas con el tiempo pedi a la empresa que me dieran issues en Angular y asi fue, eso me mantuvo con retos por un tiempo pero aun para mi no era suficiente yo queria ser backend developer y tenia que serlo de una.\n\nA mis 9-10 meses trabajando en CastilloSS un amigo me mando una oferta laboral como Python Dev usando Django/Flask y ademas haciendo Angular e Ionic tecnologias que aprendi para CastilloSS es curioso decir que cuando pedi hacer tareas en angular aun no habia visto un curso basico completo de Angular pero me manejaba bastante bien con JS y me desenvolvi bien, terminaba mis tareas a tiempo y me dejaron solo haciendo Angular.\n\nPues consegui el trabajo y senti que una puerta de un monton de posibilidades se abrio ante mi, es que en esta empresa mi jefe es un genio con un monton de experiencia dispuesto a mostrarnos todo e incluso hizo una seria de libros para volverse senior si los entiendes bien, los cuales ya estoy leyendo, me gusta bastante donde trabajo ahora y pienso ir a ayudar en tantas areas com pueda no hay limites.\n\nCorte bastante la historia para no escribir mas XD, lo siento.\n\n",
-        "talk_title_url": "/talk/ser-un-programador-profesional-antes-de-la-universidad./",
-        "title": "Ser un Programador Profesional antes de la Universidad."
-    },
-    {
-        "speaker_url": "/speaker/zac-brown/",
-        "name": "Zac Brown",
-        "email": "me@yupitszac.com",
-        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/11947/17022097_10206604068179104_6023710202686998005_n.jpg",
-        "bio": "Since writing his first line of code at age 9, Zac has been completely fascinated with computers. 14 years later, at age 23 Zac is working on Python, erlang and node based applications at one of the leading VoIP communications companies today. With experience in multiple areas of product development and delivery, Zac brings his years of learning and growing to multiple venues and events across the globe.",
-        "talk_title_url": "/talk/easy-ci/cd-for-your-python-app-using-bitbucket-pipelines/",
-        "title": "Easy CI/CD for your Python app using Bitbucket Pipelines"
-    }
+  {
+    "avatar": "https://secure.gravatar.com/avatar/e84bcf837bc03baed9f7e8c3ecd8a368?s=500",
+    "name": "Alvaro Leiva Geisse",
+    "url": "/speaker/alvaro-leiva-geisse.html",
+    "bio": "I love Python, I grew up in a small town in Chile and one weekend, 16 years ago, I had the flu and could not go out. I decided to learn how to code in Python and that was the beginning of the road that would moved us all to the Northern California so that I could join the Production Engineering team at Instagram. Also like eating and cooking (in that order)."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/122c151438d371097daee11f072951f3?s=500",
+    "name": "Andrew Knight",
+    "url": "/speaker/andrew-knight.html",
+    "bio": "Andy Knight is the \"Automation Panda\". He is a software engineer whose specialty is building test automation systems from the ground up, which involves both software development for test code as well as the infrastructure to run it in continuous integration. Currently, he is a Software Engineer in Test at PrecisionLender in Cary, NC. He also does independent consulting and training, and he is an avid Pythoneer. Check out his software blog at www.automationpanda.com."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/98053f3dd5808cff6f062eac2a708875?s=500",
+    "name": "Christian Weber",
+    "url": "/speaker/christian-weber.html",
+    "bio": "Christian Weber is a Remote-First, Solutions Engineer at GitHub. After spending the first chapters of his career in Financial Technology, Christian now focuses on assisting both cultural and digital transformation in large and small software organizations. In his spare time, Christian enjoys playing guitar, listening to loud music, and zoom-zooming in his Miata!"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/9da94e6b6107563a68d185a02137a32e?s=500",
+    "name": "Dane Hillard",
+    "url": "/speaker/dane-hillard.html",
+    "bio": "I like leveraging software development skills for good. During my short career I've had a chance to work in the fields of counterterrorism, cancer research, and education. I'm an unrepentant foodie\u2014read more about the upcoming [Piquant](https://piquantmag.com/about) if you like. [I made a music album](https://www.littleleviathan.com) once and [I make fashion and portraiture photography](https://www.danehillard.com) here and there."
+  },
+  {
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/23254/Dave.jpg",
+    "name": "Dave Poortvliet",
+    "url": "/speaker/dave-poortvliet.html",
+    "bio": "Dave has been providing technical direction and oversight of university web operations at Grand Valley State University for over 15 years. He ensures design and development of custom web applications align with the strategic goals of the organization. Dave leads, manages, and mentors a talented team of web developers, designers, and student workers to deliver custom web applications that provide value to the faculty, staff, and students of the university."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/5f90606aa0bd6ba329997f37fb35ecc4?s=500",
+    "name": "David Hemmat",
+    "url": "/speaker/david-hemmat.html",
+    "bio": ""
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/aa1c0068b4e6289adee5fd3fdf1f9cc9?s=500",
+    "name": "David Tavarez",
+    "url": "/speaker/david-tavarez.html",
+    "bio": "I'm David Tavarez, an Open Source advocate, Software engineer, Security and privacy freak and Pentester enthusiast. I've been coding since I was 12 years old, I like to learn (as much as I can) how things are done and how much I can improve them. I help business to achieve their goals through Software. I'm really passionate about Community and Technology. I'm not really tight to a programming language, since I can code in Python, C#, PHP, Java, Javascript and C, and mre. When I'm not writing code, you can find me playing basketball, traveling with friends and family or doing political activism."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/e5cc71215389f7c74b1f459e1ee52c42?s=500",
+    "name": "Dustin Ingram",
+    "url": "/speaker/dustin-ingram.html",
+    "bio": "I'm Dustin (aka [@di](<https://github.com/di>)), a Developer Advocate at Google, focused on supporting the Python community on the Google Cloud Platform. I'm also a member of the [Python Packaging Authority](https://github.com/orgs/pypa/people), maintainer of the [Python Package Index](https://pypi.org/), and organizer for the [PyTexas](https://www.pytexas.org) conference."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/95d227e40f043a240e6a30eed251337a?s=500",
+    "name": "Elise Micheals",
+    "url": "/speaker/elise-micheals.html",
+    "bio": "Elise Micheals is a Sales Engineer for a tech company, working entirely remote and living her life as a digital nomad. Through her travels, she's been able to speak with teams from all walks of life, become the first Global leader for her company, volunteer her skills to help others obtain jobs and still be able to build her own business on the side. \n\nA former actress with a passion for learning, I strive to empower myself and others each and every day. I truly believe anything is possible and will continue to play my part in helping people achieve their dreams."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/c2815c53f0c79f572d7d44042481b865?s=500",
+    "name": "Eneldo Serrata",
+    "url": "/speaker/eneldo-serrata.html",
+    "bio": ""
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/4f25eff0c4817bd23f912356192509af?s=500",
+    "name": "Grishma Jena",
+    "url": "/speaker/grishma-jena.html",
+    "bio": "Grishma is a Cognitive Software Engineer with the Data Science for Marketing team at IBM Watson in San Francisco. She earned her Masters in Computer Science at University of Pennsylvania. Her research interests are in Machine Learning and Natural Language Processing. She was recently a mentor for AI4ALL's AI Project Fellowship Spring 2018 where she guided a group of high school students to use AI for prioritizing 911 EMS calls. In her free time, she writes, cooks and likes conducting workshops and delivering talks. She likes explaining things in an easy-to-understand format, drawing analogies from real-life (eg. using Uncle Scrooge to explain Greedy Algorithms https://medium.com/the-graph/uncle-scrooge-meets-greedy-algorithms-dfc80c33d7ac). https://www.linkedin.com/in/grishmajena/"
+  },
+  {
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1497/KCDCportrait0279.JPG",
+    "name": "Heidi Waterhouse",
+    "url": "/speaker/heidi-waterhouse.html",
+    "bio": "Heidi is a developer advocate with LaunchDarkly. She delights in working at the intersection of usability, risk reduction, and cutting-edge technology. One of her favorite hobbies is talking to developers about things they already knew but had never thought of that way before. She sews all her conference dresses so that she's sure there is a pocket for the mic.\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/a822b10a51513d8b8f39a252b5124062?s=500",
+    "name": "Ivan Torroledo",
+    "url": "/speaker/ivan-torroledo.html",
+    "bio": "Ivan Torroledo is a data scientist in the Cyxtera Research organization. In this role, he develops and implements machine and deep learning algorithms to enhance phishing detection, network security, fraud detection, and malware mitigation. Ivan is also highly interested in research on the application of machine and deep learning in high energy physics and astrophysics. Before joining Cyxtera, he worked at the Central Bank of Colombia, applying high performance computing tools to monetary policy analysis. He is passionate about applying the most advanced scientific knowledge to cyber security industry. Ivan holds degrees in Economics and Physics."
+  },
+  {
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/35287/jeannette-1__1_.jpg",
+    "name": "Jeannette Washington, M.Ed.",
+    "url": "/speaker/jeannette-washington,-m.ed..html",
+    "bio": "I am Jeannette Washington, M.Ed. a former Speech Language Pathologist with nearly a decade of experience working with students that exhibit special abilities. My expertise in the field of dyslexia has been solicited in The Washington Post alongside the cofounder of the Yale Center for Dyslexia & Creativity. Learning to code has ignited my passion for special populations in the tech industry. I have spoken at the Mississippi Dyslexia Symposium, A11y Camp Chicago and participated on a Diversity in WordPress Panel, to name a few. I can always be found tinkering or boasting the importance of accessibility, inclusivity, cognitive diversity and equity in the tech industry."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/89ab857b2d58015b13ca239c3a277fb1?s=500",
+    "name": "Jeremy Meiss",
+    "url": "/speaker/jeremy-meiss.html",
+    "bio": "Jeremy is the Head of Community at Auth0 and former Director of DevRel/Community at XDA-Developers. He is a lover of all things coffee, community, open source, and tech. He has a wife, 3 kids, and a beagle who all profess undying love."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/fb81bde5fa81672ea73df7624e82dc0c?s=500",
+    "name": "Jessica Garson",
+    "url": "/speaker/jessica-garson.html",
+    "bio": "Jessica Garson is a Adjunct Professor at NYU. She's also the organizer of the Tech Lady Hackathon, Crack the Code, and previously the organizer of Hack && Tell DC. She is a frequent teacher at DC's Hear Me Code, beginner friendly classes for women by women and has run programming classes at DC area public libraries. Jessica also runs a self-published programming magazine called What's my Function. In 2015, she was named by DC FemTech as one of the most powerful Women in Tech. In 2017, one of her projects nominateher.org got named best web/mobile product of the year by technical.ly magazine. Previously she's worked at ISL, Burson-Marstellar, The National Education Association, ISSI Data, and Salsa Labs. Before working in technology, Jessica worked on numerous campaigns throughout the country and got her degree in Political Science at the University of Hartford."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/0e53ebf321475bcfe33a428baa476a3d?s=500",
+    "name": "Jessie Hedges",
+    "url": "/speaker/jessie-hedges.html",
+    "bio": "Jessie Hedges is a software developer at the Software Engineering Institute of Carnegie Mellon University and has 9 years of professional experience. Jessie has Bachelor's degrees in both Psychology and Computer Science from the University of Pittsburgh, and a Masters degree in Information Technology with a focus in Software Design and Management from Carnegie Mellon University. An avid believer in \u201cbaking empathy in,\u201d Jessie tries to find ways to integrate this into software design, leading projects, onboarding and mentoring and process improvement. Jessie also serves on staff council for the university, using advocacy and community involvement to improve the staff experience for all people. Most recently, she has worked with other staff on drafting an inclusive parental leave policy proposal for all staff. When she's not working, she enjoys spending time with her dog, relaxing with a sheet mask, knitting, and practicing hygge in Pittsburgh's cold winter months.\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/43039f0cb6447f44a40cf24defc2b922?s=500",
+    "name": "Karen Miller",
+    "url": "/speaker/karen-miller.html",
+    "bio": "Karen D. Miller is a recent Carnegie Mellon University graduate from the Information Security, M.S. program and currently works full-time as an Associate Cyber Security Engineer at the Software Engineering Institute. Karen received a Bachelor of Science degree in Computer Science from Southern Utah University where she frequently participated in cyber defense and capture the flag competitions which fully sparked her interest in penetration testing as a career. Because of her interest in security and government work, Karen chose to pursue her Master's degree through the Scholarship for Service program at CMU instead of moving into a full-time job after graduating from SUU. Although still early in her career, Karen wishes to help others identify paths which align with their goals and how to effectively achieve those goals, which can be exciting, intimidating, and life-changing all at once."
+  },
+  {
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12002/IMG_7131.JPG",
+    "name": "Kojo Idrissa",
+    "url": "/speaker/kojo-idrissa.html",
+    "bio": "Kojo Idrissa *was* an accountant who got an MBA and taught at university in two different countries. He's *now* a software engineer, international tech conference speaker and the [DEFNA](https://www.defna.org/) North American Ambassador ([#NorAmGT](https://twitter.com/search?q=%23NorAmGT&src=tyah)). He's spoken at tech conferences about spreadsheets, contributing to tech communities, Dungeons & Dragons, inclusion and privilege. You can find him online at http://kojoidrissa.com/ or as [@transition](https://twitter.com/Transition) on Twitter.\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/10b4f510ae515d1c48b8d3592bd88cde?s=500",
+    "name": "Lisibonny Beato",
+    "url": "/speaker/lisibonny-beato.html",
+    "bio": "Graduada de la carrera de Ingenier\u00eda de Sistemas y Computaci\u00f3n con un M\u00e1ster en Tecnolog\u00edas de la Informaci\u00f3n en la Universidad Polit\u00e9cnica de Madrid. Actualmente cursando un Doctorado en Tecnolog\u00edas para el Desarrollo de Sistemas Software Complejos enfocada en NLP y Opinion Mining sobre textos de Microblogs. Profesora-Investigadora de la PUCMM.\n\nAmante de la tecnolog\u00eda, la cocina y de conocer el mundo."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/5df702cfb54b2c2acd6a2e9e1a67aac5?s=500",
+    "name": "Luka Sterbic",
+    "url": "/speaker/luka-sterbic.html",
+    "bio": "## Bio\nLuka Steric is a Software Engineer at Facebook. He joined the London office in 2016 after receiving his Master's Degree in Computer Science from the University of Zagreb, Croatia. During his time in university his focus was mainly on bioinformatics, especially next-gen DNA sequence assemblers. Before joining Facebook he interned at the Genome Institute of Singapore and at the International Monetary Fund in Washington DC. He is now part of the Dumont team and works on automated x-repo testing, scenario verification and product monitoring. He is also an Open Source contributor to various Python projects like Typeshed and Black.\n\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/3fa32270df4baa02297ab5177255d77d?s=500",
+    "name": "Matheus Monte",
+    "url": "/speaker/matheus-monte.html",
+    "bio": "I'm matheus monte, Brazilian software developer. Now I'm working on Samsung Institute of Technology, placed on Manaus-AM . I have almost 10 years working on bleed edge technology. Already work to big companies as Nokia, Microsoft, Claro and IBM working with top technologies as JavaScript, C#, C++ and innovate projects . Love to share knowledging with the community and companies though talks and trainnings."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/d07a9b0681dbf14ec2744ed12bb6cd17?s=500",
+    "name": "Michelle Brenner",
+    "url": "/speaker/michelle-brenner.html",
+    "bio": "Michelle is a Senior Backend Engineer at ChowNow, helping restaurants to improve their business so they can keep making great food. She has previously served as both an engineer and a manager for the last 7+ years in entertainment technology. She has worked tirelessly to help movies and television get made faster and cheaper, saving productions millions of dollars. A Philadelphia native, she has a background in Media Arts and is a self-taught Python developer. Michelle is now working to give back to her community through mentorship and career training. \n"
+  },
+  {
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/24469/Norah_Klintberg_Sakal.jpg",
+    "name": "Norah Klintberg Sakal",
+    "url": "/speaker/norah-klintberg-sakal.html",
+    "bio": "I'm a 30-year-old self-taught data scientist and entrepreneur from Sweden living in San Francisco. Besides from the own startup, I'm working with a research team where we are applying artificial intelligence and machine learning capabilities on biomedical science to solve big health problems. My passion and mission is to use my engineering background in biotechnology to accelerate the development of new technologies that will help doctors to cure, prevent and manage diseases. \n\nI'm eager to show just a how few lines of code can get you a whole application, end-to-end, and I'm passionate about encouraging and inspiring people to come up with new ideas on implementing data science on their own day-to-day problems by sharing my journey.\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/c1b563391a5d0d10f07e570a5cc2869f?s=500",
+    "name": "Ordanis Sanchez",
+    "url": "/speaker/ordanis-sanchez.html",
+    "bio": "I came from another field, didn't had enough money to go to college for a CS Bachelor so I started learning to programme on my own, been python my first programing language, it was a great decision and keep being great. I had worked on many projects (QA automatization, Web development, Scraping, DL, etc ...) learning a lot throw out my journey. Nowadays I work as Air Traffic Controller on Punta Cana Airport, Web developer for the Instituto Dominicano de Aviacion Civil and Consultant for another company."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/a5dc32eefba4ac91ac3bf4745def9559?s=500",
+    "name": "Oscar Cortez",
+    "url": "/speaker/oscar-cortez.html",
+    "bio": "Hi, I'm Oscar! a full-stack web developer based in Nicaragua who's love building blazingly fast and elegant sites using Python, Django, and the \"cool kids\" frontend libraries. During my short career I had the chance to do extensive work in the fields of journalism, open data, machine learning, and education. When I'm not coding, I'm helping other people make unbelievably cool stuff via local meetups or mentorship."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/c2b39f1fbce780ad5aced7066ef0cf67?s=500",
+    "name": "Ra\u00fal Roa",
+    "url": "/speaker/ra\u00fal-roa.html",
+    "bio": "I'm a Magic Engineer at TagShelf. I work designing Machine Learning models and applications for the real world, allowing regular people to do super hero things."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/895ac7b84a280f686b70e2a70a8f5cd9?s=500",
+    "name": "Rivo Laks",
+    "url": "/speaker/rivo-laks.html",
+    "bio": "Rivo is an experienced software developer and systems architect.\n\nHe has mainly worked with Python and Django since 2011 and is also interested in Docker, React and many other technologies surrounding web development.\n\nCurrently on sabbatical, Rivo was last employed as lead engineer at Thorgate, working on a variety of projects involving forestry, smart streetlights, and more.\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/9720c99c880394d49a5a5b7380217380?s=500",
+    "name": "Sai Srirampur",
+    "url": "/speaker/sai-srirampur.html",
+    "bio": "Sai Srirampur a.k.a Sai\n->Lead Solutions Engineer and Early Engineer at Citus Data: Helped in architectures for many customer deployments. That is where all the django/python/postgres experience comes from.\n-> Have been playing ping-pong since more than I have been doing Software! ;)\n"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/9e8c852fc8884c3c6fa3445653f7632b?s=500",
+    "name": "Sai Vennam",
+    "url": "/speaker/sai-vennam.html",
+    "bio": "Sai Vennam is a Developer Advocate at IBM with expertise on Node.js, Go, APIs and various platforms like IBM Cloud, Heroku and Azure. He enjoys creating developer-friendly content and samples to showcase the latest and greatest cloud technology. As a hobby, he works on his home automation using Raspberry Pis and serverless technology. His other interests include cooking Indian food, playing guitar, and going to music festivals."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/c0fe36ac77bf9a0ebe01f0b7844c8e7f?s=500",
+    "name": "Dave Stokes",
+    "url": "/speaker/dave-stokes.html",
+    "bio": "Dave Stokes is a MySQL Community Manager for Oracle"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/658ae7ed330d8fc70df1c173960d27ad?s=500",
+    "name": "Timothy Allen",
+    "url": "/speaker/timothy-allen.html",
+    "bio": "Tim joined Wharton Research Data Services in 2008, after working for local companies and starting a few of his own. Having started programming at age six, he is currently an organizer of the Philadelphia Python Users Group, DjangoCon US, and a member of the Python Software Foundation and Django Software Foundation. Tim is an avid hockey fan, was the first person to sell real world items for virtual microcurrency long before Bitcoin, and enjoys beating his head against brick walls (as demonstrated by his passion for coding, cycling in Philadelphia, and never-ending quest to get his cat to behave). A life-long Philadelphia resident, he graduated from the University of Pennsylvania in 1996 with an individualized major, \u201cComputer Aided Information Acquisition\u201d."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/be94abb970184975a723a169646d7557?s=500",
+    "name": "Veronica Hanus",
+    "url": "/speaker/veronica-hanus.html",
+    "bio": "Before Veronica was a programmer, she was a researcher (she helped pick the Mars Curiosity Rover's landing site!) with an eye for process improvement. As she's taught herself web development, she's brought her research approach from her time at NASA-JPL & MIT into whatever she was learning. She loves exploring the web and teaching, and recently co-taught a PyCon tutorial on using web-scraping and modeling to predict Oscar winners. When she isn't learning how the web can be better for developers, she enjoys blogging, nerding out about documentation, and snuggling as many cats as possible.\n\nPast speaking experience:\n\n**Technical presentations**\n\n* \u201cImagining Colors is Hard: Representing Visual Changes in Version Control\u201d, Hacktoberfest NYC 2018 | [slides](https://bit.ly/2C7uNFI) \n* Assisted in teaching \u201cLights Camera Action! Scrape, explore, and model to predict Oscar winners & box office hits\u201d tutorial at PyCon 2018 | [description](https://us.pycon.org/2018/schedule/presentation/48/) | [bio](https://us.pycon.org/2018/speaker/profile/337/) | [video](https://www.youtube.com/watch?v=XMtygcrqHqo) | [materials](https://github.com/dhanus/oscars-tutorial/blob/master/Part1-Scraping-Box-Office-Hits.ipynb) |\n* \u201cUsing Unix to make your time in the terminal better\u201d at NYC Women's Work Jelly 2017 | [project page](https://github.com/vzhz/friendly_terminal) |\n* Assisted in teaching \u201cPython for Data Science\u201d tutorial at Boston Code Camp 27 (2016) | [description](https://www.bostoncodecamp.com/CC26/sessions/details/16421) | [materials](https://github.com/swzCuroverse/BostonCodeCamp26) |\n* \u201cGiving Imposter Syndrome the Kick in the Pants It Deserves\u201d at NYC Women's Work Jelly 2016 | [slides](https://docs.google.com/presentation/d/18IB_3lKaUcEqShqjqRn62Jc5XGqhevQnfncPPD7cA18/edit) |\n* Workshop \u201cLaTeX: Academic Typesetting for Industry\u201d at Recurse Center 2015 | [materials](https://github.com/vzhz/LaTeXresources) |\n\n**Teaching experience**\n\n* SAT Writing Instructor for MIT Academic Teaching Initiative 2011-2012\nDeveloped & taught 12-week SAT Writing course \u2022 Median 50% showed a 200 point increase during the course \u2022 A few students even contacted me as they were writing college entrance essays\n\n* Programming Coach for Bootstrap Afterschool Program 2011-2012\nProvided 1-on-1 and group instruction for 14 middle-school students in creating their own games \u2022 Used functional programming (Scheme) and pair programming to teach algebraic concepts (Pythagorean theorem & writing appropriate algebraic functions) and programming concepts (problem solving using the Design Recipe, data types, Boolean logic, conditional branching, functions & variables)\n\n**Research-related presentations/communication**\n\n* Presented findings of safety tests of malfunctioning equipment to lab at MIT Paleomagnetism Laboratory 2012 \n* Presented findings to internal committee / communicated intern project needs to software developer at NASA JPL 2009\n\u2022 Led student effort to find rock distributions of landing sites for Curiosity rover \u2022 Introduced three students to in-house software for QA element of our project, including reporting procedures, and software process and limitations"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/9d70138638f5871a104f8b1c1674b120?s=500",
+    "name": "vihavira@protonmail.com",
+    "url": "/speaker/vihavira@protonmail.com.html",
+    "bio": "Matilda is a trans disabled artist, community organizer, and programmer studying, imagining, and leveraging mathematical, ecological, and social systems for a more just, equitable, and inclusive world. They have organized around racial, disability, climate, and housing justice and are currently a Data Science fellow at The Knowledge House in New York.\n\nThey are interested in p2p networks as a way of allowing communities to protect themselves in the face of hostile forces, be they social, economic, or ecological"
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/ffa6cad924d8c8a10ef9337500db6667?s=500",
+    "name": "Wildin Mota",
+    "url": "/speaker/wildin-mota.html",
+    "bio": "Hola, Soy Wildin Mota. Tengo 18 a\u00f1os de edad y actualmente trabajo como Python Developer en PibiCloud, aunque para cuando llegue la conferencia seguro sere FullStack, incluso hasta haciendo Machine Learning pero eso no es seguro aun.\n\nSoy un apasionado del software desde los 14 estoy en esete mundo estudiando por mi cuenta mi primera intereaccion programando era usando bat en windows el cual aprendi en un libro de HackXRank, desde que inicie nunca lo he dejado y siempre me e mantenido curioso ya el resto es historia de estudio y consistencia.\n\nA mis 17 vendi mi primer proyecto de software el cual era un sistema de ventas para la Ferreteria Chelo, este lo hice en C# y SQL Server estaba muy emociado y motivado que hasta amanecia programando, lo mas duro que hice fueron 14 horas seguidas bebi un monton de cafe ese dia para poder aguantar tal trabajo.\n\nA los 18 al graduarme de bachiller en mi pueblo que es la Vega me senti arrinconado y con un futuro escrito en la vega solo una universidad da Software y no hay empresas en esta area interesantes, ademas estaba ansioso de un cambio drastico, a los pocos dias me inscribi en el ITLA sin consentimiento de mis padres yo trabajaba como tecnico asi que pude pagar yo mismo el derecho a admision y los viajes a santo domingo para los examenes, yo desde hace tiempo queria trabajar mientras estaba en la universidad era algo que queria bastante pero al inscribirme en el ITLA se convirtio en necesidad porque mis padres no podian pagarlo y yo tampoco queria que lo hicieran porque era algo que yo queria y yo debia proveermelo por mi mismo, es importante notar que yo enviaba CV's a solo una emprea a la vez y esperaba hasta que em dieran respuesta porque me parecia mal el hecho de ser aceptado por mas de una y despues tener que rechazar a alguien que me dio una oprtunidad pero despues de ver que eso no funcionaba y viendo la necesidad de tener ingresos entre a emplea.do y mande CV a diestra y siniestra en todas que yo tuviera las requisitos incluso Instacarro me devolvio el mensaje pero pospuse la entrevista sin saber que era algo que no se viea muy bien y no volvi a tener respuesta :'( al final una empresa me escribio a las pocas horas de mandar la soclitud y otra me llamo al siguiente dia, me enfoque en esas dos. Para no alargr la historia me quede con la primera empresa que es Castillo Software Solutions estaba para un puesto que solo era HTML y CSS algo que no me ponia muy feliz pero yo se que lo convertiria en algo mas con el tiempo pedi a la empresa que me dieran issues en Angular y asi fue, eso me mantuvo con retos por un tiempo pero aun para mi no era suficiente yo queria ser backend developer y tenia que serlo de una.\n\nA mis 9-10 meses trabajando en CastilloSS un amigo me mando una oferta laboral como Python Dev usando Django/Flask y ademas haciendo Angular e Ionic tecnologias que aprendi para CastilloSS es curioso decir que cuando pedi hacer tareas en angular aun no habia visto un curso basico completo de Angular pero me manejaba bastante bien con JS y me desenvolvi bien, terminaba mis tareas a tiempo y me dejaron solo haciendo Angular.\n\nPues consegui el trabajo y senti que una puerta de un monton de posibilidades se abrio ante mi, es que en esta empresa mi jefe es un genio con un monton de experiencia dispuesto a mostrarnos todo e incluso hizo una seria de libros para volverse senior si los entiendes bien, los cuales ya estoy leyendo, me gusta bastante donde trabajo ahora y pienso ir a ayudar en tantas areas com pueda no hay limites.\n\nCorte bastante la historia para no escribir mas XD, lo siento.\n\n"
+  },
+  {
+    "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/11947/17022097_10206604068179104_6023710202686998005_n.jpg",
+    "name": "Zac Brown",
+    "url": "/speaker/zac-brown.html",
+    "bio": "Since writing his first line of code at age 9, Zac has been completely fascinated with computers. 14 years later, at age 23 Zac is working on Python, erlang and node based applications at one of the leading VoIP communications companies today. With experience in multiple areas of product development and delivery, Zac brings his years of learning and growing to multiple venues and events across the globe."
+  }
 ]

@@ -19,48 +19,41 @@ layout: page
   <div class="speaker-img-wrapper">
     <img class="speaker-img-large" src="{0}" />
   </div>
-  <h1>{1}</h1>
-  <div class="uk-grid">
-    <div class="uk-width-1-2">
-      <h3>Title: {2}</h3>
-    </div>
-    <div class="uk-width-1-2">
-      <h3>Audience: {3}</h3>
-    </div> 
-  </div>
+
 </div>
-<div class="talk_content">
-    <h2>Description</h2>
-    <p>{4}</p>
-</div>
+<br/>
 <div class="speaker-bio">
     <h2>Who is {1}?</h2>
-    <p>{5}</p>
-</div
+    <p>{2}</p>
+</div>
 """
 
-with open('PyCaribbean 2017 Submissions.json', 'r') as f:
+with open('PyCaribbean 2019 Speakers.json', 'r') as f:
     json_data = json.loads(f.read())
     speakers = []
     
-    for talk in json_data:
+    for speaker in json_data:
         
         # Slugify speaker name.
-        file_name = '../speaker/{}.html'.format(talk['name'].replace(' ', '-').lower())
+        file_name = '../speaker/{}.html'.format(speaker['name'].replace(' ', '-').lower())
         
         # write out the speaker's page.'
         with open(file_name, 'w') as wf:
-            wf.write(speaker_template.format(talk['avatar'], talk['name'],
-                                             talk['title'], talk['audience_level'],
-                                             talk['description'], talk['bio']))
+            wf.write(speaker_template.format(
+                speaker['avatar'],
+                speaker['name'],
+                # speaker['title'],
+                # speaker['audience_level'],
+                # speaker['description'],
+                speaker['bio']))
             speakers.append({
-                'avatar': talk['avatar'],
-                'name': talk['name'],
-                'url': 'speaker/{0}.html'.format(talk['name'].replace(' ', '-').lower()),
-                'title': talk['title'],
-                'audience_level': talk['audience_level'],
-                'description': talk['description'],
-                'bio': talk['bio'],
+                'avatar': speaker['avatar'],
+                'name': speaker['name'],
+                'url': '/speaker/{0}.html'.format(speaker['name'].replace(' ', '-').lower()),
+                # 'title': speaker['title'],
+                # 'audience_level': speaker['audience_level'],
+                # 'description': speaker['description'],
+                'bio': speaker['bio'],
             })
 
 # Create speakers.json data. This is used to populate the speaker's pages created above.

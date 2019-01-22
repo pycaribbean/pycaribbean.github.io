@@ -51,7 +51,7 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
     for talk in json_data:
         
         # Slugify talk name.
-        file_name = '../talk/{}.html'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', ''))
+        file_name = '../talk/{}.html'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', ''))
         
         # write out the speaker's page.'
         with open(file_name, 'w') as wf:
@@ -59,7 +59,7 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
             talks.append({
                 'avatar': talk['avatar'],
                 'name': talk['name'],
-                'url': '/talk/{0}/'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '')),
+                'url': '/talk/{0}/'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', '')),
                 'speaker_url': '/speaker/{0}/'.format(talk['name'].replace(' ', '-').lower()),
                 'title': talk['title'],
                 'audience_level': talk['audience_level'],
@@ -76,7 +76,7 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
                 '/speaker/{0}/'.format(talk['name'].replace(' ', '-').lower()), # {6}
                 '/talk/{0}/'.format(
                     talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(
-                        ')', '')), # {7}
+                        ')', '').replace('!', '').replace('?', '').replace('...', '')), # {7}
             ),
 
             )

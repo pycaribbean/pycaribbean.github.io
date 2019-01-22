@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 Generate speaker's list and talk profile html from the PyCaribbean 2017 Submissions.json
 file from https://papercall.io.
@@ -13,6 +14,7 @@ import json
 
 speaker_template = """---
 layout: page
+permalink: {3}
 ---
 
 <div class="speaker-wrapper">
@@ -39,22 +41,23 @@ with open('PyCaribbean 2019 Speakers.json', 'r') as f:
         
         # write out the speaker's page.'
         with open(file_name, 'w') as wf:
-            wf.write(speaker_template.format(
-                speaker['avatar'],
-                speaker['name'],
-                # speaker['title'],
-                # speaker['audience_level'],
-                # speaker['description'],
-                speaker['bio']))
+
             speakers.append({
                 'avatar': speaker['avatar'],
                 'name': speaker['name'],
-                'url': '/speaker/{0}.html'.format(speaker['name'].replace(' ', '-').lower()),
+                'url': '/speaker/{0}/'.format(speaker['name'].replace(' ', '-').lower()),
                 # 'title': speaker['title'],
                 # 'audience_level': speaker['audience_level'],
                 # 'description': speaker['description'],
                 'bio': speaker['bio'],
             })
+            wf.write(speaker_template.format(
+                speaker['avatar'], # {0}
+                speaker['name'], # {1}
+                speaker['bio'], # {2}
+                '/speaker/{0}/'.format(speaker['name'].replace(' ', '-').lower()),  # {3}
+            ))
+
 
 # Create speakers.json data. This is used to populate the speaker's pages created above.
 with open('../_data/speakers.json', 'w') as speakers_json:

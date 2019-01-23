@@ -65,7 +65,7 @@
     }
     .lecturer{
       width: 194px;
-      height: 310px;
+      height: 315px;
       border: solid 1px #D8D8D8; 
       position: relative;
       overflow: hidden;
@@ -85,11 +85,15 @@
 
       .lecturer-name{
         background: #fff;
-        height: 35px;
+        height: 40px;
         width: 170px;
         position: absolute;
         bottom: 0;
         padding: 11px 7px 7px 7px;
+
+        .second-line {
+          margin-top: 5px;
+        }
       }
 
       .lecturer-description{

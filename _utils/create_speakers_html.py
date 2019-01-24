@@ -16,6 +16,10 @@ speaker_template = """---
 layout: page
 permalink: {3}
 ---
+<ul class="uk-breadcrumb">
+    <li><a href="/speakers/" style="color:inherit;">Speaker</a></li>
+    <li><span></span>{1}</li>
+</ul>
 
 <div class="speaker-wrapper">
   <div class="speaker-img-wrapper">

@@ -17,7 +17,8 @@ layout: page
 permalink: {3}
 ---
 <ul class="uk-breadcrumb">
-    <li><a href="/speakers/" style="color:inherit;">Speaker</a></li>
+    <li><a href="/" style="color:inherit;">Home</a></li>
+    <li><a href="/speakers/" style="color:inherit;">Speakers</a></li>
     <li><span></span>{1}</li>
 </ul>
 
@@ -42,14 +43,17 @@ with open('PyCaribbean 2019 Speakers.json', 'r') as f:
         
         # Slugify speaker name.
         file_name = '../speaker/{}.html'.format(speaker['name'].replace(' ', '-').lower())
-        
+
+        # Slugify speaker name
+        slugged_speaker_name = '/speaker/{0}/'.format(speaker['name'].replace(' ', '-').lower())
+
         # write out the speaker's page.'
         with open(file_name, 'w') as wf:
 
             speakers.append({
                 'avatar': speaker['avatar'],
                 'name': speaker['name'],
-                'url': '/speaker/{0}/'.format(speaker['name'].replace(' ', '-').lower()),
+                'url': slugged_speaker_name,
                 # 'title': speaker['title'],
                 # 'audience_level': speaker['audience_level'],
                 # 'description': speaker['description'],
@@ -59,7 +63,7 @@ with open('PyCaribbean 2019 Speakers.json', 'r') as f:
                 speaker['avatar'], # {0}
                 speaker['name'], # {1}
                 speaker['bio'], # {2}
-                '/speaker/{0}/'.format(speaker['name'].replace(' ', '-').lower()),  # {3}
+                slugged_speaker_name,  # {3}
             ))
 
 

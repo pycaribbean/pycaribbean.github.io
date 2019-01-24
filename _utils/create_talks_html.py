@@ -16,6 +16,10 @@ talk_template = """---
 layout: page
 permalink: {7}
 ---
+<ul class="uk-breadcrumb">
+    <li><a href="/talks/" style="color:inherit;">Talks</a></li>
+    <li><span></span>{8}</li>
+</ul>
 
 <div class="speaker-wrapper">
 <a href="{6}">
@@ -50,8 +54,16 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
     
     for talk in json_data:
         
-        # Slugify talk name.
+        # Slugify talk title.
+        slugged_title = '/talk/{0}/'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', ''))
+
         file_name = '../talk/{}.html'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', ''))
+
+        # Slugify speaker name
+        slugged_speaker_name = '/speaker/{0}/'.format(talk['name'].replace(' ', '-').lower())
+
+        # shorted title
+        short_title = talk['title'][:20]+"..."
         
         # write out the speaker's page.'
         with open(file_name, 'w') as wf:
@@ -59,8 +71,8 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
             talks.append({
                 'avatar': talk['avatar'],
                 'name': talk['name'],
-                'url': '/talk/{0}/'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', '')),
-                'speaker_url': '/speaker/{0}/'.format(talk['name'].replace(' ', '-').lower()),
+                'url': slugged_title,
+                'speaker_url': slugged_speaker_name,
                 'title': talk['title'],
                 'audience_level': talk['audience_level'],
                 'description': talk['description'],
@@ -73,10 +85,9 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
                 talk['audience_level'], # {3}
                 talk['description'], # {4}
                 talk['bio'], # {5}
-                '/speaker/{0}/'.format(talk['name'].replace(' ', '-').lower()), # {6}
-                '/talk/{0}/'.format(
-                    talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(
-                        ')', '').replace('!', '').replace('?', '').replace('...', '')), # {7}
+                slugged_speaker_name, # {6}
+                slugged_title, # {7}
+                short_title,  # {8}
             ),
 
             )

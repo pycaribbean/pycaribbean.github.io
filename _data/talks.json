@@ -408,5 +408,15 @@
     "audience_level": "Intermediate",
     "description": "Building your application is the fun part, but delivering your application is equally important. Many engineers lack the additional devops knowledge required to build and maintain a pipeline process using tools like Jenkins, or Bamboo. Bitbucket has saved the day, we'll explore how. \n\nIn this talk, we'll discuss and demonstrate the various options and functionality available to help us easily build, test and deploy our Python applications with just a few lines of yml",
     "bio": "Since writing his first line of code at age 9, Zac has been completely fascinated with computers. 14 years later, at age 23 Zac is working on Python, erlang and node based applications at one of the leading VoIP communications companies today. With experience in multiple areas of product development and delivery, Zac brings his years of learning and growing to multiple venues and events across the globe."
+  },
+  {
+    "avatar": "/img/speakers/deborah-and-sebastian-hanus.jpg",
+    "name": "Deborah and Sebastian Hanus",
+    "url": "/talk/getting-started-with-deep-learning:-using-keras-&-numpy-to-detect-voice-disorders/",
+    "speaker_url": "/speaker/deborah-and-sebastian-hanus/",
+    "title": "Getting started with Deep Learning: Using Keras & Numpy to detect voice disorders",
+    "audience_level": "Beginner",
+    "description": "Deep learning is a useful tool for problems in computer vision, natural language processing, and medicine. While it might seem difficult to get started in deep learning, Python libraries, such as Keras make deep learning quite accessible. In this talk, we will discuss what deep learning is, introduce NumPy and Keras, and discuss common mistakes and debugging strategies. Throughout the talk, we will return to an example project in the medical domain, which used deep learning on vocal data to determine whether a patient has a voice disorder called vocal hyperfunction.",
+    "bio": ""
   }
 ]

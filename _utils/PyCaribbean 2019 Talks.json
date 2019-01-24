@@ -654,5 +654,21 @@
         "audience_level": "Intermediate",
         "tags": "[\"python\", \"bitbucket\", \"ci/cd\", \"pipelines\", \"deployment\", \"devops\"]",
         "rating": 20.0
+    },
+    {
+        "name": "Deborah and Sebastian Hanus",
+        "email": "",
+        "avatar": "/img/speakers/deborah-and-sebastian-hanus.jpg",
+        "bio": "",
+        "talk_format": "Talk (~30-45 minutes)",
+        "title": "Getting started with Deep Learning: Using Keras & Numpy to detect voice disorders",
+        "Schedule": "",
+        "Category": "Tooling",
+        "Language": "English",
+        "abstract": "This talk is for Pythonistas who want to learn to use Keras to get started in deep learning. You should expect to learn what deep learning is, develop an intuition for how it works, & learn to avoid common mistakes. We discuss how we used utterance data to predict if a patient has a voice disorder.",
+        "description": "Deep learning is a useful tool for problems in computer vision, natural language processing, and medicine. While it might seem difficult to get started in deep learning, Python libraries, such as Keras make deep learning quite accessible. In this talk, we will discuss what deep learning is, introduce NumPy and Keras, and discuss common mistakes and debugging strategies. Throughout the talk, we will return to an example project in the medical domain, which used deep learning on vocal data to determine whether a patient has a voice disorder called vocal hyperfunction.",
+        "audience_level": "Beginner",
+        "tags": "[\"machine learning\", \"data science\", \"deep learning\", \"keras\", \"numpy\"]",
+        "rating": 0.0
     }
 ]

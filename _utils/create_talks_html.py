@@ -18,7 +18,7 @@ permalink: {7}
 ---
 <ul class="uk-breadcrumb">
     <li><a href="/" style="color:inherit;">Home</a></li>
-    <li><a href="/talks/" style="color:inherit;">Talks</a></li>
+    <li><a href="/schedule/" style="color:inherit;">Schedule</a></li>
     <li><span></span>{8}</li>
 </ul>
 

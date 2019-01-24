@@ -338,7 +338,7 @@
     {
         "name": "Karen Miller",
         "email": "karenmil@andrew.cmu.edu",
-        "avatar": "https://secure.gravatar.com/avatar/43039f0cb6447f44a40cf24defc2b922?s=500",
+        "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/38492/IMG_0142.jpg",
         "bio": "Karen D. Miller is a recent Carnegie Mellon University graduate from the Information Security, M.S. program and currently works full-time as an Associate Cyber Security Engineer at the Software Engineering Institute. Karen received a Bachelor of Science degree in Computer Science from Southern Utah University where she frequently participated in cyber defense and capture the flag competitions which fully sparked her interest in penetration testing as a career. Because of her interest in security and government work, Karen chose to pursue her Master's degree through the Scholarship for Service program at CMU instead of moving into a full-time job after graduating from SUU. Although still early in her career, Karen wishes to help others identify paths which align with their goals and how to effectively achieve those goals, which can be exciting, intimidating, and life-changing all at once.",
         "talk_format": "Lightning Talk (~5-10 minutes)",
         "title": "How to Hack (Legally): Python Edition",

@@ -256,22 +256,6 @@
         "rating": 0.0
     },
     {
-        "name": "Jeremy Meiss",
-        "email": "Jeremy.Meiss@gmail.com",
-        "avatar": "https://secure.gravatar.com/avatar/89ab857b2d58015b13ca239c3a277fb1?s=500",
-        "bio": "Jeremy is the Head of Community at Auth0 and former Director of DevRel/Community at XDA-Developers. He is a lover of all things coffee, community, open source, and tech. He has a wife, 3 kids, and a beagle who all profess undying love.",
-        "talk_format": "Talk (~30-45 minutes)",
-        "title": "Introduction to Identity and Its Uses in Modern Apps",
-        "Schedule": "",
-        "Category": "Web Dev",
-        "Language": "English",
-        "abstract": "Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes - but it plays a much larger role beyond the login screen for your applications.",
-        "description": "Digital identity is at the core of any application - invisible yet crucial. We often take identity for granted as most of its magic happens behind the scenes. But identity plays a much larger role beyond the login screen for your applications. In this talk we'll explore what identity looks like and the importance of getting it right the first time.",
-        "audience_level": "All",
-        "tags": "[\"identity\", \"authentication\", \"software development\", \"application development\"]",
-        "rating": 21.0
-    },
-    {
         "name": "Jessica Garson",
         "email": "jessica.garson@gmail.com",
         "avatar": "/img/speakers/jessica-garson.png",

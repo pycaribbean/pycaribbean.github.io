@@ -354,7 +354,7 @@
     {
         "name": "Lisibonny Beato",
         "email": "le.beato@ce.pucmm.edu.do",
-        "avatar": "/img/speakers/lisibonny-beato.jpg",
+        "avatar": "/img/speakers/lisibonny-beato.jpeg",
         "bio": "Graduada de la carrera de Ingeniería de Sistemas y Computación con un Máster en Tecnologías de la Información en la Universidad Politécnica de Madrid. Actualmente cursando un Doctorado en Tecnologías para el Desarrollo de Sistemas Software Complejos enfocada en NLP y Opinion Mining sobre textos de Microblogs. Profesora-Investigadora de la PUCMM.\n\nAmante de la tecnología, la cocina y de conocer el mundo.",
         "talk_format": "Talk (~30-45 minutes)",
         "title": "Procesamiento de Lenguaje Natural con Python: un vistazo a las librerias NLTK y Pattern",

@@ -122,7 +122,7 @@
   {
     "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1497/KCDCportrait0279.JPG",
     "name": "Heidi Waterhouse",
-    "url": "/talk/tinkertoys-microservices-and-feature-management:-how-to-build-for-the-future/",
+    "url": "/talk/tinkertoys-microservices-and-feature-management-how-to-build-for-the-future/",
     "speaker_url": "/speaker/heidi-waterhouse/",
     "title": "Tinkertoys, microservices, and feature management: How to build for the future",
     "audience_level": "All",
@@ -132,7 +132,7 @@
   {
     "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/1497/KCDCportrait0279.JPG",
     "name": "Heidi Waterhouse",
-    "url": "/talk/every-scar-a-story:-the-links-between-development-practice-source-control-testing-and-deployment/",
+    "url": "/talk/every-scar-a-story-the-links-between-development-practice-source-control-testing-and-deployment/",
     "speaker_url": "/speaker/heidi-waterhouse/",
     "title": "Every Scar A Story: The links between development practice, source control, testing, and deployment",
     "audience_level": "All",
@@ -202,7 +202,7 @@
   {
     "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/38492/IMG_0142.jpg",
     "name": "Karen Miller",
-    "url": "/talk/how-to-hack-legally:-python-edition/",
+    "url": "/talk/how-to-hack-legally-python-edition/",
     "speaker_url": "/speaker/karen-miller/",
     "title": "How to Hack (Legally): Python Edition",
     "audience_level": "All",
@@ -212,7 +212,7 @@
   {
     "avatar": "https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12002/IMG_7131.JPG",
     "name": "Kojo Idrissa",
-    "url": "/talk/a-tale-of-two-pythons:-growing-contribution-through-coding-inclusion/",
+    "url": "/talk/a-tale-of-two-pythons-growing-contribution-through-coding-inclusion/",
     "speaker_url": "/speaker/kojo-idrissa/",
     "title": "A Tale of Two Pythons: Growing Contribution Through Coding Inclusion",
     "audience_level": "All",
@@ -222,7 +222,7 @@
   {
     "avatar": "/img/speakers/lisibonny-beato.jpeg",
     "name": "Lisibonny Beato",
-    "url": "/talk/procesamiento-de-lenguaje-natural-con-python:-un-vistazo-a-las-librerias-nltk-y-pattern/",
+    "url": "/talk/procesamiento-de-lenguaje-natural-con-python-un-vistazo-a-las-librerias-nltk-y-pattern/",
     "speaker_url": "/speaker/lisibonny-beato/",
     "title": "Procesamiento de Lenguaje Natural con Python: un vistazo a las librerias NLTK y Pattern",
     "audience_level": "Beginner",
@@ -232,7 +232,7 @@
   {
     "avatar": "https://secure.gravatar.com/avatar/5df702cfb54b2c2acd6a2e9e1a67aac5?s=500",
     "name": "Luka Sterbic",
-    "url": "/talk/why-you-should-care-about-types:-python-typing-in-the-facebook-backend/",
+    "url": "/talk/why-you-should-care-about-types-python-typing-in-the-facebook-backend/",
     "speaker_url": "/speaker/luka-sterbic/",
     "title": "Why you should care about types: Python Typing in the Facebook Backend",
     "audience_level": "All",
@@ -242,7 +242,7 @@
   {
     "avatar": "/img/speakers/matheus-monte.jpeg",
     "name": "Matheus Monte",
-    "url": "/talk/pydtn-:-a-framework-to-build-dtn-apps-using-python/",
+    "url": "/talk/pydtn--a-framework-to-build-dtn-apps-using-python/",
     "speaker_url": "/speaker/matheus-monte/",
     "title": "PyDTN : A framework to build DTN apps using Python",
     "audience_level": "",
@@ -402,11 +402,21 @@
   {
     "avatar": "/img/speakers/deborah-and-sebastian-hanus.jpg",
     "name": "Deborah and Sebastian Hanus",
-    "url": "/talk/getting-started-with-deep-learning:-using-keras-&-numpy-to-detect-voice-disorders/",
+    "url": "/talk/getting-started-with-deep-learning-using-keras-&-numpy-to-detect-voice-disorders/",
     "speaker_url": "/speaker/deborah-and-sebastian-hanus/",
     "title": "Getting started with Deep Learning: Using Keras & Numpy to detect voice disorders",
     "audience_level": "Beginner",
     "description": "Deep learning is a useful tool for problems in computer vision, natural language processing, and medicine. While it might seem difficult to get started in deep learning, Python libraries, such as Keras make deep learning quite accessible. In this talk, we will discuss what deep learning is, introduce NumPy and Keras, and discuss common mistakes and debugging strategies. Throughout the talk, we will return to an example project in the medical domain, which used deep learning on vocal data to determine whether a patient has a voice disorder called vocal hyperfunction.",
+    "bio": ""
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/68528ed32213404ca78897bb363f1c9b?s=500",
+    "name": "Kevin Jimenez",
+    "url": "/talk/del-requerimiento-a-producci\u00f3n-antes-de-cenar-odoo--docker/",
+    "speaker_url": "/speaker/kevin-jimenez/",
+    "title": "Del requerimiento a producci\u00f3n antes de cenar: Odoo + Docker",
+    "audience_level": "Beginner",
+    "description": "Desarrollaremos una aplicaci\u00f3n para un entorno empresarial con los requisitos comunes de CRUD, buscar, archivar, importar y exportar registros desde excel, exponer un API para la integraci\u00f3n con otros servicios existentes y generar algunos reportes. Haremos el despliegue despliegue al servidor de produccion utilizando tecnolog\u00eda de contenedores.</p><p>Veremos como podremos brindar a nuestros clientes una soluci\u00f3n integral y como sacar provecho de la relaci\u00f3n entre Odoo ERP y Odoo Framework para ofrecer respuesta en tiempo record.",
     "bio": ""
   }
 ]

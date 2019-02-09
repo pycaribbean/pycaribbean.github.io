@@ -214,5 +214,11 @@
     "name": "Deborah and Sebastian Hanus",
     "url": "/speaker/deborah-and-sebastian-hanus/",
     "bio": "Deborah has done machine learning research at MIT, Harvard, and Google Brain. Her work in machine learning has spanned developing models of human perception to exploring medical data. She has been a teaching assistant for undergraduate classes at MIT, graduate classes at Harvard, and the Boston Python Workshop. Before working in machine learning, she did education research and taught in Cambodia as a Fulbright Scholar. She has spoken at PyTennessee, SciPy Conference, AI With the Best, QConNY, and PyCon US. </p><p>Sebastian loves data analysis, programming, and teaching. As a student research assistant at MIT, he used Python, NumPy, Pandas, and Keras to wrangle gigabytes of voice data (stored as text) into a neural network to detect vocal trauma. As a research assistant at the University of Nebraska, he used Python, NumPy, and sklearn on text data for computer security. In his spare time, he collects and analyzes data to improve his minecraft civilization. He regularly teaches programming and design to the robotics team that he founded and basic computer skills to senior citizens."
+  },
+  {
+    "avatar": "https://secure.gravatar.com/avatar/68528ed32213404ca78897bb363f1c9b?s=500",
+    "name": "Kevin Jimenez",
+    "url": "/speaker/kevin-jimenez/",
+    "bio": "Soy un desarrollador Full Stack freelance. En los \u00faltimos 2 a\u00f1os me he dedicado al desarrollo Full Stack en Odoo, Docker y Blockchain desempe\u00f1andome como desarrollador y/o consultor de TI en diversos proyectos tanto nacionales como internacionales.</p><p>Me gusta aprender cosas nuevas y compartir mi conocimientos con otros."
   }
 ]

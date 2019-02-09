@@ -56,9 +56,9 @@ with open('PyCaribbean 2019 Talks.json', 'r') as f:
     for talk in json_data:
         
         # Slugify talk title.
-        slugged_title = '/talk/{0}/'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', ''))
+        slugged_title = '/talk/{0}/'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', '').replace('+', '').replace(':', ''))
 
-        file_name = '../talk/{}.html'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', ''))
+        file_name = '../talk/{}.html'.format(talk['title'].replace(' ', '-').lower().replace('/', '-').replace(',', '').replace('(', '').replace(')', '').replace('!', '').replace('?', '').replace('...', '').replace('+', '').replace(':', ''))
 
         # Slugify speaker name
         slugged_speaker_name = '/speaker/{0}/'.format(talk['name'].replace(' ', '-').lower())

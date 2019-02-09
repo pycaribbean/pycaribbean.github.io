@@ -162,10 +162,10 @@
         "bio": "Rivo is an experienced software developer and systems architect.\n\nHe has mainly worked with Python and Django since 2011 and is also interested in Docker, React and many other technologies surrounding web development.\n\nCurrently on sabbatical, Rivo was last employed as lead engineer at Thorgate, working on a variety of projects involving forestry, smart streetlights, and more.\n"
     },
     {
-        "name": "Sai Srirampur",
-        "email": "sai@citusdata.com",
-        "avatar": "/img/speakers/sai-srirampur.jpg",
-        "bio": "Sai Srirampur a.k.a Sai\n->Lead Solutions Engineer and Early Engineer at Citus Data: Helped in architectures for many customer deployments. That is where all the django/python/postgres experience comes from.\n-> Have been playing ping-pong since more than I have been doing Software! ;)\n"
+        "name": "Louise Grandjonc",
+        "email": "",
+        "avatar": "/img/speakers/louise-grandjonc.jpg",
+        "bio": "I'm Louise, I work as a software engineer at Citus Data. Previously I was a lead python developer in a crowdfunding company. </p><p>I enjoy query tuning SQL, working on performances in general, writing python and C... I'm also active in the PostgreSQL community, created a woman in the Postgres group, organize meetups and conferences. I'm pretty passionate by PostgreSQL and distributed system, so please come meet me! I also like more human things, like playing music and baking. "
     },
     {
         "name": "Sai Vennam",

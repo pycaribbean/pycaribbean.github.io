@@ -654,5 +654,21 @@
         "audience_level": "Beginner",
         "tags": "[\"machine learning\", \"data science\", \"deep learning\", \"keras\", \"numpy\"]",
         "rating": 0.0
+    },
+    {
+        "name": "Kevin Jimenez",
+        "email": "",
+        "avatar": "https://secure.gravatar.com/avatar/68528ed32213404ca78897bb363f1c9b?s=500",
+        "bio": "",
+        "talk_format": "Talk (~30-45 minutes)",
+        "title": "Del requerimiento a producción antes de cenar: Odoo + Docker",
+        "Schedule": "",
+        "Category": "",
+        "Language": "Spanish",
+        "abstract": "",
+        "description": "Desarrollaremos una aplicación para un entorno empresarial con los requisitos comunes de CRUD, buscar, archivar, importar y exportar registros desde excel, exponer un API para la integración con otros servicios existentes y generar algunos reportes. Haremos el despliegue despliegue al servidor de produccion utilizando tecnología de contenedores.</p><p>Veremos como podremos brindar a nuestros clientes una solución integral y como sacar provecho de la relación entre Odoo ERP y Odoo Framework para ofrecer respuesta en tiempo record.",
+        "audience_level": "Beginner",
+        "tags": "",
+        "rating": 0.0
     }
 ]

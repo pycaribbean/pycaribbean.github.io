@@ -496,10 +496,10 @@
         "rating": 20.0
     },
     {
-        "name": "Sai Srirampur",
-        "email": "sai@citusdata.com",
-        "avatar": "/img/speakers/sai-srirampur.jpg",
-        "bio": "Sai Srirampur a.k.a Sai\n->Lead Solutions Engineer and Early Engineer at Citus Data: Helped in architectures for many customer deployments. That is where all the django/python/postgres experience comes from.\n-> Have been playing ping-pong since more than I have been doing Software! ;)\n",
+        "name": "Louise Grandjonc",
+        "email": "",
+        "avatar": "/img/speakers/louise-grandjonc.jpg",
+        "bio": "I'm Louise, I work as a software engineer at Citus Data. Previously I was a lead python developer in a crowdfunding company. </p><p>I enjoy query tuning SQL, working on performances in general, writing python and C... I'm also active in the PostgreSQL community, created a woman in the Postgres group, organize meetups and conferences. I'm pretty passionate by PostgreSQL and distributed system, so please come meet me! I also like more human things, like playing music and baking. ",
         "talk_format": "Talk (~30-45 minutes)",
         "title": "Scaling multi-tenant apps using the Django ORM and Postgres",
         "Schedule": "",

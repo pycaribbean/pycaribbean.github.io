@@ -310,14 +310,14 @@
     "bio": "Rivo is an experienced software developer and systems architect.\n\nHe has mainly worked with Python and Django since 2011 and is also interested in Docker, React and many other technologies surrounding web development.\n\nCurrently on sabbatical, Rivo was last employed as lead engineer at Thorgate, working on a variety of projects involving forestry, smart streetlights, and more.\n"
   },
   {
-    "avatar": "/img/speakers/sai-srirampur.jpg",
-    "name": "Sai Srirampur",
+    "avatar": "/img/speakers/louise-grandjonc.jpg",
+    "name": "Louise Grandjonc",
     "url": "/talk/scaling-multi-tenant-apps-using-the-django-orm-and-postgres/",
-    "speaker_url": "/speaker/sai-srirampur/",
+    "speaker_url": "/speaker/louise-grandjonc/",
     "title": "Scaling multi-tenant apps using the Django ORM and Postgres",
     "audience_level": "All",
     "description": "There are a number of data architectures you could use when building a multi-tenant app. Some, such as using one database per customer or one schema per customer. These two options scale to an extent when you have say 10s of tenants. However as you start scaling to hundreds and thousands of tenants, you start running into challenges both from performance and maintenance of tenants perspective.\n\nYou could solve the above problem by adding the notion of tenancy directly into the logic of your SaaS application. How to implement/automate this in Django-ORM is a challenge? We will talk about how to make the django app tenant aware and at a broader level explain how scale out applications that are built on top of Django ORM and follow a multi tenant data model. We'd take postgresql as our database of choice and the logic/implementation can be extended to any other relational databases as well.\n",
-    "bio": "Sai Srirampur a.k.a Sai\n->Lead Solutions Engineer and Early Engineer at Citus Data: Helped in architectures for many customer deployments. That is where all the django/python/postgres experience comes from.\n-> Have been playing ping-pong since more than I have been doing Software! ;)\n"
+    "bio": "I'm Louise, I work as a software engineer at Citus Data. Previously I was a lead python developer in a crowdfunding company. </p><p>I enjoy query tuning SQL, working on performances in general, writing python and C... I'm also active in the PostgreSQL community, created a woman in the Postgres group, organize meetups and conferences. I'm pretty passionate by PostgreSQL and distributed system, so please come meet me! I also like more human things, like playing music and baking. "
   },
   {
     "avatar": "https://secure.gravatar.com/avatar/9e8c852fc8884c3c6fa3445653f7632b?s=500",

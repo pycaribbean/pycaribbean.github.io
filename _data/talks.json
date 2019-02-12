@@ -56,7 +56,7 @@
     "speaker_url": "/speaker/dave-poortvliet/",
     "title": "Twitter Data Mining for Political Sentiment",
     "audience_level": "All",
-    "description": "In this talk, I'll show you how to quickly set up packages and API's in R so you can start exploring large data sets from Twitter. I'll walk through how to interpret data to better understand sentiment around a specific topic and how geographic location can impact sentiment. Here's what I will cover:\n\n* Basic data search\n* Extracting data for a file\n* Investigating a specific Twitter user\n* Group sentiment analysis\n* Geolocation trend analysis\n",
+    "description": "With heated political debates in the United States about the proposed southern border wall, I wanted to better understand how people living along the U.S./Mexico border really feel about the wall. Join my talk to learn how I used the Twitter API and R to mine tweets and tell the story of those populations closest to the border. I\u2019ll walk through my techniques so you can use the same strategies to better understand the sentiment around your brand or service.",
     "bio": "Dave has been providing technical direction and oversight of university web operations at Grand Valley State University for over 15 years. He ensures design and development of custom web applications align with the strategic goals of the organization. Dave leads, manages, and mentors a talented team of web developers, designers, and student workers to deliver custom web applications that provide value to the faculty, staff, and students of the university."
   },
   {
@@ -86,7 +86,7 @@
     "speaker_url": "/speaker/dustin-ingram/",
     "title": "What's new in Python 3.7",
     "audience_level": "All",
-    "description": "# Description\n\nPython 3.7 is here! In this talk, we'll explore several new standard library modules, new syntax features and changes, and other performance improvements and implementation changes and what it means for us as Python developers.\n\nWe'll also briefly chat about what exciting things didn't quite make it into 3.7, but we should expect to see in 3.8.\n\n# Outline\n\n* New things in Python 3.7\n* New standard library modules\n* Dataclasses\n* History of dataclasses\n* The attrs project\n* Usefulness\n* Contextvars\n* Usefulness\n* Order-Preserving Dictonaries\n* History of Python Dictionary implementation\n* Recent changes\n* Usefulness\n* Modules supportings `__getattr__` and `__dir__` (PEP 562)\n* Usefulness (lazy-loading, deprecation)\n* The async and await keywords\n* PEP 563: postponed evaluation of type annotations\n* Upcoming in Python 3.8\n",
+    "description": "Python 3.7 is here! In this talk, we'll explore several new standard library modules, new syntax features and changes, and other performance improvements and implementation changes and what it means for us as Python developers.</p><p>We'll also briefly chat about what exciting things didn't quite make it into 3.7, but we should expect to see in 3.8.",
     "bio": "I'm Dustin (aka [@di](<https://github.com/di>)), a Developer Advocate at Google, focused on supporting the Python community on the Google Cloud Platform. I'm also a member of the [Python Packaging Authority](https://github.com/orgs/pypa/people), maintainer of the [Python Package Index](https://pypi.org/), and organizer for the [PyTexas](https://www.pytexas.org) conference."
   },
   {

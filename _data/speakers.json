@@ -220,5 +220,23 @@
     "name": "Kevin Jimenez",
     "url": "/speaker/kevin-jimenez/",
     "bio": "Soy un desarrollador Full Stack freelance. En los \u00faltimos 2 a\u00f1os me he dedicado al desarrollo Full Stack en Odoo, Docker y Blockchain desempe\u00f1andome como desarrollador y/o consultor de TI en diversos proyectos tanto nacionales como internacionales.</p><p>Me gusta aprender cosas nuevas y compartir mi conocimientos con otros."
+  },
+  {
+    "avatar": "/img/speakers/shailyn-ortiz.jpg",
+    "name": "Shailyn Ortiz",
+    "url": "/speaker/shailyn-ortiz/",
+    "bio": "Hey, </p><p> why should some listen to this random dude?</p><p>Well, not like I'm a rocket scientist, but I can show you a couple of tricks about being a DevOps and what can python do for an enterprise DevOps. In the end, I'm just a guy that loves Python and love its job."
+  },
+  {
+    "avatar": "/img/speakers/natacha-de-la-rosa.jpg",
+    "name": "Natacha de la Rosa",
+    "url": "/speaker/natacha-de-la-rosa/",
+    "bio": "Natacha es una Web Developer que trabaja para la autoridad de impuestos en RD, automatizando los procesos, para que los contribuyentes puedan hacer todas sus solicitudes por internet de manera f\u00e1cil."
+  },
+  {
+    "avatar": "/img/speakers/rene-olivo.png",
+    "name": "Rene Olivo",
+    "url": "/speaker/rene-olivo/",
+    "bio": "I'm a Dominican front-end developer who has seen it all. From the fall of the tables to the rise of modern frameworks. Currently, I'm working for Compucorp, a UK based agency. Our main product is CiviHR, an open source HR app for non-profits.</p><p>I have been part of a lot of teams and worked using multiple frameworks. This has allowed me to learn what works and what is bound to fail in the long run, and more so in a production environment. I enjoy sharing these findings with the community as well as learning from it."
   }
 ]

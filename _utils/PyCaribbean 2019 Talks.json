@@ -670,5 +670,53 @@
         "audience_level": "Beginner",
         "tags": "",
         "rating": 0.0
+    },
+    {
+        "name": "Shailyn Ortiz",
+        "email": "",
+        "avatar": "/img/speakers/shailyn-ortiz.jpg",
+        "bio": "Hey, </p><p> why should some listen to this random dude?</p><p>Well, not like I'm a rocket scientist, but I can show you a couple of tricks about being a DevOps and what can python do for an enterprise DevOps. In the end, I'm just a guy that loves Python and love its job.",
+        "talk_format": "Talk (~30-45 minutes)",
+        "title": "Shailyn Ortiz: PR Sandboxing",
+        "Schedule": "",
+        "Category": "",
+        "Language": "",
+        "abstract": "",
+        "description": "This talk consists of creating a python based Microservice capable of dynamically generate environments from each PR that gets submitted in a list of giving repositories, using Docker and docker-compose to achieve it. Whereas this Microservice is fully built on python.",
+        "audience_level": "",
+        "tags": "",
+        "rating": 0.0
+    },
+    {
+        "name": "Natacha de la Rosa",
+        "email": "",
+        "avatar": "/img/speakers/natacha-de-la-rosa.jpg",
+        "bio": "Natacha es una Web Developer que trabaja para la autoridad de impuestos en RD, automatizando los procesos, para que los contribuyentes puedan hacer todas sus solicitudes por internet de manera fácil.",
+        "talk_format": "Talk (~30-45 minutes)",
+        "title": "The Pythonic Ethereum Smart Contract Language",
+        "Schedule": "",
+        "Category": "",
+        "Language": "",
+        "abstract": "",
+        "description": "",
+        "audience_level": "",
+        "tags": "",
+        "rating": 0.0
+    },
+    {
+        "name": "Rene Olivo",
+        "email": "",
+        "avatar": "/img/speakers/rene-olivo.png",
+        "bio": "I'm a Dominican front-end developer who has seen it all. From the fall of the tables to the rise of modern frameworks. Currently, I'm working for Compucorp, a UK based agency. Our main product is CiviHR, an open source HR app for non-profits.</p><p>I have been part of a lot of teams and worked using multiple frameworks. This has allowed me to learn what works and what is bound to fail in the long run, and more so in a production environment. I enjoy sharing these findings with the community as well as learning from it.",
+        "talk_format": "Talk (~30-45 minutes)",
+        "title": "Using composition to streamline your front-end workflow",
+        "Schedule": "",
+        "Category": "",
+        "Language": "",
+        "abstract": "",
+        "description": "Currently, it's very popular to extend components when sharing functionality amongst them. This goes against the nature of components and tends to produce large, monolithic code bases that are difficult to maintain. On the other hand, composition reduces the complexity of components by using them as building blocks that can be mixed and matched together to form more specialized units, whilst retaining the simplicity of each individual component.</p><p>In this talk we'll learn what is composition, why inheritance and mixings are not suitable for components, and how can composition help you achieve simplicity, diversity, and organization. The examples will be in VueJS, but every framework is welcomed.",
+        "audience_level": "",
+        "tags": "",
+        "rating": 0.0
     }
 ]

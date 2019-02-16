@@ -418,5 +418,35 @@
     "audience_level": "Beginner",
     "description": "Desarrollaremos una aplicaci\u00f3n para un entorno empresarial con los requisitos comunes de CRUD, buscar, archivar, importar y exportar registros desde excel, exponer un API para la integraci\u00f3n con otros servicios existentes y generar algunos reportes. Haremos el despliegue despliegue al servidor de produccion utilizando tecnolog\u00eda de contenedores.</p><p>Veremos como podremos brindar a nuestros clientes una soluci\u00f3n integral y como sacar provecho de la relaci\u00f3n entre Odoo ERP y Odoo Framework para ofrecer respuesta en tiempo record.",
     "bio": ""
+  },
+  {
+    "avatar": "/img/speakers/shailyn-ortiz.jpg",
+    "name": "Shailyn Ortiz",
+    "url": "/talk/shailyn-ortiz-pr-sandboxing/",
+    "speaker_url": "/speaker/shailyn-ortiz/",
+    "title": "Shailyn Ortiz: PR Sandboxing",
+    "audience_level": "",
+    "description": "This talk consists of creating a python based Microservice capable of dynamically generate environments from each PR that gets submitted in a list of giving repositories, using Docker and docker-compose to achieve it. Whereas this Microservice is fully built on python.",
+    "bio": "Hey, </p><p> why should some listen to this random dude?</p><p>Well, not like I'm a rocket scientist, but I can show you a couple of tricks about being a DevOps and what can python do for an enterprise DevOps. In the end, I'm just a guy that loves Python and love its job."
+  },
+  {
+    "avatar": "/img/speakers/natacha-de-la-rosa.jpg",
+    "name": "Natacha de la Rosa",
+    "url": "/talk/the-pythonic-ethereum-smart-contract-language/",
+    "speaker_url": "/speaker/natacha-de-la-rosa/",
+    "title": "The Pythonic Ethereum Smart Contract Language",
+    "audience_level": "",
+    "description": "",
+    "bio": "Natacha es una Web Developer que trabaja para la autoridad de impuestos en RD, automatizando los procesos, para que los contribuyentes puedan hacer todas sus solicitudes por internet de manera f\u00e1cil."
+  },
+  {
+    "avatar": "/img/speakers/rene-olivo.png",
+    "name": "Rene Olivo",
+    "url": "/talk/using-composition-to-streamline-your-front-end-workflow/",
+    "speaker_url": "/speaker/rene-olivo/",
+    "title": "Using composition to streamline your front-end workflow",
+    "audience_level": "",
+    "description": "Currently, it's very popular to extend components when sharing functionality amongst them. This goes against the nature of components and tends to produce large, monolithic code bases that are difficult to maintain. On the other hand, composition reduces the complexity of components by using them as building blocks that can be mixed and matched together to form more specialized units, whilst retaining the simplicity of each individual component.</p><p>In this talk we'll learn what is composition, why inheritance and mixings are not suitable for components, and how can composition help you achieve simplicity, diversity, and organization. The examples will be in VueJS, but every framework is welcomed.",
+    "bio": "I'm a Dominican front-end developer who has seen it all. From the fall of the tables to the rise of modern frameworks. Currently, I'm working for Compucorp, a UK based agency. Our main product is CiviHR, an open source HR app for non-profits.</p><p>I have been part of a lot of teams and worked using multiple frameworks. This has allowed me to learn what works and what is bound to fail in the long run, and more so in a production environment. I enjoy sharing these findings with the community as well as learning from it."
   }
 ]

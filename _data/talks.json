@@ -422,9 +422,9 @@
   {
     "avatar": "/img/speakers/shailyn-ortiz.jpg",
     "name": "Shailyn Ortiz",
-    "url": "/talk/shailyn-ortiz-pr-sandboxing/",
+    "url": "/talk/pr-sandboxing/",
     "speaker_url": "/speaker/shailyn-ortiz/",
-    "title": "Shailyn Ortiz: PR Sandboxing",
+    "title": "PR Sandboxing",
     "audience_level": "",
     "description": "This talk consists of creating a python based Microservice capable of dynamically generate environments from each PR that gets submitted in a list of giving repositories, using Docker and docker-compose to achieve it. Whereas this Microservice is fully built on python.",
     "bio": "Hey, </p><p> why should some listen to this random dude?</p><p>Well, not like I'm a rocket scientist, but I can show you a couple of tricks about being a DevOps and what can python do for an enterprise DevOps. In the end, I'm just a guy that loves Python and love its job."

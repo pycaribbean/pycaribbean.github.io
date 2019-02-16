@@ -238,5 +238,11 @@
     "name": "Rene Olivo",
     "url": "/speaker/rene-olivo/",
     "bio": "I'm a Dominican front-end developer who has seen it all. From the fall of the tables to the rise of modern frameworks. Currently, I'm working for Compucorp, a UK based agency. Our main product is CiviHR, an open source HR app for non-profits.</p><p>I have been part of a lot of teams and worked using multiple frameworks. This has allowed me to learn what works and what is bound to fail in the long run, and more so in a production environment. I enjoy sharing these findings with the community as well as learning from it."
+  },
+  {
+    "avatar": "https://confoo.ca/images/speakers/yul2019/christian-heimes_l.jpg",
+    "name": "Christian Heimes",
+    "url": "/speaker/christian-heimes/",
+    "bio": "Christian is a long time Python developer from Hamburg/Germany. In the past he has contributed to several Open Source projects such as the CPython interpreter. In the past years he has helped to keep Python secure, for example as member of the Python security response team, secure hashing (PEP 456) and improvements of Python's TLS/SSL module. Nowadays he is employed by Red Hat and works on OpenShift container security, FreeIPA identity management and Dogtag public key infrastructure."
   }
 ]

@@ -448,5 +448,15 @@
     "audience_level": "",
     "description": "Currently, it's very popular to extend components when sharing functionality amongst them. This goes against the nature of components and tends to produce large, monolithic code bases that are difficult to maintain. On the other hand, composition reduces the complexity of components by using them as building blocks that can be mixed and matched together to form more specialized units, whilst retaining the simplicity of each individual component.</p><p>In this talk we'll learn what is composition, why inheritance and mixings are not suitable for components, and how can composition help you achieve simplicity, diversity, and organization. The examples will be in VueJS, but every framework is welcomed.",
     "bio": "I'm a Dominican front-end developer who has seen it all. From the fall of the tables to the rise of modern frameworks. Currently, I'm working for Compucorp, a UK based agency. Our main product is CiviHR, an open source HR app for non-profits.</p><p>I have been part of a lot of teams and worked using multiple frameworks. This has allowed me to learn what works and what is bound to fail in the long run, and more so in a production environment. I enjoy sharing these findings with the community as well as learning from it."
+  },
+  {
+    "avatar": "https://confoo.ca/images/speakers/yul2019/christian-heimes_l.jpg",
+    "name": "Christian Heimes",
+    "url": "/talk/first-steps-into-security-engineering/",
+    "speaker_url": "/speaker/christian-heimes/",
+    "title": "First steps into security engineering",
+    "audience_level": "",
+    "description": "Experience with security is a useful and even profitable skill for every technical and non-technical employee in IT. Contrary to common stereotypes, security is far more than black hoodies, math and crypto. It's also humans and communication skills. Attendees of my talks regularly ask me how to get started. Let me introduce you to diverse areas of info sec and point you to books, online courses, talks, and other resources to get you started.",
+    "bio": "Christian is a long time Python developer from Hamburg/Germany. In the past he has contributed to several Open Source projects such as the CPython interpreter. In the past years he has helped to keep Python secure, for example as member of the Python security response team, secure hashing (PEP 456) and improvements of Python's TLS/SSL module. Nowadays he is employed by Red Hat and works on OpenShift container security, FreeIPA identity management and Dogtag public key infrastructure."
   }
 ]

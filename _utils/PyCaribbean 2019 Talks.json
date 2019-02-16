@@ -718,5 +718,21 @@
         "audience_level": "",
         "tags": "",
         "rating": 0.0
+    },
+    {
+        "name": "Christian Heimes",
+        "email": "",
+        "avatar": "https://confoo.ca/images/speakers/yul2019/christian-heimes_l.jpg",
+        "bio": "Christian is a long time Python developer from Hamburg/Germany. In the past he has contributed to several Open Source projects such as the CPython interpreter. In the past years he has helped to keep Python secure, for example as member of the Python security response team, secure hashing (PEP 456) and improvements of Python's TLS/SSL module. Nowadays he is employed by Red Hat and works on OpenShift container security, FreeIPA identity management and Dogtag public key infrastructure.",
+        "talk_format": "Talk (~30-45 minutes)",
+        "title": "First steps into security engineering",
+        "Schedule": "",
+        "Category": "",
+        "Language": "English",
+        "abstract": "",
+        "description": "Experience with security is a useful and even profitable skill for every technical and non-technical employee in IT. Contrary to common stereotypes, security is far more than black hoodies, math and crypto. It's also humans and communication skills. Attendees of my talks regularly ask me how to get started. Let me introduce you to diverse areas of info sec and point you to books, online courses, talks, and other resources to get you started.",
+        "audience_level": "",
+        "tags": "",
+        "rating": 0.0
     }
 ]
